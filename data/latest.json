@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-06-26T14:39:27.981476+00:00",
+  "generated_utc": "2026-06-26T16:31:41.344107+00:00",
   "slate_date": "2026-06-26",
   "games": 15,
   "confirmed_lineups": 0,
@@ -11,7 +11,7 @@
     "start": "2026-06-06",
     "end": "2026-06-26",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 416,
     "pitchers": 464
   },
@@ -184,22 +184,22 @@
       "playable_bats": [
         {
           "name": "Jazz Chisholm Jr.",
-          "total": 72.5,
+          "total": 73.5,
           "role": "Core"
         },
         {
           "name": "Aaron Judge",
-          "total": 69.5,
+          "total": 70.5,
           "role": "Cause Satellite"
         },
         {
           "name": "Paul Goldschmidt",
-          "total": 69.5,
+          "total": 70.5,
           "role": "Cause Satellite"
         },
         {
           "name": "Amed Rosario",
-          "total": 69.5,
+          "total": 70.5,
           "role": "Cause Satellite"
         }
       ]
@@ -344,22 +344,22 @@
       "playable_bats": [
         {
           "name": "Riley Greene",
-          "total": 72.0,
-          "role": "Core"
-        },
-        {
-          "name": "Dillon Dingler",
           "total": 71.0,
           "role": "Core"
         },
         {
+          "name": "Dillon Dingler",
+          "total": 70.0,
+          "role": "Core"
+        },
+        {
           "name": "Colt Keith",
-          "total": 68.5,
+          "total": 67.5,
           "role": "Core"
         },
         {
           "name": "Kerry Carpenter",
-          "total": 67.0,
+          "total": 66.0,
           "role": "Cause Satellite"
         }
       ]
@@ -552,8 +552,8 @@
       "playable_bats": [
         {
           "name": "Yordan Alvarez",
-          "total": 68.0,
-          "role": "Power Satellite"
+          "total": 67.0,
+          "role": "Core"
         }
       ]
     },
@@ -734,7 +734,7 @@
         "Elite barrel rate (25%)",
         "Hard-hit 59%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1029,6 +1029,55 @@
       "role_notes": []
     },
     {
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 12,
+      "iso": 0.181,
+      "total": 73.5,
+      "tier": "Satellite",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 34.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2941,
+        "barrel_rate": 0.2059,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.3824
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (29%)",
+        "Elite barrel rate (21%)",
+        "Hard-hit 50%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 696100,
       "name": "Hunter Goodman",
       "team": "Colorado Rockies",
@@ -1067,7 +1116,7 @@
         "Elite air-pull (22%)",
         "Elite barrel rate (18%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1172,54 +1221,6 @@
       "role_notes": []
     },
     {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.181,
-      "total": 72.5,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 34.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2941,
-        "barrel_rate": 0.2059,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.3824
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (29%)",
-        "Elite barrel rate (21%)",
-        "Hard-hit 50%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 701538,
       "name": "Jackson Merrill",
       "team": "San Diego Padres",
@@ -1267,55 +1268,6 @@
       "role_notes": []
     },
     {
-      "id": 682985,
-      "name": "Riley Greene",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Spencer Arrighetti",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.148,
-      "total": 72.0,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 36.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.25,
-        "barrel_rate": 0.1944,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.7222
-      },
-      "reasons": [
-        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
-        "Pitcher: High HR allowed (HR/9 0.78)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (25%)",
-        "Elite barrel rate (19%)",
-        "Hard-hit 50%",
-        "Platoon edge (L vs RHP)",
-        "Warm (75\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 605170,
       "name": "Victor Caratini",
       "team": "Minnesota Twins",
@@ -1354,7 +1306,7 @@
         "Elite air-pull (29%)",
         "Elite barrel rate (16%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1445,7 +1397,7 @@
         "Proxy: elite HR rate (1/14 PA)",
         "Proxy: elite ISO (0.314)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1454,18 +1406,18 @@
       "role_notes": []
     },
     {
-      "id": 693307,
-      "name": "Dillon Dingler",
+      "id": 682985,
+      "name": "Riley Greene",
       "team": "Detroit Tigers",
-      "bats": "R",
+      "bats": "L",
       "opp": "Houston Astros",
       "opp_pitcher": "Spencer Arrighetti",
       "venue": "Comerica Park",
       "gamePk": 824255,
       "slot": null,
       "confirmed": false,
-      "season_hr": 19,
-      "iso": 0.275,
+      "season_hr": 9,
+      "iso": 0.148,
       "total": 71.0,
       "tier": "Satellite",
       "role": "Core",
@@ -1474,26 +1426,25 @@
       "pitcher_grade": "A",
       "breakdown": {
         "pitcher": 19.0,
-        "hitter": 35.0,
-        "environment": 6.0,
+        "hitter": 36.0,
+        "environment": 5.0,
         "lineup": 6.0,
         "confidence": 5.0
       },
       "statcast": {
-        "air_pull_rate": 0.3478,
-        "barrel_rate": 0.1087,
+        "air_pull_rate": 0.25,
+        "barrel_rate": 0.1944,
         "hard_hit_rate": 0.5,
-        "fb_rate": 0.5435
+        "fb_rate": 0.7222
       },
       "reasons": [
         "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
         "Pitcher: High HR allowed (HR/9 0.78)",
         "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (35%)",
-        "Above-avg barrels (11%)",
+        "Elite air-pull (25%)",
+        "Elite barrel rate (19%)",
         "Hard-hit 50%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
+        "Platoon edge (L vs RHP)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1541,7 +1492,7 @@
         "Elite air-pull (37%)",
         "Elite barrel rate (16%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1591,6 +1542,147 @@
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 592450,
+      "name": "Aaron Judge",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.285,
+      "total": 70.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 30.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Proxy: elite HR rate (1/15 PA)",
+        "Proxy: elite ISO (0.285)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 502671,
+      "name": "Paul Goldschmidt",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 14,
+      "iso": 0.27,
+      "total": 70.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 30.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2245,
+        "barrel_rate": 0.102,
+        "hard_hit_rate": 0.3061,
+        "fb_rate": 0.5306
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (22%)",
+        "Above-avg barrels (10%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 642708,
+      "name": "Amed Rosario",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 7,
+      "iso": 0.223,
+      "total": 70.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 30.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.35,
+        "barrel_rate": 0.1,
+        "hard_hit_rate": 0.3,
+        "fb_rate": 0.65
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (35%)",
+        "Above-avg barrels (10%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1649,6 +1741,54 @@
       "role_notes": [
         "Elite-hitter override (beats a neutral spot)"
       ]
+    },
+    {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Spencer Arrighetti",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 19,
+      "iso": 0.275,
+      "total": 70.0,
+      "tier": "Satellite",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.0,
+        "hitter": 35.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3478,
+        "barrel_rate": 0.1087,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.5435
+      },
+      "reasons": [
+        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
+        "Pitcher: High HR allowed (HR/9 0.78)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (35%)",
+        "Above-avg barrels (11%)",
+        "Hard-hit 50%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
     },
     {
       "id": 676475,
@@ -1750,98 +1890,6 @@
       ]
     },
     {
-      "id": 592450,
-      "name": "Aaron Judge",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.285,
-      "total": 69.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 30.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Proxy: elite HR rate (1/15 PA)",
-        "Proxy: elite ISO (0.285)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 502671,
-      "name": "Paul Goldschmidt",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.27,
-      "total": 69.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 30.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2245,
-        "barrel_rate": 0.102,
-        "hard_hit_rate": 0.3061,
-        "fb_rate": 0.5306
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (22%)",
-        "Above-avg barrels (10%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 670042,
       "name": "Luke Raley",
       "team": "Seattle Mariners",
@@ -1937,18 +1985,18 @@
       "role_notes": []
     },
     {
-      "id": 642708,
-      "name": "Amed Rosario",
+      "id": 663757,
+      "name": "Trent Grisham",
       "team": "New York Yankees",
-      "bats": "R",
+      "bats": "L",
       "opp": "Boston Red Sox",
       "opp_pitcher": "Payton Tolle",
       "venue": "Fenway Park",
       "gamePk": 824743,
       "slot": null,
       "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.223,
+      "season_hr": 8,
+      "iso": 0.174,
       "total": 69.5,
       "tier": "Longshot",
       "role": "Cause Satellite",
@@ -1963,21 +2011,21 @@
         "confidence": 5.0
       },
       "statcast": {
-        "air_pull_rate": 0.35,
-        "barrel_rate": 0.1,
-        "hard_hit_rate": 0.3,
-        "fb_rate": 0.65
+        "air_pull_rate": 0.3158,
+        "barrel_rate": 0.1053,
+        "hard_hit_rate": 0.6316,
+        "fb_rate": 0.5263
       },
       "reasons": [
         "vs Payton Tolle \u2014 cause A+ (20.5/25)",
         "Pitcher: High HR allowed (HR/9 0.84)",
         "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (35%)",
-        "Above-avg barrels (10%)",
-        "Platoon edge (R vs LHP)",
+        "Elite air-pull (32%)",
+        "Above-avg barrels (11%)",
+        "Hard-hit 63%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
         "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -2071,7 +2119,7 @@
         "Elite air-pull (22%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -2119,7 +2167,7 @@
         "Elite barrel rate (20%)",
         "Hard-hit 64%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: elite shape + clear cause"
       ],
@@ -2178,154 +2226,6 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 663757,
-      "name": "Trent Grisham",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.174,
-      "total": 68.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 30.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3158,
-        "barrel_rate": 0.1053,
-        "hard_hit_rate": 0.6316,
-        "fb_rate": 0.5263
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (32%)",
-        "Above-avg barrels (11%)",
-        "Hard-hit 63%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 690993,
-      "name": "Colt Keith",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Spencer Arrighetti",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 4,
-      "iso": 0.112,
-      "total": 68.5,
-      "tier": "Longshot",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 32.5,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.303,
-        "barrel_rate": 0.2121,
-        "hard_hit_rate": 0.4545,
-        "fb_rate": 0.5455
-      },
-      "reasons": [
-        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
-        "Pitcher: High HR allowed (HR/9 0.78)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (30%)",
-        "Elite barrel rate (21%)",
-        "Hard-hit 45%",
-        "Platoon edge (L vs RHP)",
-        "Warm (75\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 670541,
-      "name": "Yordan Alvarez",
-      "team": "Houston Astros",
-      "bats": "L",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 25,
-      "iso": 0.307,
-      "total": 68.0,
-      "tier": "Longshot",
-      "role": "Power Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 37.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1875,
-        "barrel_rate": 0.2083,
-        "hard_hit_rate": 0.5208,
-        "fb_rate": 0.6875
-      },
-      "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Strong air-pull (19%)",
-        "Elite barrel rate (21%)",
-        "Hard-hit 52%",
-        "Platoon edge (L vs RHP)",
-        "Warm (75\u00b0F)",
-        "Elite-hitter override (beats a neutral spot)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Elite-hitter override (beats a neutral spot)"
-      ]
     },
     {
       "id": 691023,
@@ -2414,7 +2314,7 @@
         "Elite barrel rate (27%)",
         "Hard-hit 50%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -2471,8 +2371,8 @@
       "role_notes": []
     },
     {
-      "id": 681481,
-      "name": "Kerry Carpenter",
+      "id": 690993,
+      "name": "Colt Keith",
       "team": "Detroit Tigers",
       "bats": "L",
       "opp": "Houston Astros",
@@ -2481,36 +2381,82 @@
       "gamePk": 824255,
       "slot": null,
       "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.237,
-      "total": 67.0,
+      "season_hr": 4,
+      "iso": 0.112,
+      "total": 67.5,
       "tier": "Longshot",
-      "role": "Cause Satellite",
+      "role": "Core",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A",
       "breakdown": {
         "pitcher": 19.0,
-        "hitter": 31.0,
-        "environment": 6.0,
+        "hitter": 32.5,
+        "environment": 5.0,
         "lineup": 6.0,
         "confidence": 5.0
       },
       "statcast": {
-        "air_pull_rate": 0.3214,
-        "barrel_rate": 0.0714,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.6429
+        "air_pull_rate": 0.303,
+        "barrel_rate": 0.2121,
+        "hard_hit_rate": 0.4545,
+        "fb_rate": 0.5455
       },
       "reasons": [
         "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
         "Pitcher: High HR allowed (HR/9 0.78)",
         "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (32%)",
-        "Hard-hit 50%",
+        "Elite air-pull (30%)",
+        "Elite barrel rate (21%)",
+        "Hard-hit 45%",
         "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 670541,
+      "name": "Yordan Alvarez",
+      "team": "Houston Astros",
+      "bats": "L",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 25,
+      "iso": 0.307,
+      "total": 67.0,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 37.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1875,
+        "barrel_rate": 0.2083,
+        "hard_hit_rate": 0.5208,
+        "fb_rate": 0.6875
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Strong air-pull (19%)",
+        "Elite barrel rate (21%)",
+        "Hard-hit 52%",
+        "Platoon edge (L vs RHP)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -2559,7 +2505,7 @@
         "Above-avg barrels (11%)",
         "Hard-hit 54%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -2606,7 +2552,7 @@
         "Strong air-pull (17%)",
         "Strong barrels (14%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -2698,11 +2644,59 @@
         "Elite air-pull (27%)",
         "Strong barrels (14%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
         "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 641857,
+      "name": "Ryan McMahon",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.15,
+      "total": 66.5,
+      "tier": "Longshot",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 28.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1579,
+        "barrel_rate": 0.2105,
+        "hard_hit_rate": 0.4211,
+        "fb_rate": 0.6316
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Strong air-pull (16%)",
+        "Elite barrel rate (21%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -2794,10 +2788,58 @@
         "Above-avg barrels (10%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 681481,
+      "name": "Kerry Carpenter",
+      "team": "Detroit Tigers",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Spencer Arrighetti",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 10,
+      "iso": 0.237,
+      "total": 66.0,
+      "tier": "Longshot",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.0,
+        "hitter": 31.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3214,
+        "barrel_rate": 0.0714,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.6429
+      },
+      "reasons": [
+        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
+        "Pitcher: High HR allowed (HR/9 0.78)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (32%)",
+        "Hard-hit 50%",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -2890,7 +2932,7 @@
         "Above-avg barrels (10%)",
         "Hard-hit 52%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: elite shape + clear cause"
       ],
@@ -2901,53 +2943,6 @@
       "role_notes": [
         "Elite-hitter override (beats a neutral spot)"
       ]
-    },
-    {
-      "id": 641857,
-      "name": "Ryan McMahon",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.15,
-      "total": 65.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 28.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1579,
-        "barrel_rate": 0.2105,
-        "hard_hit_rate": 0.4211,
-        "fb_rate": 0.6316
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Strong air-pull (16%)",
-        "Elite barrel rate (21%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
     },
     {
       "id": 682928,
@@ -3038,7 +3033,7 @@
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: elite shape + clear cause"
       ],
@@ -3385,7 +3380,7 @@
         "Strong air-pull (19%)",
         "Above-avg barrels (10%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3476,7 +3471,7 @@
         "Pitcher: Barrels up (14% allowed)",
         "Elite air-pull (35%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3532,54 +3527,6 @@
       "role_notes": []
     },
     {
-      "id": 679529,
-      "name": "Spencer Torkelson",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Spencer Arrighetti",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.198,
-      "total": 64.0,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 29.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3548,
-        "barrel_rate": 0.0968,
-        "hard_hit_rate": 0.4194,
-        "fb_rate": 0.5806
-      },
-      "reasons": [
-        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
-        "Pitcher: High HR allowed (HR/9 0.78)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (35%)",
-        "Above-avg barrels (10%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 686611,
       "name": "Dylan Crews",
       "team": "Washington Nationals",
@@ -3620,7 +3567,7 @@
         "Hard-hit 46%",
         "Platoon edge (R vs LHP)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: elite shape + clear cause"
       ],
@@ -3631,6 +3578,53 @@
       "role_notes": [
         "Elite-hitter override (beats a neutral spot)"
       ]
+    },
+    {
+      "id": 700250,
+      "name": "Ben Rice",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 22,
+      "iso": 0.303,
+      "total": 63.5,
+      "tier": "Longshot",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 25.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2222,
+        "barrel_rate": 0.0889,
+        "hard_hit_rate": 0.3111,
+        "fb_rate": 0.5111
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (22%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
     },
     {
       "id": 691718,
@@ -3783,6 +3777,53 @@
       ]
     },
     {
+      "id": 679529,
+      "name": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Spencer Arrighetti",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 12,
+      "iso": 0.198,
+      "total": 63.0,
+      "tier": "Longshot",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.0,
+        "hitter": 29.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3548,
+        "barrel_rate": 0.0968,
+        "hard_hit_rate": 0.4194,
+        "fb_rate": 0.5806
+      },
+      "reasons": [
+        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
+        "Pitcher: High HR allowed (HR/9 0.78)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (35%)",
+        "Above-avg barrels (10%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 660821,
       "name": "Jes\u00fas S\u00e1nchez",
       "team": "Toronto Blue Jays",
@@ -3870,7 +3911,7 @@
         "Strong barrels (12%)",
         "Hard-hit 50%",
         "Platoon edge (R vs LHP)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -3918,57 +3959,11 @@
         "Elite air-pull (50%)",
         "Hard-hit 58%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 700250,
-      "name": "Ben Rice",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.303,
-      "total": 62.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 25.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2222,
-        "barrel_rate": 0.0889,
-        "hard_hit_rate": 0.3111,
-        "fb_rate": 0.5111
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (22%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: one strong signal"
-      ],
-      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -4012,11 +4007,58 @@
         "Elite air-pull (26%)",
         "Strong barrels (13%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 641355,
+      "name": "Cody Bellinger",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 11,
+      "iso": 0.191,
+      "total": 62.5,
+      "tier": "Longshot",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 24.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3125,
+        "barrel_rate": 0.0625,
+        "hard_hit_rate": 0.25,
+        "fb_rate": 0.5417
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (31%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -4205,7 +4247,7 @@
         "Elite air-pull (31%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -4294,7 +4336,7 @@
         "Pitcher: Fly-ball prone (64% air allowed)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4341,7 +4383,7 @@
         "Elite air-pull (25%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -4391,57 +4433,11 @@
         "Elite air-pull (39%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Pitcher park (90)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 641355,
-      "name": "Cody Bellinger",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.191,
-      "total": 61.5,
-      "tier": "Pass",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 24.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3125,
-        "barrel_rate": 0.0625,
-        "hard_hit_rate": 0.25,
-        "fb_rate": 0.5417
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (31%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: one strong signal"
-      ],
-      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -4488,54 +4484,6 @@
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 672761,
-      "name": "Wenceel P\u00e9rez",
-      "team": "Detroit Tigers",
-      "bats": "S",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Spencer Arrighetti",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.168,
-      "total": 61.5,
-      "tier": "Pass",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 26.5,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.4,
-        "barrel_rate": 0.1,
-        "hard_hit_rate": 0.2,
-        "fb_rate": 0.7
-      },
-      "reasons": [
-        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
-        "Pitcher: High HR allowed (HR/9 0.78)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (40%)",
-        "Above-avg barrels (10%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -4730,54 +4678,6 @@
       "role_notes": []
     },
     {
-      "id": 701358,
-      "name": "Cam Smith",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.141,
-      "total": 61.0,
-      "tier": "Pass",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 30.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2381,
-        "barrel_rate": 0.0952,
-        "hard_hit_rate": 0.5238,
-        "fb_rate": 0.5
-      },
-      "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Elite air-pull (24%)",
-        "Above-avg barrels (10%)",
-        "Hard-hit 52%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 681393,
       "name": "Connor Norby",
       "team": "Miami Marlins",
@@ -4911,7 +4811,7 @@
         "Elite air-pull (33%)",
         "Strong barrels (13%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5015,6 +4915,151 @@
       "role_notes": []
     },
     {
+      "id": 672761,
+      "name": "Wenceel P\u00e9rez",
+      "team": "Detroit Tigers",
+      "bats": "S",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Spencer Arrighetti",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 7,
+      "iso": 0.168,
+      "total": 60.5,
+      "tier": "Pass",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.0,
+        "hitter": 26.5,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.4,
+        "barrel_rate": 0.1,
+        "hard_hit_rate": 0.2,
+        "fb_rate": 0.7
+      },
+      "reasons": [
+        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
+        "Pitcher: High HR allowed (HR/9 0.78)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (40%)",
+        "Above-avg barrels (10%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 676609,
+      "name": "Jos\u00e9 Caballero",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.152,
+      "total": 60.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 20.5,
+        "hitter": 20.5,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2353,
+        "barrel_rate": 0.0294,
+        "hard_hit_rate": 0.1765,
+        "fb_rate": 0.4118
+      },
+      "reasons": [
+        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
+        "Pitcher: High HR allowed (HR/9 0.84)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (24%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 701358,
+      "name": "Cam Smith",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.141,
+      "total": 60.0,
+      "tier": "Pass",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 30.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2381,
+        "barrel_rate": 0.0952,
+        "hard_hit_rate": 0.5238,
+        "fb_rate": 0.5
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Elite air-pull (24%)",
+        "Above-avg barrels (10%)",
+        "Hard-hit 52%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 606466,
       "name": "Ketel Marte",
       "team": "Arizona Diamondbacks",
@@ -5099,7 +5144,7 @@
         "Pitcher: Barrels up (15% allowed)",
         "Elite air-pull (32%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5429,58 +5474,7 @@
         "Pitcher: Fly-ball prone (64% air allowed)",
         "Elite air-pull (34%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 676609,
-      "name": "Jos\u00e9 Caballero",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.152,
-      "total": 59.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 20.5,
-        "hitter": 20.5,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2353,
-        "barrel_rate": 0.0294,
-        "hard_hit_rate": 0.1765,
-        "fb_rate": 0.4118
-      },
-      "reasons": [
-        "vs Payton Tolle \u2014 cause A+ (20.5/25)",
-        "Pitcher: High HR allowed (HR/9 0.84)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (24%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -5674,7 +5668,7 @@
         "Strong barrels (13%)",
         "Hard-hit 60%",
         "Platoon edge (L vs RHP)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: one strong signal"
       ],
@@ -5780,6 +5774,53 @@
       ],
       "warnings": [
         "Pitcher park (92)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 677800,
+      "name": "Wilyer Abreu",
+      "team": "Boston Red Sox",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Will Warren",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 10,
+      "iso": 0.168,
+      "total": 58.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 31.5,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3488,
+        "barrel_rate": 0.1395,
+        "hard_hit_rate": 0.3721,
+        "fb_rate": 0.6279
+      },
+      "reasons": [
+        "vs Will Warren \u2014 cause Pass (9.0/25)",
+        "Elite air-pull (35%)",
+        "Strong barrels (14%)",
+        "Platoon edge (L vs RHP)",
+        "Hot (2 HR / 3 barrels last 7d)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -5919,7 +5960,7 @@
         "Pitcher: Barrels up (14% allowed)",
         "Elite air-pull (33%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -6159,7 +6200,7 @@
         "Elite air-pull (33%)",
         "Hard-hit 53%",
         "Platoon edge (L vs RHP)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -6215,52 +6256,6 @@
       "role_notes": []
     },
     {
-      "id": 677800,
-      "name": "Wilyer Abreu",
-      "team": "Boston Red Sox",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Will Warren",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.168,
-      "total": 57.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 31.5,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3488,
-        "barrel_rate": 0.1395,
-        "hard_hit_rate": 0.3721,
-        "fb_rate": 0.6279
-      },
-      "reasons": [
-        "vs Will Warren \u2014 cause Pass (9.0/25)",
-        "Elite air-pull (35%)",
-        "Strong barrels (14%)",
-        "Platoon edge (L vs RHP)",
-        "Hot (2 HR / 3 barrels last 7d)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 663993,
       "name": "Nathaniel Lowe",
       "team": "Cincinnati Reds",
@@ -6299,7 +6294,7 @@
         "Elite air-pull (21%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -6346,7 +6341,7 @@
         "Elite air-pull (46%)",
         "Strong barrels (14%)",
         "Hard-hit 54%",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -6436,7 +6431,7 @@
         "Pitcher: Barrels up (15% allowed)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Suppressive park + no pull/barrel fit \u2192 Watchlist",
         "Model: one strong signal"
       ],
@@ -6495,54 +6490,6 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
-    },
-    {
-      "id": 805808,
-      "name": "Kevin McGonigle",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Spencer Arrighetti",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.143,
-      "total": 57.0,
-      "tier": "Pass",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 22.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2766,
-        "barrel_rate": 0.0426,
-        "hard_hit_rate": 0.3191,
-        "fb_rate": 0.5106
-      },
-      "reasons": [
-        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
-        "Pitcher: High HR allowed (HR/9 0.78)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (28%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
     },
     {
       "id": 545361,
@@ -6735,7 +6682,7 @@
         "Hard-hit 50%",
         "Platoon edge (R vs LHP)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: one strong signal"
       ],
@@ -6748,44 +6695,44 @@
       ]
     },
     {
-      "id": 665161,
-      "name": "Jeremy Pe\u00f1a",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "team": "Detroit Tigers",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Spencer Arrighetti",
       "venue": "Comerica Park",
       "gamePk": 824255,
       "slot": null,
       "confirmed": false,
       "season_hr": 6,
-      "iso": 0.16,
+      "iso": 0.143,
       "total": 56.0,
       "tier": "Pass",
-      "role": "Pass",
+      "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "B",
+      "pitcher_grade": "A",
       "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 26.0,
-        "environment": 6.0,
+        "pitcher": 19.0,
+        "hitter": 22.0,
+        "environment": 5.0,
         "lineup": 6.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.3023,
-        "barrel_rate": 0.0465,
-        "hard_hit_rate": 0.5349,
-        "fb_rate": 0.4884
+        "air_pull_rate": 0.2766,
+        "barrel_rate": 0.0426,
+        "hard_hit_rate": 0.3191,
+        "fb_rate": 0.5106
       },
       "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Elite air-pull (30%)",
-        "Hard-hit 53%",
+        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
+        "Pitcher: High HR allowed (HR/9 0.78)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (28%)",
+        "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -6833,7 +6780,7 @@
         "Strong air-pull (17%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (78\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -7087,6 +7034,52 @@
       "role_notes": []
     },
     {
+      "id": 665161,
+      "name": "Jeremy Pe\u00f1a",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 6,
+      "iso": 0.16,
+      "total": 55.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 26.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3023,
+        "barrel_rate": 0.0465,
+        "hard_hit_rate": 0.5349,
+        "fb_rate": 0.4884
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Elite air-pull (30%)",
+        "Hard-hit 53%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 667670,
       "name": "Brent Rooker",
       "team": "Athletics",
@@ -7171,7 +7164,7 @@
         "Elite air-pull (33%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)"
+        "Warm (76\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -7311,7 +7304,7 @@
         "Elite air-pull (30%)",
         "Hard-hit 45%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Pitcher park (90)",
@@ -7368,52 +7361,6 @@
       ]
     },
     {
-      "id": 694728,
-      "name": "Brice Matthews",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.135,
-      "total": 54.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 25.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1739,
-        "barrel_rate": 0.1739,
-        "hard_hit_rate": 0.3478,
-        "fb_rate": 0.3913
-      },
-      "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Strong air-pull (17%)",
-        "Elite barrel rate (17%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 542303,
       "name": "Marcell Ozuna",
       "team": "Pittsburgh Pirates",
@@ -7452,7 +7399,7 @@
         "Elite air-pull (33%)",
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (82\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Pitcher park (94)",
@@ -7497,56 +7444,10 @@
         "Strong barrels (15%)",
         "Hard-hit 56%",
         "Hot (4 HR / 3 barrels last 7d)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 572233,
-      "name": "Christian Walker",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.23,
-      "total": 53.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 24.5,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2791,
-        "barrel_rate": 0.0233,
-        "hard_hit_rate": 0.4651,
-        "fb_rate": 0.5581
-      },
-      "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Elite air-pull (28%)",
-        "Hard-hit 47%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -7637,7 +7538,7 @@
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)"
+        "Warm (76\u00b0F)"
       ],
       "warnings": [
         "Pitcher park (92)",
@@ -7738,52 +7639,6 @@
       "role_notes": []
     },
     {
-      "id": 514888,
-      "name": "Jose Altuve",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.156,
-      "total": 53.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 24.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3333,
-        "barrel_rate": 0.1111,
-        "hard_hit_rate": 0.2778,
-        "fb_rate": 0.5556
-      },
-      "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Elite air-pull (33%)",
-        "Above-avg barrels (11%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 695734,
       "name": "Daylen Lile",
       "team": "Washington Nationals",
@@ -7831,6 +7686,51 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 694728,
+      "name": "Brice Matthews",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 6,
+      "iso": 0.135,
+      "total": 53.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 25.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1739,
+        "barrel_rate": 0.1739,
+        "hard_hit_rate": 0.3478,
+        "fb_rate": 0.3913
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Strong air-pull (17%)",
+        "Elite barrel rate (17%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
     },
     {
       "id": 672515,
@@ -7927,6 +7827,51 @@
       "role_notes": []
     },
     {
+      "id": 572233,
+      "name": "Christian Walker",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 18,
+      "iso": 0.23,
+      "total": 52.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 24.5,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2791,
+        "barrel_rate": 0.0233,
+        "hard_hit_rate": 0.4651,
+        "fb_rate": 0.5581
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Elite air-pull (28%)",
+        "Hard-hit 47%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 665833,
       "name": "Oneil Cruz",
       "team": "Pittsburgh Pirates",
@@ -7959,7 +7904,7 @@
         "Pitcher: Fly-ball prone (52% air allowed)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Suppressive park + no pull/barrel fit \u2192 Watchlist"
       ],
       "warnings": [
@@ -8106,6 +8051,51 @@
       "role_notes": []
     },
     {
+      "id": 514888,
+      "name": "Jose Altuve",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.156,
+      "total": 52.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 24.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3333,
+        "barrel_rate": 0.1111,
+        "hard_hit_rate": 0.2778,
+        "fb_rate": 0.5556
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Elite air-pull (33%)",
+        "Above-avg barrels (11%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 681807,
       "name": "David Fry",
       "team": "Cleveland Guardians",
@@ -8190,56 +8180,11 @@
         "Hard-hit 48%",
         "Platoon edge (R vs LHP)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Pitcher park (92)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 670623,
-      "name": "Isaac Paredes",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Keider Montero",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.165,
-      "total": 51.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 22.5,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.4048,
-        "barrel_rate": 0.0476,
-        "hard_hit_rate": 0.381,
-        "fb_rate": 0.619
-      },
-      "reasons": [
-        "vs Keider Montero \u2014 cause B (14.0/25)",
-        "Pitcher: Fly-ball prone (46% air allowed)",
-        "Elite air-pull (40%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Warm (75\u00b0F)"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -8420,7 +8365,7 @@
         "Pitcher: Fly-ball prone (38% air allowed)",
         "Elite air-pull (26%)",
         "Platoon edge (L vs RHP)",
-        "Warm (77\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -8465,7 +8410,7 @@
         "Strong air-pull (17%)",
         "Platoon edge (L vs RHP)",
         "Hot (2 HR / 1 barrels last 7d)",
-        "Warm (77\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -8693,10 +8638,54 @@
         "Strong barrels (14%)",
         "Hard-hit 49%",
         "Hot (2 HR / 3 barrels last 7d)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 670623,
+      "name": "Isaac Paredes",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Keider Montero",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 10,
+      "iso": 0.165,
+      "total": 50.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 22.5,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.4048,
+        "barrel_rate": 0.0476,
+        "hard_hit_rate": 0.381,
+        "fb_rate": 0.619
+      },
+      "reasons": [
+        "vs Keider Montero \u2014 cause B (14.0/25)",
+        "Pitcher: Fly-ball prone (46% air allowed)",
+        "Elite air-pull (40%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -8737,7 +8726,7 @@
         "Elite air-pull (36%)",
         "Hard-hit 53%",
         "Hot (2 HR / 1 barrels last 7d)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -8827,7 +8816,7 @@
         "vs Zack Wheeler \u2014 cause Pass (9.0/25)",
         "Pitcher: Fly-ball prone (38% air allowed)",
         "Elite air-pull (32%)",
-        "Warm (77\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -8919,7 +8908,7 @@
         "Platoon edge (R vs LHP)",
         "Hot (2 HR / 2 barrels last 7d)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -8972,54 +8961,6 @@
       "role_notes": []
     },
     {
-      "id": 663837,
-      "name": "Matt Vierling",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Spencer Arrighetti",
-      "venue": "Comerica Park",
-      "gamePk": 824255,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.141,
-      "total": 49.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": false,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 14.5,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1,
-        "barrel_rate": 0.0667,
-        "hard_hit_rate": 0.3667,
-        "fb_rate": 0.4
-      },
-      "reasons": [
-        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
-        "Pitcher: High HR allowed (HR/9 0.78)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Warm (75\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 575929,
       "name": "Willson Contreras",
       "team": "Boston Red Sox",
@@ -9032,7 +8973,7 @@
       "confirmed": false,
       "season_hr": 16,
       "iso": 0.237,
-      "total": 48.5,
+      "total": 49.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "statcast",
@@ -9041,7 +8982,7 @@
       "breakdown": {
         "pitcher": 9.0,
         "hitter": 22.5,
-        "environment": 8.0,
+        "environment": 9.0,
         "lineup": 6.0,
         "confidence": 3.0
       },
@@ -9057,6 +8998,50 @@
         "Hard-hit 46%",
         "Slightly + park (103)",
         "Green Monster cuts LHB HR, aids doubles"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 680776,
+      "name": "Jarren Duran",
+      "team": "Boston Red Sox",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Will Warren",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 12,
+      "iso": 0.166,
+      "total": 49.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 23.5,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2432,
+        "barrel_rate": 0.0811,
+        "hard_hit_rate": 0.3243,
+        "fb_rate": 0.4054
+      },
+      "reasons": [
+        "vs Will Warren \u2014 cause Pass (9.0/25)",
+        "Elite air-pull (24%)",
+        "Platoon edge (L vs RHP)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (78\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -9103,49 +9088,6 @@
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (106)",
         "Retractable roof (weather neutralized)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 680776,
-      "name": "Jarren Duran",
-      "team": "Boston Red Sox",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Will Warren",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.166,
-      "total": 48.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 23.5,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2432,
-        "barrel_rate": 0.0811,
-        "hard_hit_rate": 0.3243,
-        "fb_rate": 0.4054
-      },
-      "reasons": [
-        "vs Will Warren \u2014 cause Pass (9.0/25)",
-        "Elite air-pull (24%)",
-        "Platoon edge (L vs RHP)",
-        "Green Monster cuts LHB HR, aids doubles"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -9386,6 +9328,53 @@
       ]
     },
     {
+      "id": 663837,
+      "name": "Matt Vierling",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Spencer Arrighetti",
+      "venue": "Comerica Park",
+      "gamePk": 824255,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 5,
+      "iso": 0.141,
+      "total": 48.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.0,
+        "hitter": 14.5,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1,
+        "barrel_rate": 0.0667,
+        "hard_hit_rate": 0.3667,
+        "fb_rate": 0.4
+      },
+      "reasons": [
+        "vs Spencer Arrighetti \u2014 cause A (19.0/25)",
+        "Pitcher: High HR allowed (HR/9 0.78)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 592206,
       "name": "Nick Castellanos",
       "team": "San Diego Padres",
@@ -9506,6 +9495,52 @@
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (102)",
         "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 702332,
+      "name": "Caleb Durbin",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Will Warren",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 6,
+      "iso": 0.155,
+      "total": 48.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 21.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3571,
+        "barrel_rate": 0.0714,
+        "hard_hit_rate": 0.3095,
+        "fb_rate": 0.5
+      },
+      "reasons": [
+        "vs Will Warren \u2014 cause Pass (9.0/25)",
+        "Elite air-pull (36%)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9917,53 +9952,7 @@
         "vs Zack Wheeler \u2014 cause Pass (9.0/25)",
         "Pitcher: Fly-ball prone (38% air allowed)",
         "Elite air-pull (38%)",
-        "Warm (77\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 702332,
-      "name": "Caleb Durbin",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Will Warren",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.155,
-      "total": 47.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 21.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3571,
-        "barrel_rate": 0.0714,
-        "hard_hit_rate": 0.3095,
-        "fb_rate": 0.5
-      },
-      "reasons": [
-        "vs Will Warren \u2014 cause Pass (9.0/25)",
-        "Elite air-pull (36%)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (80\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10423,7 +10412,7 @@
       },
       "reasons": [
         "Elite air-pull (25%)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -10467,7 +10456,7 @@
         "vs Zack Wheeler \u2014 cause Pass (9.0/25)",
         "Pitcher: Fly-ball prone (38% air allowed)",
         "Elite air-pull (39%)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10898,6 +10887,52 @@
       ]
     },
     {
+      "id": 678882,
+      "name": "Ceddanne Rafaela",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Will Warren",
+      "venue": "Fenway Park",
+      "gamePk": 824743,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 7,
+      "iso": 0.163,
+      "total": 41.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 15.5,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1837,
+        "barrel_rate": 0.0204,
+        "hard_hit_rate": 0.3469,
+        "fb_rate": 0.4898
+      },
+      "reasons": [
+        "vs Will Warren \u2014 cause Pass (9.0/25)",
+        "Strong air-pull (18%)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 656537,
       "name": "Derek Hill",
       "team": "Philadelphia Phillies",
@@ -10931,7 +10966,7 @@
       },
       "reasons": [
         "Elite air-pull (50%)",
-        "Warm (77\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -10971,7 +11006,7 @@
         "Pitcher: Fly-ball prone (53% air allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -11017,58 +11052,12 @@
       "reasons": [
         "Good air-pull (14%)",
         "Strong barrels (14%)",
-        "Warm (77\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 678882,
-      "name": "Ceddanne Rafaela",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Will Warren",
-      "venue": "Fenway Park",
-      "gamePk": 824743,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.163,
-      "total": 40.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 15.5,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1837,
-        "barrel_rate": 0.0204,
-        "hard_hit_rate": 0.3469,
-        "fb_rate": 0.4898
-      },
-      "reasons": [
-        "vs Will Warren \u2014 cause Pass (9.0/25)",
-        "Strong air-pull (18%)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 666126,
@@ -11330,7 +11319,7 @@
       },
       "reasons": [
         "Elite air-pull (22%)",
-        "Warm (77\u00b0F)"
+        "Warm (80\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -11539,7 +11528,7 @@
       },
       "reasons": [
         "Elite air-pull (24%)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -11627,7 +11616,7 @@
       },
       "reasons": [
         "Elite air-pull (23%)",
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -11675,7 +11664,7 @@
         "Pitcher: Fly-ball prone (38% air allowed)",
         "Good air-pull (12%)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -11979,7 +11968,7 @@
         "Pitcher: High HR allowed (HR/9 1.28)",
         "Pitcher: Fly-ball prone (52% air allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (82\u00b0F)",
+        "Warm (80\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -12028,7 +12017,7 @@
         "Pitcher: Fly-ball prone (38% air allowed)",
         "Platoon edge (R vs LHP)",
         "Deep LF wall suppresses RHB HR",
-        "Warm (79\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -12381,7 +12370,7 @@
         "fb_rate": 0.3256
       },
       "reasons": [
-        "Warm (77\u00b0F)",
+        "Warm (80\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -12838,6 +12827,18 @@
         "outcome": null
       },
       {
+        "player": "Jazz Chisholm Jr.",
+        "team": "New York Yankees",
+        "opp_pitcher": "Payton Tolle",
+        "role": "Core",
+        "total": 73.5,
+        "cause_grade": "A+",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
         "player": "Hunter Goodman",
         "team": "Colorado Rockies",
         "opp_pitcher": "Taj Bradley",
@@ -12874,36 +12875,12 @@
         "outcome": null
       },
       {
-        "player": "Jazz Chisholm Jr.",
-        "team": "New York Yankees",
-        "opp_pitcher": "Payton Tolle",
-        "role": "Core",
-        "total": 72.5,
-        "cause_grade": "A+",
-        "result_hr": null,
-        "cause_fired": null,
-        "teammate_hr": null,
-        "outcome": null
-      },
-      {
         "player": "Jackson Merrill",
         "team": "San Diego Padres",
         "opp_pitcher": "Roki Sasaki",
         "role": "Core",
         "total": 72.5,
         "cause_grade": "A+",
-        "result_hr": null,
-        "cause_fired": null,
-        "teammate_hr": null,
-        "outcome": null
-      },
-      {
-        "player": "Riley Greene",
-        "team": "Detroit Tigers",
-        "opp_pitcher": "Spencer Arrighetti",
-        "role": "Core",
-        "total": 72.0,
-        "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
         "teammate_hr": null,
@@ -12928,6 +12905,18 @@
         "role": "Core",
         "total": 71.5,
         "cause_grade": "A",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
+        "player": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opp_pitcher": "Taj Bradley",
+        "role": "Cause Satellite",
+        "total": 71.5,
+        "cause_grade": "A+",
         "result_hr": null,
         "cause_fired": null,
         "teammate_hr": null,
