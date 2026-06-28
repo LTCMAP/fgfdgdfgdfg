@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-06-28T20:42:07.799550+00:00",
+  "generated_utc": "2026-06-28T20:51:24.513190+00:00",
   "slate_date": "2026-06-28",
   "games": 15,
   "confirmed_lineups": 30,
@@ -587,22 +587,22 @@
       "playable_bats": [
         {
           "name": "Jazz Chisholm Jr.",
-          "total": 73.5,
+          "total": 74.5,
           "role": "Locked Core"
         },
         {
           "name": "Ben Rice",
-          "total": 66.5,
+          "total": 67.5,
           "role": "Longshot"
         },
         {
           "name": "Amed Rosario",
-          "total": 66.5,
+          "total": 67.5,
           "role": "Core"
         },
         {
           "name": "Aaron Judge",
-          "total": 63.5,
+          "total": 64.5,
           "role": "Core"
         }
       ]
@@ -816,7 +816,13 @@
       "cause_score": 8.8,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
-      "playable_bats": []
+      "playable_bats": [
+        {
+          "name": "Wilyer Abreu",
+          "total": 62.0,
+          "role": "Pass"
+        }
+      ]
     },
     {
       "team": "Houston Astros",
@@ -990,7 +996,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Elite air-pull (41%)",
         "Elite barrel rate (21%)",
@@ -1368,7 +1374,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (29%)",
         "Strong barrels (12%)",
@@ -1746,7 +1752,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (22%)",
         "Elite barrel rate (16%)",
@@ -2043,6 +2049,54 @@
       "role_notes": []
     },
     {
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.179,
+      "total": 74.5,
+      "tier": "Satellite",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 35.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2727,
+        "barrel_rate": 0.1818,
+        "hard_hit_rate": 0.4848,
+        "fb_rate": 0.3636
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (27%)",
+        "Elite barrel rate (18%)",
+        "Hard-hit 48%",
+        "Platoon edge (L vs RHP)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)",
+        "Top of order (#1)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 545361,
       "name": "Mike Trout",
       "team": "Los Angeles Angels",
@@ -2076,7 +2130,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Strong air-pull (17%)",
         "Elite barrel rate (22%)",
@@ -2136,53 +2190,6 @@
       "role_notes": []
     },
     {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 1,
-      "confirmed": true,
-      "season_hr": 12,
-      "iso": 0.179,
-      "total": 73.5,
-      "tier": "Satellite",
-      "role": "Locked Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 35.0,
-        "environment": 7.0,
-        "lineup": 12.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2727,
-        "barrel_rate": 0.1818,
-        "hard_hit_rate": 0.4848,
-        "fb_rate": 0.3636
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (27%)",
-        "Elite barrel rate (18%)",
-        "Hard-hit 48%",
-        "Platoon edge (L vs RHP)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Top of order (#1)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
       "id": 641680,
       "name": "Jonah Heim",
       "team": "Athletics",
@@ -2216,7 +2223,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (40%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -2465,7 +2472,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 30,
-      "iso": 0.336,
+      "iso": 0.335,
       "total": 72.0,
       "tier": "Satellite",
       "role": "Locked Core",
@@ -2532,7 +2539,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (24%)",
         "Strong barrels (12%)",
@@ -2602,7 +2609,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 14,
-      "iso": 0.201,
+      "iso": 0.2,
       "total": 71.5,
       "tier": "Satellite",
       "role": "Core",
@@ -2624,7 +2631,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Elite air-pull (37%)",
         "Elite barrel rate (19%)",
@@ -3240,7 +3247,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (35%)",
         "Hard-hit 51%",
@@ -3431,7 +3438,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Elite air-pull (32%)",
         "Platoon edge (L vs RHP)",
@@ -3575,7 +3582,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (20%)",
         "Hard-hit 48%",
@@ -3766,7 +3773,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Strong air-pull (17%)",
         "Strong barrels (12%)",
@@ -3859,7 +3866,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Elite air-pull (30%)",
         "Above-avg barrels (10%)",
@@ -3968,6 +3975,54 @@
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": []
+    },
+    {
+      "id": 700250,
+      "name": "Ben Rice",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.297,
+      "total": 67.5,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 29.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2326,
+        "barrel_rate": 0.093,
+        "hard_hit_rate": 0.3256,
+        "fb_rate": 0.4884
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (23%)",
+        "Above-avg barrels (9%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)",
+        "Top of order (#2)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -4112,6 +4167,53 @@
       "role_notes": []
     },
     {
+      "id": 642708,
+      "name": "Amed Rosario",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.211,
+      "total": 67.5,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 31.0,
+        "environment": 9.0,
+        "lineup": 8.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.25,
+        "barrel_rate": 0.125,
+        "hard_hit_rate": 0.375,
+        "fb_rate": 0.5625
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (25%)",
+        "Strong barrels (12%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Mid order (#6)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 518692,
       "name": "Freddie Freeman",
       "team": "Los Angeles Dodgers",
@@ -4123,7 +4225,7 @@
       "slot": 3,
       "confirmed": true,
       "season_hr": 13,
-      "iso": 0.205,
+      "iso": 0.204,
       "total": 67.0,
       "tier": "Longshot",
       "role": "Locked Core",
@@ -4391,53 +4493,6 @@
       "role_notes": []
     },
     {
-      "id": 700250,
-      "name": "Ben Rice",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 2,
-      "confirmed": true,
-      "season_hr": 22,
-      "iso": 0.297,
-      "total": 66.5,
-      "tier": "Longshot",
-      "role": "Longshot",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 29.0,
-        "environment": 7.0,
-        "lineup": 12.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2326,
-        "barrel_rate": 0.093,
-        "hard_hit_rate": 0.3256,
-        "fb_rate": 0.4884
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (23%)",
-        "Above-avg barrels (9%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Top of order (#2)",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
       "id": 666176,
       "name": "Jo Adell",
       "team": "Los Angeles Angels",
@@ -4471,7 +4526,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Good air-pull (12%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -4483,53 +4538,6 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
-    },
-    {
-      "id": 642708,
-      "name": "Amed Rosario",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 6,
-      "confirmed": true,
-      "season_hr": 7,
-      "iso": 0.211,
-      "total": 66.5,
-      "tier": "Longshot",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 31.0,
-        "environment": 8.0,
-        "lineup": 8.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.25,
-        "barrel_rate": 0.125,
-        "hard_hit_rate": 0.375,
-        "fb_rate": 0.5625
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (25%)",
-        "Strong barrels (12%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Mid order (#6)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [],
-      "role_notes": []
     },
     {
       "id": 702284,
@@ -4635,7 +4643,7 @@
       "slot": 5,
       "confirmed": true,
       "season_hr": 14,
-      "iso": 0.232,
+      "iso": 0.231,
       "total": 65.5,
       "tier": "Longshot",
       "role": "Pass",
@@ -5002,6 +5010,49 @@
       "role_notes": []
     },
     {
+      "id": 592450,
+      "name": "Aaron Judge",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.285,
+      "total": 64.5,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 30.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Proxy: elite HR rate (1/15 PA)",
+        "Proxy: elite ISO (0.285)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 695600,
       "name": "Carter Jensen",
       "team": "Kansas City Royals",
@@ -5223,7 +5274,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Elite air-pull (26%)",
         "Above-avg barrels (11%)",
@@ -5271,7 +5322,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Elite air-pull (33%)",
         "Above-avg barrels (11%)",
@@ -5321,49 +5372,6 @@
         "Proxy: elite ISO (0.320)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 592450,
-      "name": "Aaron Judge",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.285,
-      "total": 63.5,
-      "tier": "Longshot",
-      "role": "Core",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 30.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Proxy: elite HR rate (1/15 PA)",
-        "Proxy: elite ISO (0.285)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -5511,6 +5519,104 @@
         "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
         "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 663757,
+      "name": "Trent Grisham",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.174,
+      "total": 63.5,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 30.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2667,
+        "barrel_rate": 0.0667,
+        "hard_hit_rate": 0.6667,
+        "fb_rate": 0.4667
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (27%)",
+        "Hard-hit 67%",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 641857,
+      "name": "Ryan McMahon",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.15,
+      "total": 63.5,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 30.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1579,
+        "barrel_rate": 0.2105,
+        "hard_hit_rate": 0.4211,
+        "fb_rate": 0.6316
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Strong air-pull (16%)",
+        "Elite barrel rate (21%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)",
+        "Model: elite shape + clear cause"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -5989,102 +6095,6 @@
       "role_notes": []
     },
     {
-      "id": 663757,
-      "name": "Trent Grisham",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.174,
-      "total": 62.5,
-      "tier": "Longshot",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 30.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2667,
-        "barrel_rate": 0.0667,
-        "hard_hit_rate": 0.6667,
-        "fb_rate": 0.4667
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (27%)",
-        "Hard-hit 67%",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 641857,
-      "name": "Ryan McMahon",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.15,
-      "total": 62.5,
-      "tier": "Longshot",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 30.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1579,
-        "barrel_rate": 0.2105,
-        "hard_hit_rate": 0.4211,
-        "fb_rate": 0.6316
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Strong air-pull (16%)",
-        "Elite barrel rate (21%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 693307,
       "name": "Dillon Dingler",
       "team": "Detroit Tigers",
@@ -6177,6 +6187,53 @@
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Dome roof (weather neutralized)",
         "Top of order (#1)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 677800,
+      "name": "Wilyer Abreu",
+      "team": "Boston Red Sox",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Carlos Rod\u00f3n",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.17,
+      "total": 62.0,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 30.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.375,
+        "barrel_rate": 0.125,
+        "hard_hit_rate": 0.375,
+        "fb_rate": 0.625
+      },
+      "reasons": [
+        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.66)",
+        "Pitcher: Fly-ball prone (59% air allowed)",
+        "Elite air-pull (38%)",
+        "Strong barrels (12%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)",
+        "Heart of order (#3)",
         "Model: one strong signal"
       ],
       "warnings": [],
@@ -6419,52 +6476,6 @@
       "role_notes": []
     },
     {
-      "id": 677800,
-      "name": "Wilyer Abreu",
-      "team": "Boston Red Sox",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Carlos Rod\u00f3n",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 10,
-      "iso": 0.17,
-      "total": 61.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 30.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.375,
-        "barrel_rate": 0.125,
-        "hard_hit_rate": 0.375,
-        "fb_rate": 0.625
-      },
-      "reasons": [
-        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.66)",
-        "Pitcher: Fly-ball prone (59% air allowed)",
-        "Elite air-pull (38%)",
-        "Strong barrels (12%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Heart of order (#3)",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
       "id": 663993,
       "name": "Nathaniel Lowe",
       "team": "Cincinnati Reds",
@@ -6524,7 +6535,7 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 7,
-      "iso": 0.173,
+      "iso": 0.177,
       "total": 61.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -6608,6 +6619,100 @@
       "role_notes": []
     },
     {
+      "id": 502671,
+      "name": "Paul Goldschmidt",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 14,
+      "iso": 0.261,
+      "total": 60.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 27.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2174,
+        "barrel_rate": 0.1087,
+        "hard_hit_rate": 0.3261,
+        "fb_rate": 0.5217
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (22%)",
+        "Above-avg barrels (11%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 641355,
+      "name": "Cody Bellinger",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.187,
+      "total": 60.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 24.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3111,
+        "barrel_rate": 0.0444,
+        "hard_hit_rate": 0.2444,
+        "fb_rate": 0.5111
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (31%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 672724,
       "name": "Oswald Peraza",
       "team": "Los Angeles Angels",
@@ -6641,7 +6746,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Strong air-pull (19%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -6689,7 +6794,7 @@
       },
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Elite air-pull (32%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -7020,7 +7125,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (40%)",
         "Elite barrel rate (17%)",
@@ -7081,99 +7186,6 @@
       "warnings": [
         "Pitcher park (92)"
       ],
-      "role_notes": []
-    },
-    {
-      "id": 502671,
-      "name": "Paul Goldschmidt",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.261,
-      "total": 59.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 27.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2174,
-        "barrel_rate": 0.1087,
-        "hard_hit_rate": 0.3261,
-        "fb_rate": 0.5217
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (22%)",
-        "Above-avg barrels (11%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 641355,
-      "name": "Cody Bellinger",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 11,
-      "iso": 0.187,
-      "total": 59.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 24.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3111,
-        "barrel_rate": 0.0444,
-        "hard_hit_rate": 0.2444,
-        "fb_rate": 0.5111
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (31%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Heart of order (#4)"
-      ],
-      "warnings": [],
       "role_notes": []
     },
     {
@@ -8651,7 +8663,7 @@
       "statcast": null,
       "reasons": [
         "vs Sam Aldegheri \u2014 cause A+ (23.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.24)",
+        "Pitcher: Elevated HR allowed (HR/9 1.23)",
         "Pitcher: Above-avg barrels allowed (9%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
@@ -8723,7 +8735,7 @@
       "slot": 1,
       "confirmed": true,
       "season_hr": 8,
-      "iso": 0.153,
+      "iso": 0.151,
       "total": 56.5,
       "tier": "Pass",
       "role": "Pass",
@@ -8745,7 +8757,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Elite air-pull (22%)",
         "Platoon edge (R vs LHP)",
@@ -8938,7 +8950,7 @@
       "statcast": null,
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot",
@@ -8995,6 +9007,52 @@
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": []
+    },
+    {
+      "id": 575929,
+      "name": "Willson Contreras",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Carlos Rod\u00f3n",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.246,
+      "total": 55.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 23.5,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1765,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.4412,
+        "fb_rate": 0.4412
+      },
+      "reasons": [
+        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.66)",
+        "Pitcher: Fly-ball prone (59% air allowed)",
+        "Strong air-pull (18%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -9103,7 +9161,7 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 14,
-      "iso": 0.214,
+      "iso": 0.213,
       "total": 55.0,
       "tier": "Pass",
       "role": "Pass",
@@ -9125,7 +9183,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (21%)",
         "Hard-hit 53%",
@@ -9280,8 +9338,8 @@
       "gamePk": 824256,
       "slot": 4,
       "confirmed": true,
-      "season_hr": 18,
-      "iso": 0.228,
+      "season_hr": 19,
+      "iso": 0.236,
       "total": 54.5,
       "tier": "Pass",
       "role": "Pass",
@@ -9313,52 +9371,6 @@
       "warnings": [
         "Pitcher park (94)"
       ],
-      "role_notes": []
-    },
-    {
-      "id": 575929,
-      "name": "Willson Contreras",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Carlos Rod\u00f3n",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 17,
-      "iso": 0.246,
-      "total": 54.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 23.5,
-        "environment": 8.0,
-        "lineup": 11.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1765,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.4412,
-        "fb_rate": 0.4412
-      },
-      "reasons": [
-        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.66)",
-        "Pitcher: Fly-ball prone (59% air allowed)",
-        "Strong air-pull (18%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Heart of order (#4)"
-      ],
-      "warnings": [],
       "role_notes": []
     },
     {
@@ -9395,7 +9407,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Elite air-pull (38%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -9736,6 +9748,52 @@
       "role_notes": []
     },
     {
+      "id": 702332,
+      "name": "Caleb Durbin",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Carlos Rod\u00f3n",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 6,
+      "iso": 0.154,
+      "total": 53.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 24.0,
+        "environment": 9.0,
+        "lineup": 8.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.35,
+        "barrel_rate": 0.075,
+        "hard_hit_rate": 0.325,
+        "fb_rate": 0.5
+      },
+      "reasons": [
+        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.66)",
+        "Pitcher: Fly-ball prone (59% air allowed)",
+        "Elite air-pull (35%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Mid order (#6)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 805811,
       "name": "Bryce Eldridge",
       "team": "San Francisco Giants",
@@ -9769,7 +9827,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Strong air-pull (17%)",
         "Elite barrel rate (17%)",
@@ -9796,7 +9854,7 @@
       "slot": 6,
       "confirmed": true,
       "season_hr": 6,
-      "iso": 0.216,
+      "iso": 0.214,
       "total": 53.0,
       "tier": "Pass",
       "role": "Pass",
@@ -10112,52 +10170,6 @@
       "role_notes": []
     },
     {
-      "id": 702332,
-      "name": "Caleb Durbin",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Carlos Rod\u00f3n",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 6,
-      "confirmed": true,
-      "season_hr": 6,
-      "iso": 0.154,
-      "total": 52.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 24.0,
-        "environment": 8.0,
-        "lineup": 8.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.35,
-        "barrel_rate": 0.075,
-        "hard_hit_rate": 0.325,
-        "fb_rate": 0.5
-      },
-      "reasons": [
-        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.66)",
-        "Pitcher: Fly-ball prone (59% air allowed)",
-        "Elite air-pull (35%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Mid order (#6)"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
       "id": 657656,
       "name": "Ram\u00f3n Laureano",
       "team": "San Diego Padres",
@@ -10233,7 +10245,7 @@
       },
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot",
@@ -10243,6 +10255,53 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 680776,
+      "name": "Jarren Duran",
+      "team": "Boston Red Sox",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Carlos Rod\u00f3n",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 12,
+      "iso": 0.162,
+      "total": 51.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 25.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2727,
+        "barrel_rate": 0.0909,
+        "hard_hit_rate": 0.3333,
+        "fb_rate": 0.4242
+      },
+      "reasons": [
+        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.66)",
+        "Pitcher: Fly-ball prone (59% air allowed)",
+        "Elite air-pull (27%)",
+        "Above-avg barrels (9%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Warm (75\u00b0F)"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
     },
     {
       "id": 656484,
@@ -10326,7 +10385,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Strong air-pull (15%)",
         "Hard-hit 46%",
@@ -10339,6 +10398,55 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
+    },
+    {
+      "id": 678882,
+      "name": "Ceddanne Rafaela",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Carlos Rod\u00f3n",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.158,
+      "total": 50.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.0,
+        "hitter": 18.5,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1957,
+        "barrel_rate": 0.0217,
+        "hard_hit_rate": 0.3261,
+        "fb_rate": 0.4783
+      },
+      "reasons": [
+        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.66)",
+        "Pitcher: Fly-ball prone (59% air allowed)",
+        "Strong air-pull (20%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 678218,
@@ -10517,7 +10625,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (27%)",
         "Above-avg barrels (9%)",
@@ -10529,52 +10637,6 @@
       ],
       "warnings": [
         "Strong pitcher park (89)"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 680776,
-      "name": "Jarren Duran",
-      "team": "Boston Red Sox",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Carlos Rod\u00f3n",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.162,
-      "total": 50.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 25.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2727,
-        "barrel_rate": 0.0909,
-        "hard_hit_rate": 0.3333,
-        "fb_rate": 0.4242
-      },
-      "reasons": [
-        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.66)",
-        "Pitcher: Fly-ball prone (59% air allowed)",
-        "Elite air-pull (27%)",
-        "Above-avg barrels (9%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Green Monster cuts LHB HR, aids doubles"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
       ],
       "role_notes": []
     },
@@ -10703,7 +10765,7 @@
       "statcast": null,
       "reasons": [
         "vs Aaron Civale \u2014 cause A+ (25.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Elevated HR allowed (HR/9 1.88)",
         "Pitcher: Barrels up (21% allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot",
@@ -10750,7 +10812,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (24%)",
         "Above-avg barrels (10%)",
@@ -10809,55 +10871,6 @@
         "Pitcher park (92)",
         "Lineup not confirmed"
       ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 678882,
-      "name": "Ceddanne Rafaela",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Carlos Rod\u00f3n",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 2,
-      "confirmed": true,
-      "season_hr": 7,
-      "iso": 0.158,
-      "total": 49.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.0,
-        "hitter": 18.5,
-        "environment": 8.0,
-        "lineup": 12.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1957,
-        "barrel_rate": 0.0217,
-        "hard_hit_rate": 0.3261,
-        "fb_rate": 0.4783
-      },
-      "reasons": [
-        "vs Carlos Rod\u00f3n \u2014 cause Pass (9.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.66)",
-        "Pitcher: Fly-ball prone (59% air allowed)",
-        "Strong air-pull (20%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Top of order (#2)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -11047,6 +11060,55 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
+    },
+    {
+      "id": 676609,
+      "name": "Jos\u00e9 Caballero",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Sonny Gray",
+      "venue": "Fenway Park",
+      "gamePk": 824744,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.148,
+      "total": 49.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.5,
+        "hitter": 18.5,
+        "environment": 9.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2258,
+        "barrel_rate": 0.0323,
+        "hard_hit_rate": 0.1935,
+        "fb_rate": 0.4194
+      },
+      "reasons": [
+        "vs Sonny Gray \u2014 cause B (14.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.06)",
+        "Pitcher: Fly-ball prone (44% air allowed)",
+        "Elite air-pull (23%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Green Monster cuts LHB HR, aids doubles",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#9)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 676391,
@@ -11326,55 +11388,6 @@
       ]
     },
     {
-      "id": 676609,
-      "name": "Jos\u00e9 Caballero",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Sonny Gray",
-      "venue": "Fenway Park",
-      "gamePk": 824744,
-      "slot": 9,
-      "confirmed": true,
-      "season_hr": 8,
-      "iso": 0.148,
-      "total": 48.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.5,
-        "hitter": 18.5,
-        "environment": 8.0,
-        "lineup": 5.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2258,
-        "barrel_rate": 0.0323,
-        "hard_hit_rate": 0.1935,
-        "fb_rate": 0.4194
-      },
-      "reasons": [
-        "vs Sonny Gray \u2014 cause B (14.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.06)",
-        "Pitcher: Fly-ball prone (44% air allowed)",
-        "Elite air-pull (23%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Green Monster cuts LHB HR, aids doubles",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Bottom of order (#9)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 663656,
       "name": "Kyle Tucker",
       "team": "Los Angeles Dodgers",
@@ -11636,7 +11649,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Elite air-pull (29%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -11918,7 +11931,7 @@
       },
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "Deep RF triples alley suppresses LHB HR",
         "Mid order (#5)",
@@ -12085,7 +12098,7 @@
       "opp_pitcher": "Hunter Brown",
       "venue": "Comerica Park",
       "gamePk": 824256,
-      "slot": 9,
+      "slot": 8,
       "confirmed": true,
       "season_hr": 5,
       "iso": 0.136,
@@ -12119,7 +12132,7 @@
       ],
       "warnings": [
         "Pitcher park (94)",
-        "Bottom of order (#9)"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -12298,7 +12311,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (36%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -12342,7 +12355,7 @@
       "statcast": null,
       "reasons": [
         "vs Robbie Ray \u2014 cause B (15.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.40)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: Fly-ball prone (51% air allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Deep RF triples alley suppresses LHB HR",
@@ -12408,7 +12421,7 @@
       "slot": 7,
       "confirmed": true,
       "season_hr": 4,
-      "iso": 0.144,
+      "iso": 0.143,
       "total": 36.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -12514,7 +12527,7 @@
       "statcast": null,
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
@@ -12603,7 +12616,7 @@
       },
       "reasons": [
         "vs Chris Sale \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.63)",
+        "Pitcher: Suppresses HR (HR/9 0.62)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Platoon edge (R vs LHP)",
         "Deep RF triples alley suppresses LHB HR",
@@ -12638,7 +12651,7 @@
     },
     "longshot_group": {
       "legs": [
-        "Ben Rice (New York Yankees, 66.5)",
+        "Ben Rice (New York Yankees, 67.5)",
         "Jo Adell (Los Angeles Angels, 66.5)",
         "Kody Clemens (Minnesota Twins, 66.0)",
         "Carter Jensen (Kansas City Royals, 64.5)"
@@ -12681,12 +12694,12 @@
       "score": 25.0,
       "grade": "A+",
       "flags": [
-        "Elevated HR allowed (HR/9 1.90)",
+        "Elevated HR allowed (HR/9 1.88)",
         "Barrels up (21% allowed)",
         "Fly-ball prone (71% air allowed)",
         "Low K rate (16%)"
       ],
-      "hr9": 1.9,
+      "hr9": 1.88,
       "barrel_allowed": 0.2143
     },
     {
@@ -12708,12 +12721,12 @@
       "score": 23.5,
       "grade": "A+",
       "flags": [
-        "Elevated HR allowed (HR/9 1.24)",
+        "Elevated HR allowed (HR/9 1.23)",
         "Above-avg barrels allowed (9%)",
         "Fly-ball prone (51% air allowed)",
-        "Low K rate (14%)"
+        "Low K rate (15%)"
       ],
-      "hr9": 1.24,
+      "hr9": 1.23,
       "barrel_allowed": 0.0851
     },
     {
@@ -12836,10 +12849,10 @@
       "score": 15.5,
       "grade": "B",
       "flags": [
-        "Avg+ HR allowed (HR/9 1.40)",
+        "Avg+ HR allowed (HR/9 1.38)",
         "Fly-ball prone (51% air allowed)"
       ],
-      "hr9": 1.4,
+      "hr9": 1.38,
       "barrel_allowed": 0.0755
     },
     {
@@ -12934,7 +12947,7 @@
       "flags": [
         "Fly-ball prone (44% air allowed)"
       ],
-      "hr9": 0.96,
+      "hr9": 0.95,
       "barrel_allowed": 0.0635
     },
     {
@@ -13003,11 +13016,11 @@
       "score": 6.0,
       "grade": "Pass",
       "flags": [
-        "Suppresses HR (HR/9 0.63)",
+        "Suppresses HR (HR/9 0.62)",
         "Fly-ball prone (50% air allowed)",
         "High K rate (29%)"
       ],
-      "hr9": 0.63,
+      "hr9": 0.62,
       "barrel_allowed": 0.0
     },
     {
