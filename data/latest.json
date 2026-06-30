@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-06-30T16:36:18.082761+00:00",
+  "generated_utc": "2026-06-30T17:37:24.700630+00:00",
   "slate_date": "2026-06-30",
   "games": 15,
   "confirmed_lineups": 0,
@@ -11,7 +11,7 @@
     "start": "2026-06-10",
     "end": "2026-06-30",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 395,
     "pitchers": 442
   },
@@ -839,7 +839,7 @@
         "Elite barrel rate (19%)",
         "Hard-hit 54%",
         "Platoon edge (L vs RHP)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -888,7 +888,7 @@
         "Strong barrels (14%)",
         "Hard-hit 50%",
         "Platoon edge (L vs RHP)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1083,7 +1083,7 @@
         "Strong barrels (12%)",
         "Hard-hit 50%",
         "Platoon edge (L vs RHP)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1181,7 +1181,7 @@
         "Hard-hit 45%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1279,7 +1279,7 @@
         "Hard-hit 56%",
         "Platoon edge (R vs LHP)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1424,7 +1424,7 @@
         "Elite barrel rate (17%)",
         "Hard-hit 51%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1525,7 +1525,7 @@
         "Above-avg barrels (11%)",
         "Hard-hit 59%",
         "Platoon edge (L vs RHP)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1864,7 +1864,7 @@
         "Above-avg barrels (9%)",
         "Hard-hit 67%",
         "Platoon edge (R vs LHP)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -3080,7 +3080,7 @@
         "Elite air-pull (36%)",
         "Above-avg barrels (11%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3128,7 +3128,7 @@
         "Hard-hit 52%",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3272,7 +3272,7 @@
         "Elite air-pull (23%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3518,7 +3518,7 @@
         "Elite barrel rate (20%)",
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -4190,7 +4190,7 @@
         "Strong barrels (12%)",
         "Hard-hit 50%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: one strong signal"
       ],
@@ -4290,7 +4290,7 @@
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4384,7 +4384,7 @@
         "Pitcher: Barrels up (14% allowed)",
         "Elite air-pull (38%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4528,7 +4528,7 @@
         "Elite barrel rate (18%)",
         "Hard-hit 71%",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)",
+        "Warm (84\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: one strong signal"
       ],
@@ -4677,7 +4677,7 @@
         "Strong barrels (13%)",
         "Hard-hit 52%",
         "Platoon edge (L vs RHP)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: one strong signal"
       ],
@@ -4728,7 +4728,7 @@
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4775,7 +4775,7 @@
         "Strong air-pull (18%)",
         "Hard-hit 67%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4822,7 +4822,7 @@
         "Elite air-pull (26%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4869,7 +4869,7 @@
         "Pitcher: Barrels up (14% allowed)",
         "Elite air-pull (23%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -4918,7 +4918,7 @@
         "Strong barrels (12%)",
         "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5015,7 +5015,7 @@
         "Strong air-pull (15%)",
         "Hard-hit 58%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5303,7 +5303,7 @@
         "Above-avg barrels (10%)",
         "Hard-hit 47%",
         "Platoon edge (L vs RHP)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5542,7 +5542,7 @@
         "Elite air-pull (39%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -5776,7 +5776,7 @@
         "Elite air-pull (50%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -5876,7 +5876,7 @@
         "Elite air-pull (36%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -6416,7 +6416,7 @@
         "Above-avg barrels (12%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -6463,7 +6463,7 @@
         "Elite air-pull (35%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -6512,7 +6512,7 @@
         "Pitcher: Barrels up (14% allowed)",
         "Strong air-pull (19%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -6854,7 +6854,7 @@
         "Pitcher: Elevated HR allowed (HR/9 1.51)",
         "Pitcher: Barrels up (14% allowed)",
         "Above-avg barrels (9%)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -6903,7 +6903,7 @@
         "Elite air-pull (23%)",
         "Strong barrels (13%)",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)",
+        "Warm (84\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -7086,7 +7086,7 @@
         "Pitcher: Fly-ball prone (70% air allowed)",
         "Elite air-pull (21%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -8136,7 +8136,7 @@
         "Pitcher: Fly-ball prone (70% air allowed)",
         "Elite air-pull (22%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -8335,7 +8335,7 @@
         "Pitcher: Barrels up (14% allowed)",
         "Good air-pull (12%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -8386,7 +8386,7 @@
         "Hard-hit 45%",
         "Platoon edge (R vs LHP)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Elite-hitter override (beats a neutral spot)",
         "Model: one strong signal"
       ],
@@ -8434,7 +8434,7 @@
         "Pitcher: High HR allowed (HR/9 1.55)",
         "Elite air-pull (31%)",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)"
+        "Warm (84\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -8478,7 +8478,7 @@
         "Pitcher: Elevated HR allowed (HR/9 1.98)",
         "Pitcher: Barrels up (21% allowed)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -9142,7 +9142,7 @@
         "Pitcher: Barrels up (21% allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -9235,7 +9235,7 @@
         "Strong barrels (12%)",
         "Hard-hit 50%",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -9514,7 +9514,7 @@
         "Pitcher: High HR allowed (HR/9 1.55)",
         "Elite air-pull (34%)",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)"
+        "Warm (84\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -9559,7 +9559,7 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Elite air-pull (22%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9607,7 +9607,7 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Elite air-pull (36%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9657,7 +9657,7 @@
         "Above-avg barrels (12%)",
         "Platoon edge (L vs RHP)",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)",
+        "Warm (84\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -9847,7 +9847,7 @@
         "Hard-hit 56%",
         "Platoon edge (R vs LHP)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -9942,7 +9942,7 @@
         "Pitcher: High HR allowed (HR/9 0.90)",
         "Pitcher: Fly-ball prone (70% air allowed)",
         "Platoon edge (R vs LHP)",
-        "Hot (94\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -10322,7 +10322,7 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Elite air-pull (24%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10609,7 +10609,7 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Elite air-pull (25%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10705,7 +10705,7 @@
         "Above-avg barrels (10%)",
         "Platoon edge (L vs RHP)",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)"
+        "Warm (84\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -11119,7 +11119,7 @@
         "Pitcher: High HR allowed (HR/9 1.55)",
         "Elite air-pull (20%)",
         "Green Monster cuts LHB HR, aids doubles",
-        "Warm (85\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -11914,7 +11914,7 @@
         "Pitcher: Suppresses HR (HR/9 0.88)",
         "Strong air-pull (18%)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -12047,7 +12047,7 @@
         "Pitcher: High HR allowed (HR/9 1.53)",
         "Pitcher: Fly-ball prone (55% air allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (91\u00b0F)",
+        "Hot (92\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -12136,7 +12136,7 @@
         "Pitcher: Suppresses HR (HR/9 0.88)",
         "Good air-pull (13%)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -12671,7 +12671,7 @@
         "Pitcher: Suppresses HR (HR/9 0.88)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Hot (95\u00b0F)",
+        "Hot (96\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
