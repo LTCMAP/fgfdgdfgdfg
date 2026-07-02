@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-07-02T16:19:24.356663+00:00",
+  "generated_utc": "2026-07-02T20:42:01.330526+00:00",
   "slate_date": "2026-07-02",
   "games": 9,
-  "confirmed_lineups": 5,
+  "confirmed_lineups": 12,
   "statcast": true,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-06-12",
     "end": "2026-07-02",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 383,
     "pitchers": 430
   },
@@ -40,30 +40,30 @@
       "pitcher": "Ryan Gusto",
       "venue": "Coors Field",
       "grade": "A+",
-      "pitcher_cause": 22.5,
+      "pitcher_cause": 23.5,
       "park_hr": 116,
-      "cause_score": 26.5,
+      "cause_score": 27.5,
       "capture_method": "2-bat mini-stack or team-HR (strong cause, multiple bats)",
       "public_heat": true,
       "playable_bats": [
         {
           "name": "Mickey Moniak",
-          "total": 83.5,
+          "total": 84.5,
           "role": "Cause Satellite"
         },
         {
           "name": "Willi Castro",
-          "total": 78.0,
+          "total": 79.0,
           "role": "Cause Satellite"
         },
         {
           "name": "Hunter Goodman",
-          "total": 77.5,
+          "total": 78.5,
           "role": "Cause Satellite"
         },
         {
           "name": "Kyle Karros",
-          "total": 77.0,
+          "total": 78.0,
           "role": "Cause Satellite"
         }
       ]
@@ -82,22 +82,22 @@
       "playable_bats": [
         {
           "name": "Michael Harris II",
-          "total": 77.5,
-          "role": "Core"
-        },
-        {
-          "name": "Austin Riley",
-          "total": 73.5,
-          "role": "Cause Satellite"
+          "total": 82.5,
+          "role": "Locked Core"
         },
         {
           "name": "Matt Olson",
-          "total": 67.5,
+          "total": 72.5,
+          "role": "Cause Satellite"
+        },
+        {
+          "name": "Austin Riley",
+          "total": 72.5,
           "role": "Cause Satellite"
         },
         {
           "name": "Dominic Smith",
-          "total": 64.5,
+          "total": 66.5,
           "role": "Cause Satellite"
         }
       ]
@@ -183,18 +183,18 @@
       "public_heat": true,
       "playable_bats": [
         {
-          "name": "Owen Caissie",
-          "total": 78.0,
-          "role": "Core"
+          "name": "Kyle Stowers",
+          "total": 82.0,
+          "role": "Locked Core"
         },
         {
-          "name": "Kyle Stowers",
-          "total": 77.0,
+          "name": "Owen Caissie",
+          "total": 80.0,
           "role": "Core"
         },
         {
           "name": "Joe Mack",
-          "total": 76.0,
+          "total": 75.0,
           "role": "Core"
         },
         {
@@ -252,8 +252,8 @@
       "playable_bats": [
         {
           "name": "Jac Caglianone",
-          "total": 73.5,
-          "role": "Core"
+          "total": 78.5,
+          "role": "Locked Core"
         },
         {
           "name": "Salvador Perez",
@@ -262,12 +262,12 @@
         },
         {
           "name": "Bobby Witt Jr.",
-          "total": 66.5,
+          "total": 72.5,
           "role": "Cause Satellite"
         },
         {
-          "name": "Lane Thomas",
-          "total": 63.5,
+          "name": "Carter Jensen",
+          "total": 69.0,
           "role": "Cause Satellite"
         }
       ]
@@ -286,22 +286,22 @@
       "playable_bats": [
         {
           "name": "Colson Montgomery",
-          "total": 75.5,
-          "role": "Core"
-        },
-        {
-          "name": "Randal Grichuk",
-          "total": 73.5,
-          "role": "Core"
+          "total": 77.5,
+          "role": "Locked Core"
         },
         {
           "name": "Miguel Vargas",
-          "total": 70.5,
-          "role": "Core"
+          "total": 76.5,
+          "role": "Locked Core"
+        },
+        {
+          "name": "Sam Antonacci",
+          "total": 75.0,
+          "role": "Cause Satellite"
         },
         {
           "name": "Andrew Benintendi",
-          "total": 69.5,
+          "total": 74.5,
           "role": "Cause Satellite"
         }
       ]
@@ -373,13 +373,13 @@
       "playable_bats": [
         {
           "name": "Kyle Manzardo",
-          "total": 70.0,
-          "role": "Power Satellite"
+          "total": 75.0,
+          "role": "Locked Core"
         },
         {
           "name": "Travis Bazzana",
-          "total": 68.5,
-          "role": "Power Satellite"
+          "total": 74.5,
+          "role": "Locked Core"
         },
         {
           "name": "Daniel Schneemann",
@@ -411,6 +411,11 @@
           "role": "Locked Core"
         },
         {
+          "name": "Endy Rodr\u00edguez",
+          "total": 69.5,
+          "role": "Core"
+        },
+        {
           "name": "Spencer Horwitz",
           "total": 63.0,
           "role": "Longshot"
@@ -430,14 +435,58 @@
       "public_heat": false,
       "playable_bats": [
         {
-          "name": "Colt Keith",
-          "total": 63.5,
-          "role": "Power Satellite"
+          "name": "Riley Greene",
+          "total": 67.5,
+          "role": "Core"
         },
         {
-          "name": "Riley Greene",
-          "total": 62.5,
+          "name": "Dillon Dingler",
+          "total": 65.5,
+          "role": "Longshot"
+        },
+        {
+          "name": "Colt Keith",
+          "total": 65.5,
           "role": "Core"
+        },
+        {
+          "name": "Kerry Carpenter",
+          "total": 63.5,
+          "role": "Longshot"
+        }
+      ]
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "opp": "Cincinnati Reds",
+      "pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "grade": "C",
+      "pitcher_cause": 11.0,
+      "park_hr": 106,
+      "cause_score": 12.5,
+      "capture_method": "Watchlist / pass (no clear cause)",
+      "public_heat": false,
+      "playable_bats": [
+        {
+          "name": "Jackson Chourio",
+          "total": 65.0,
+          "role": "Pass"
+        },
+        {
+          "name": "Christian Yelich",
+          "total": 64.0,
+          "role": "Pass"
+        },
+        {
+          "name": "Brice Turang",
+          "total": 63.5,
+          "role": "Pass"
+        },
+        {
+          "name": "William Contreras",
+          "total": 62.5,
+          "role": "Pass"
         }
       ]
     },
@@ -452,22 +501,14 @@
       "cause_score": 11.5,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
-      "playable_bats": []
-    },
-    {
-      "team": "Milwaukee Brewers",
-      "opp": "Cincinnati Reds",
-      "pitcher": "Chase Burns",
-      "venue": "American Family Field",
-      "grade": "Pass",
-      "pitcher_cause": 8.5,
-      "park_hr": 106,
-      "cause_score": 10.0,
-      "capture_method": "Watchlist / pass (no clear cause)",
-      "public_heat": false,
       "playable_bats": [
         {
-          "name": "Jackson Chourio",
+          "name": "Jake Burger",
+          "total": 63.0,
+          "role": "Pass"
+        },
+        {
+          "name": "Josh Jung",
           "total": 62.5,
           "role": "Pass"
         }
@@ -531,16 +572,16 @@
       "gamePk": 824335,
       "slot": 2,
       "confirmed": true,
-      "season_hr": 14,
-      "iso": 0.328,
-      "total": 83.5,
+      "season_hr": 15,
+      "iso": 0.344,
+      "total": 84.5,
       "tier": "Core",
       "role": "Cause Satellite",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 23.5,
         "hitter": 30.0,
         "environment": 14.0,
         "lineup": 12.0,
@@ -548,15 +589,111 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
         "Pitcher: Barrels up (12% allowed)",
-        "Proxy: elite HR rate (1/14 PA)",
-        "Proxy: elite ISO (0.328)",
+        "Proxy: elite HR rate (1/13 PA)",
+        "Proxy: elite ISO (0.344)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Elite HR park (115)",
         "Altitude; elite carry",
         "Top of order (#2)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 671739,
+      "name": "Michael Harris II",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Dustin May",
+      "venue": "Truist Park",
+      "gamePk": 824906,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.195,
+      "total": 82.5,
+      "tier": "Core",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 22.5,
+        "hitter": 34.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.45,
+        "barrel_rate": 0.2,
+        "hard_hit_rate": 0.45,
+        "fb_rate": 0.65
+      },
+      "reasons": [
+        "vs Dustin May \u2014 cause A+ (22.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.76)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (45%)",
+        "Elite barrel rate (20%)",
+        "Hard-hit 45%",
+        "Platoon edge (L vs RHP)",
+        "Slightly + park (103)",
+        "Hot (98\u00b0F)",
+        "Heart of order (#4)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 669065,
+      "name": "Kyle Stowers",
+      "team": "Miami Marlins",
+      "bats": "L",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Michael Lorenzen",
+      "venue": "Coors Field",
+      "gamePk": 824335,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.196,
+      "total": 82.0,
+      "tier": "Core",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 35.0,
+        "environment": 14.0,
+        "lineup": 11.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3182,
+        "barrel_rate": 0.2273,
+        "hard_hit_rate": 0.6364,
+        "fb_rate": 0.5909
+      },
+      "reasons": [
+        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
+        "Pitcher: Fly-ball prone (58% air allowed)",
+        "Elite air-pull (32%)",
+        "Elite barrel rate (23%)",
+        "Hard-hit 64%",
+        "Platoon edge (L vs RHP)",
+        "Elite HR park (115)",
+        "Altitude; elite carry",
+        "Heart of order (#3)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [],
@@ -574,7 +711,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 30,
-      "iso": 0.323,
+      "iso": 0.32,
       "total": 81.5,
       "tier": "Core",
       "role": "Locked Core",
@@ -596,14 +733,14 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Elite air-pull (67%)",
         "Elite barrel rate (17%)",
         "Hard-hit 62%",
         "Platoon edge (L vs RHP)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Top of order (#2)",
         "Model: elite shape + clear cause"
       ],
@@ -619,11 +756,11 @@
       "opp_pitcher": "Michael Lorenzen",
       "venue": "Coors Field",
       "gamePk": 824335,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 10,
-      "iso": 0.202,
-      "total": 78.0,
+      "iso": 0.201,
+      "total": 80.0,
       "tier": "Core",
       "role": "Core",
       "shape_source": "statcast",
@@ -633,7 +770,7 @@
         "pitcher": 17.0,
         "hitter": 36.0,
         "environment": 14.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 5.0
       },
       "statcast": {
@@ -644,7 +781,7 @@
       },
       "reasons": [
         "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
         "Pitcher: Fly-ball prone (58% air allowed)",
         "Elite air-pull (32%)",
         "Elite barrel rate (26%)",
@@ -652,11 +789,10 @@
         "Platoon edge (L vs RHP)",
         "Elite HR park (115)",
         "Altitude; elite carry",
+        "Mid order (#6)",
         "Model: elite shape + clear cause"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -671,15 +807,15 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 6,
-      "iso": 0.119,
-      "total": 78.0,
+      "iso": 0.118,
+      "total": 79.0,
       "tier": "Core",
       "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 23.5,
         "hitter": 26.5,
         "environment": 14.0,
         "lineup": 11.0,
@@ -692,8 +828,8 @@
         "fb_rate": 0.7241
       },
       "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
         "Pitcher: Barrels up (12% allowed)",
         "Elite air-pull (48%)",
         "Above-avg barrels (10%)",
@@ -719,14 +855,14 @@
       "confirmed": false,
       "season_hr": 27,
       "iso": 0.304,
-      "total": 77.5,
-      "tier": "Satellite",
+      "total": 78.5,
+      "tier": "Core",
       "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 23.5,
         "hitter": 30.0,
         "environment": 14.0,
         "lineup": 6.0,
@@ -739,8 +875,8 @@
         "fb_rate": 0.4828
       },
       "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
         "Pitcher: Barrels up (12% allowed)",
         "Elite air-pull (24%)",
         "Elite barrel rate (17%)",
@@ -755,101 +891,50 @@
       "role_notes": []
     },
     {
-      "id": 671739,
-      "name": "Michael Harris II",
-      "team": "Atlanta Braves",
+      "id": 695506,
+      "name": "Jac Caglianone",
+      "team": "Kansas City Royals",
       "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": "Dustin May",
-      "venue": "Truist Park",
-      "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Kauffman Stadium",
+      "gamePk": 824093,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 14,
-      "iso": 0.195,
-      "total": 77.5,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 22.5,
-        "hitter": 34.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.45,
-        "barrel_rate": 0.2,
-        "hard_hit_rate": 0.45,
-        "fb_rate": 0.65
-      },
-      "reasons": [
-        "vs Dustin May \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.76)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (45%)",
-        "Elite barrel rate (20%)",
-        "Hard-hit 45%",
-        "Platoon edge (L vs RHP)",
-        "Slightly + park (103)",
-        "Hot (99\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 669065,
-      "name": "Kyle Stowers",
-      "team": "Miami Marlins",
-      "bats": "L",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Michael Lorenzen",
-      "venue": "Coors Field",
-      "gamePk": 824335,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.196,
-      "total": 77.0,
-      "tier": "Satellite",
-      "role": "Core",
+      "iso": 0.211,
+      "total": 78.5,
+      "tier": "Core",
+      "role": "Locked Core",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A",
       "breakdown": {
-        "pitcher": 17.0,
-        "hitter": 35.0,
-        "environment": 14.0,
-        "lineup": 6.0,
+        "pitcher": 19.5,
+        "hitter": 34.0,
+        "environment": 9.0,
+        "lineup": 11.0,
         "confidence": 5.0
       },
       "statcast": {
-        "air_pull_rate": 0.3182,
-        "barrel_rate": 0.2273,
-        "hard_hit_rate": 0.6364,
-        "fb_rate": 0.5909
+        "air_pull_rate": 0.3333,
+        "barrel_rate": 0.2333,
+        "hard_hit_rate": 0.6333,
+        "fb_rate": 0.5667
       },
       "reasons": [
-        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Pitcher: Fly-ball prone (58% air allowed)",
-        "Elite air-pull (32%)",
+        "vs Ian Seymour \u2014 cause A (19.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.26)",
+        "Pitcher: Fly-ball prone (62% air allowed)",
+        "Elite air-pull (33%)",
         "Elite barrel rate (23%)",
-        "Hard-hit 64%",
-        "Platoon edge (L vs RHP)",
-        "Elite HR park (115)",
-        "Altitude; elite carry",
+        "Hard-hit 63%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (95\u00b0F)",
+        "Heart of order (#3)",
         "Model: elite shape + clear cause"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -864,15 +949,15 @@
       "slot": 7,
       "confirmed": true,
       "season_hr": 6,
-      "iso": 0.153,
-      "total": 77.0,
-      "tier": "Satellite",
+      "iso": 0.152,
+      "total": 78.0,
+      "tier": "Core",
       "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 23.5,
         "hitter": 30.5,
         "environment": 14.0,
         "lineup": 5.0,
@@ -885,8 +970,8 @@
         "fb_rate": 0.3913
       },
       "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
         "Pitcher: Barrels up (12% allowed)",
         "Elite air-pull (22%)",
         "Strong barrels (13%)",
@@ -902,6 +987,99 @@
       "role_notes": []
     },
     {
+      "id": 695657,
+      "name": "Colson Montgomery",
+      "team": "Chicago White Sox",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Slade Cecconi",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.261,
+      "total": 77.5,
+      "tier": "Satellite",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.5,
+        "hitter": 37.0,
+        "environment": 9.0,
+        "lineup": 8.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.5,
+        "barrel_rate": 0.1818,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.5455
+      },
+      "reasons": [
+        "vs Slade Cecconi \u2014 cause A (18.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.20)",
+        "Pitcher: Fly-ball prone (47% air allowed)",
+        "Elite air-pull (50%)",
+        "Elite barrel rate (18%)",
+        "Hard-hit 50%",
+        "Platoon edge (L vs RHP)",
+        "Hot (91\u00b0F)",
+        "Mid order (#5)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 678246,
+      "name": "Miguel Vargas",
+      "team": "Chicago White Sox",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Slade Cecconi",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 19,
+      "iso": 0.241,
+      "total": 76.5,
+      "tier": "Satellite",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.5,
+        "hitter": 32.0,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.4516,
+        "barrel_rate": 0.1935,
+        "hard_hit_rate": 0.4194,
+        "fb_rate": 0.6774
+      },
+      "reasons": [
+        "vs Slade Cecconi \u2014 cause A (18.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.20)",
+        "Pitcher: Fly-ball prone (47% air allowed)",
+        "Elite air-pull (45%)",
+        "Elite barrel rate (19%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (91\u00b0F)",
+        "Top of order (#2)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 669016,
       "name": "Brandon Marsh",
       "team": "Philadelphia Phillies",
@@ -913,7 +1091,7 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 15,
-      "iso": 0.211,
+      "iso": 0.208,
       "total": 76.0,
       "tier": "Satellite",
       "role": "Locked Core",
@@ -935,115 +1113,18 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Elite air-pull (33%)",
         "Strong barrels (13%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Heart of order (#4)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 691788,
-      "name": "Joe Mack",
-      "team": "Miami Marlins",
-      "bats": "L",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Michael Lorenzen",
-      "venue": "Coors Field",
-      "gamePk": 824335,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.173,
-      "total": 76.0,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 17.0,
-        "hitter": 34.0,
-        "environment": 14.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.4091,
-        "barrel_rate": 0.1818,
-        "hard_hit_rate": 0.4545,
-        "fb_rate": 0.5909
-      },
-      "reasons": [
-        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Pitcher: Fly-ball prone (58% air allowed)",
-        "Elite air-pull (41%)",
-        "Elite barrel rate (18%)",
-        "Hard-hit 45%",
-        "Platoon edge (L vs RHP)",
-        "Elite HR park (115)",
-        "Altitude; elite carry",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 695657,
-      "name": "Colson Montgomery",
-      "team": "Chicago White Sox",
-      "bats": "L",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Slade Cecconi",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.261,
-      "total": 75.5,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 18.5,
-        "hitter": 37.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.5,
-        "barrel_rate": 0.1818,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.5455
-      },
-      "reasons": [
-        "vs Slade Cecconi \u2014 cause A (18.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.20)",
-        "Pitcher: Fly-ball prone (47% air allowed)",
-        "Elite air-pull (50%)",
-        "Elite barrel rate (18%)",
-        "Hard-hit 50%",
-        "Platoon edge (L vs RHP)",
-        "Hot (93\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
       "role_notes": []
     },
     {
@@ -1058,7 +1139,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 20,
-      "iso": 0.258,
+      "iso": 0.255,
       "total": 75.5,
       "tier": "Satellite",
       "role": "Locked Core",
@@ -1080,13 +1161,13 @@
       },
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Elite air-pull (41%)",
         "Above-avg barrels (10%)",
         "Hard-hit 62%",
         "Platoon edge (L vs RHP)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Top of order (#2)",
         "Model: elite shape + clear cause"
       ],
@@ -1132,12 +1213,205 @@
         "Elite air-pull (25%)",
         "Elite barrel rate (17%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": []
+    },
+    {
+      "id": 700932,
+      "name": "Kyle Manzardo",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Davis Martin",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.164,
+      "total": 75.0,
+      "tier": "Satellite",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.5,
+        "hitter": 33.5,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.4348,
+        "barrel_rate": 0.1304,
+        "hard_hit_rate": 0.5217,
+        "fb_rate": 0.6087
+      },
+      "reasons": [
+        "vs Davis Martin \u2014 cause B (16.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.58)",
+        "Pitcher: Fly-ball prone (55% air allowed)",
+        "Elite air-pull (43%)",
+        "Strong barrels (13%)",
+        "Hard-hit 52%",
+        "Platoon edge (L vs RHP)",
+        "Hot (91\u00b0F)",
+        "Heart of order (#3)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 664983,
+      "name": "Jake McCarthy",
+      "team": "Colorado Rockies",
+      "bats": "L",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Ryan Gusto",
+      "venue": "Coors Field",
+      "gamePk": 824335,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.196,
+      "total": 75.0,
+      "tier": "Satellite",
+      "role": "Longshot",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 23.5,
+        "hitter": 21.5,
+        "environment": 14.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2667,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.1667,
+        "fb_rate": 0.4333
+      },
+      "reasons": [
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
+        "Pitcher: Barrels up (12% allowed)",
+        "Elite air-pull (27%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Elite HR park (115)",
+        "Altitude; elite carry",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 691788,
+      "name": "Joe Mack",
+      "team": "Miami Marlins",
+      "bats": "L",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Michael Lorenzen",
+      "venue": "Coors Field",
+      "gamePk": 824335,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 6,
+      "iso": 0.171,
+      "total": 75.0,
+      "tier": "Satellite",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 34.0,
+        "environment": 14.0,
+        "lineup": 5.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.4091,
+        "barrel_rate": 0.1818,
+        "hard_hit_rate": 0.4545,
+        "fb_rate": 0.5909
+      },
+      "reasons": [
+        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
+        "Pitcher: Fly-ball prone (58% air allowed)",
+        "Elite air-pull (41%)",
+        "Elite barrel rate (18%)",
+        "Hard-hit 45%",
+        "Platoon edge (L vs RHP)",
+        "Elite HR park (115)",
+        "Altitude; elite carry",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Bottom of order (#9)"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 803011,
+      "name": "Sam Antonacci",
+      "team": "Chicago White Sox",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Slade Cecconi",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.132,
+      "total": 75.0,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.5,
+        "hitter": 30.5,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3103,
+        "barrel_rate": 0.1379,
+        "hard_hit_rate": 0.4138,
+        "fb_rate": 0.4138
+      },
+      "reasons": [
+        "vs Slade Cecconi \u2014 cause A (18.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.20)",
+        "Pitcher: Fly-ball prone (47% air allowed)",
+        "Elite air-pull (31%)",
+        "Strong barrels (14%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (91\u00b0F)",
+        "Top of order (#1)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -1174,14 +1448,14 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Elite air-pull (34%)",
         "Hard-hit 47%",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Heart of order (#3)",
         "Model: elite shape + clear cause"
       ],
@@ -1200,7 +1474,7 @@
       "slot": 3,
       "confirmed": true,
       "season_hr": 11,
-      "iso": 0.182,
+      "iso": 0.179,
       "total": 74.5,
       "tier": "Satellite",
       "role": "Locked Core",
@@ -1222,13 +1496,107 @@
       },
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Elite air-pull (29%)",
         "Elite barrel rate (23%)",
         "Hard-hit 68%",
         "Hitter-friendly park (107)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Heart of order (#3)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "team": "Chicago White Sox",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Slade Cecconi",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.192,
+      "total": 74.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.5,
+        "hitter": 31.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2857,
+        "barrel_rate": 0.0952,
+        "hard_hit_rate": 0.4762,
+        "fb_rate": 0.381
+      },
+      "reasons": [
+        "vs Slade Cecconi \u2014 cause A (18.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.20)",
+        "Pitcher: Fly-ball prone (47% air allowed)",
+        "Elite air-pull (29%)",
+        "Above-avg barrels (10%)",
+        "Hard-hit 48%",
+        "Platoon edge (L vs RHP)",
+        "Hot (91\u00b0F)",
+        "Heart of order (#4)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 683953,
+      "name": "Travis Bazzana",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Davis Martin",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.167,
+      "total": 74.5,
+      "tier": "Satellite",
+      "role": "Locked Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.5,
+        "hitter": 32.0,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3929,
+        "barrel_rate": 0.1071,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.6071
+      },
+      "reasons": [
+        "vs Davis Martin \u2014 cause B (16.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.58)",
+        "Pitcher: Fly-ball prone (55% air allowed)",
+        "Elite air-pull (39%)",
+        "Above-avg barrels (11%)",
+        "Hard-hit 50%",
+        "Platoon edge (L vs RHP)",
+        "Hot (91\u00b0F)",
+        "Top of order (#1)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [],
@@ -1284,18 +1652,18 @@
       "role_notes": []
     },
     {
-      "id": 664983,
-      "name": "Jake McCarthy",
+      "id": 681198,
+      "name": "TJ Rumfield",
       "team": "Colorado Rockies",
       "bats": "L",
       "opp": "Miami Marlins",
       "opp_pitcher": "Ryan Gusto",
       "venue": "Coors Field",
       "gamePk": 824335,
-      "slot": 1,
+      "slot": 3,
       "confirmed": true,
-      "season_hr": 6,
-      "iso": 0.185,
+      "season_hr": 12,
+      "iso": 0.196,
       "total": 74.0,
       "tier": "Satellite",
       "role": "Longshot",
@@ -1303,28 +1671,28 @@
       "pull_fit": true,
       "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 23.5,
         "hitter": 21.5,
         "environment": 14.0,
-        "lineup": 12.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2667,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.1667,
-        "fb_rate": 0.4333
+        "air_pull_rate": 0.2973,
+        "barrel_rate": 0.027,
+        "hard_hit_rate": 0.1081,
+        "fb_rate": 0.5946
       },
       "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
         "Pitcher: Barrels up (12% allowed)",
-        "Elite air-pull (27%)",
+        "Elite air-pull (30%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Elite HR park (115)",
         "Altitude; elite carry",
-        "Top of order (#1)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -1372,55 +1740,7 @@
         "Elite air-pull (32%)",
         "Hard-hit 68%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 695506,
-      "name": "Jac Caglianone",
-      "team": "Kansas City Royals",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Kauffman Stadium",
-      "gamePk": 824093,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.211,
-      "total": 73.5,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.5,
-        "hitter": 34.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3333,
-        "barrel_rate": 0.2333,
-        "hard_hit_rate": 0.6333,
-        "fb_rate": 0.5667
-      },
-      "reasons": [
-        "vs Ian Seymour \u2014 cause A (19.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.26)",
-        "Pitcher: Fly-ball prone (62% air allowed)",
-        "Elite air-pull (33%)",
-        "Elite barrel rate (23%)",
-        "Hard-hit 63%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1468,7 +1788,7 @@
         "Elite barrel rate (21%)",
         "Hard-hit 64%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -1510,7 +1830,7 @@
       },
       "reasons": [
         "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
         "Pitcher: Fly-ball prone (58% air allowed)",
         "Elite air-pull (39%)",
         "Strong barrels (13%)",
@@ -1524,105 +1844,6 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 663586,
-      "name": "Austin Riley",
-      "team": "Atlanta Braves",
-      "bats": "R",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": "Dustin May",
-      "venue": "Truist Park",
-      "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.125,
-      "total": 73.5,
-      "tier": "Satellite",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 22.5,
-        "hitter": 30.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3913,
-        "barrel_rate": 0.1304,
-        "hard_hit_rate": 0.5652,
-        "fb_rate": 0.5652
-      },
-      "reasons": [
-        "vs Dustin May \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.76)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (39%)",
-        "Strong barrels (13%)",
-        "Hard-hit 57%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Hot (99\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 681198,
-      "name": "TJ Rumfield",
-      "team": "Colorado Rockies",
-      "bats": "L",
-      "opp": "Miami Marlins",
-      "opp_pitcher": "Ryan Gusto",
-      "venue": "Coors Field",
-      "gamePk": 824335,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 12,
-      "iso": 0.193,
-      "total": 73.0,
-      "tier": "Satellite",
-      "role": "Longshot",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 22.5,
-        "hitter": 21.5,
-        "environment": 14.0,
-        "lineup": 11.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2973,
-        "barrel_rate": 0.027,
-        "hard_hit_rate": 0.1081,
-        "fb_rate": 0.5946
-      },
-      "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
-        "Pitcher: Barrels up (12% allowed)",
-        "Elite air-pull (30%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Elite HR park (115)",
-        "Altitude; elite carry",
-        "Heart of order (#3)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 521692,
@@ -1664,11 +1885,154 @@
         "Elite barrel rate (18%)",
         "Hard-hit 50%",
         "Platoon edge (R vs LHP)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 621566,
+      "name": "Matt Olson",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Dustin May",
+      "venue": "Truist Park",
+      "gamePk": 824906,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 20,
+      "iso": 0.251,
+      "total": 72.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 22.5,
+        "hitter": 25.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1724,
+        "barrel_rate": 0.069,
+        "hard_hit_rate": 0.3103,
+        "fb_rate": 0.2759
+      },
+      "reasons": [
+        "vs Dustin May \u2014 cause A+ (22.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.76)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Strong air-pull (17%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Hot (98\u00b0F)",
+        "Heart of order (#3)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 677951,
+      "name": "Bobby Witt Jr.",
+      "team": "Kansas City Royals",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Kauffman Stadium",
+      "gamePk": 824093,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.183,
+      "total": 72.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.5,
+        "hitter": 28.0,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2,
+        "barrel_rate": 0.04,
+        "hard_hit_rate": 0.6,
+        "fb_rate": 0.52
+      },
+      "reasons": [
+        "vs Ian Seymour \u2014 cause A (19.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.26)",
+        "Pitcher: Fly-ball prone (62% air allowed)",
+        "Elite air-pull (20%)",
+        "Hard-hit 60%",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (95\u00b0F)",
+        "Top of order (#2)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "team": "Atlanta Braves",
+      "bats": "R",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Dustin May",
+      "venue": "Truist Park",
+      "gamePk": 824906,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.125,
+      "total": 72.5,
+      "tier": "Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 22.5,
+        "hitter": 30.0,
+        "environment": 10.0,
+        "lineup": 5.0,
+        "confidence": 5.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3913,
+        "barrel_rate": 0.1304,
+        "hard_hit_rate": 0.5652,
+        "fb_rate": 0.5652
+      },
+      "reasons": [
+        "vs Dustin May \u2014 cause A+ (22.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.76)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (39%)",
+        "Strong barrels (13%)",
+        "Hard-hit 57%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Hot (98\u00b0F)",
+        "Model: elite shape + clear cause"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
       ],
       "role_notes": []
     },
@@ -1771,53 +2135,6 @@
       "role_notes": []
     },
     {
-      "id": 678246,
-      "name": "Miguel Vargas",
-      "team": "Chicago White Sox",
-      "bats": "R",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Slade Cecconi",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 19,
-      "iso": 0.241,
-      "total": 70.5,
-      "tier": "Satellite",
-      "role": "Core",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 18.5,
-        "hitter": 32.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.4516,
-        "barrel_rate": 0.1935,
-        "hard_hit_rate": 0.4194,
-        "fb_rate": 0.6774
-      },
-      "reasons": [
-        "vs Slade Cecconi \u2014 cause A (18.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.20)",
-        "Pitcher: Fly-ball prone (47% air allowed)",
-        "Elite air-pull (45%)",
-        "Elite barrel rate (19%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 518692,
       "name": "Freddie Freeman",
       "team": "Los Angeles Dodgers",
@@ -1905,7 +2222,7 @@
         "Elite air-pull (40%)",
         "Elite barrel rate (20%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -1914,102 +2231,192 @@
       "role_notes": []
     },
     {
-      "id": 700932,
-      "name": "Kyle Manzardo",
-      "team": "Cleveland Guardians",
+      "id": 689414,
+      "name": "Liam Hicks",
+      "team": "Miami Marlins",
       "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Davis Martin",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.164,
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Michael Lorenzen",
+      "venue": "Coors Field",
+      "gamePk": 824335,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.183,
       "total": 70.0,
       "tier": "Satellite",
-      "role": "Power Satellite",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 23.0,
+        "environment": 14.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.36,
+        "barrel_rate": 0.04,
+        "hard_hit_rate": 0.24,
+        "fb_rate": 0.4
+      },
+      "reasons": [
+        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
+        "Pitcher: Fly-ball prone (58% air allowed)",
+        "Elite air-pull (36%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Elite HR park (115)",
+        "Altitude; elite carry",
+        "Top of order (#1)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 645277,
+      "name": "Ozzie Albies",
+      "team": "Atlanta Braves",
+      "bats": "S",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Dustin May",
+      "venue": "Truist Park",
+      "gamePk": 824906,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.168,
+      "total": 69.5,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 22.5,
+        "hitter": 21.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3889,
+        "barrel_rate": 0.0278,
+        "hard_hit_rate": 0.3333,
+        "fb_rate": 0.6944
+      },
+      "reasons": [
+        "vs Dustin May \u2014 cause A+ (22.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.76)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (39%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Hot (98\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 682848,
+      "name": "Endy Rodr\u00edguez",
+      "team": "Pittsburgh Pirates",
+      "bats": "S",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Alan Rangel",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823442,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.226,
+      "total": 69.5,
+      "tier": "Longshot",
+      "role": "Core",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 16.5,
+        "pitcher": 14.0,
         "hitter": 33.5,
-        "environment": 9.0,
-        "lineup": 6.0,
+        "environment": 12.0,
+        "lineup": 5.0,
         "confidence": 5.0
       },
       "statcast": {
-        "air_pull_rate": 0.4348,
-        "barrel_rate": 0.1304,
-        "hard_hit_rate": 0.5217,
-        "fb_rate": 0.6087
+        "air_pull_rate": 0.4444,
+        "barrel_rate": 0.1667,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.6111
       },
       "reasons": [
-        "vs Davis Martin \u2014 cause B (16.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.58)",
-        "Pitcher: Fly-ball prone (55% air allowed)",
-        "Elite air-pull (43%)",
-        "Strong barrels (13%)",
-        "Hard-hit 52%",
-        "Platoon edge (L vs RHP)",
-        "Hot (93\u00b0F)",
-        "Elite-hitter override (beats a neutral spot)",
+        "vs Alan Rangel \u2014 cause B (14.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
+        "Elite air-pull (44%)",
+        "Elite barrel rate (17%)",
+        "Hard-hit 50%",
+        "Hitter-friendly park (107)",
+        "Hot (95\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
-      "role_notes": [
-        "Elite-hitter override (beats a neutral spot)"
-      ]
+      "role_notes": []
     },
     {
-      "id": 643217,
-      "name": "Andrew Benintendi",
-      "team": "Chicago White Sox",
+      "id": 695600,
+      "name": "Carter Jensen",
+      "team": "Kansas City Royals",
       "bats": "L",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Slade Cecconi",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.192,
-      "total": 69.5,
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Kauffman Stadium",
+      "gamePk": 824093,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.193,
+      "total": 69.0,
       "tier": "Longshot",
       "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A",
       "breakdown": {
-        "pitcher": 18.5,
-        "hitter": 31.0,
+        "pitcher": 19.5,
+        "hitter": 24.5,
         "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 5.0
+        "lineup": 12.0,
+        "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2857,
-        "barrel_rate": 0.0952,
-        "hard_hit_rate": 0.4762,
-        "fb_rate": 0.381
+        "air_pull_rate": 0.2222,
+        "barrel_rate": 0.0278,
+        "hard_hit_rate": 0.5278,
+        "fb_rate": 0.4722
       },
       "reasons": [
-        "vs Slade Cecconi \u2014 cause A (18.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.20)",
-        "Pitcher: Fly-ball prone (47% air allowed)",
-        "Elite air-pull (29%)",
-        "Above-avg barrels (10%)",
-        "Hard-hit 48%",
-        "Platoon edge (L vs RHP)",
-        "Hot (93\u00b0F)",
-        "Model: elite shape + clear cause"
+        "vs Ian Seymour \u2014 cause A (19.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.26)",
+        "Pitcher: Fly-ball prone (62% air allowed)",
+        "Elite air-pull (22%)",
+        "Hard-hit 53%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (95\u00b0F)",
+        "Top of order (#1)",
+        "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -2062,54 +2469,6 @@
       "role_notes": []
     },
     {
-      "id": 803011,
-      "name": "Sam Antonacci",
-      "team": "Chicago White Sox",
-      "bats": "L",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Slade Cecconi",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.132,
-      "total": 69.0,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 18.5,
-        "hitter": 30.5,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3103,
-        "barrel_rate": 0.1379,
-        "hard_hit_rate": 0.4138,
-        "fb_rate": 0.4138
-      },
-      "reasons": [
-        "vs Slade Cecconi \u2014 cause A (18.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.20)",
-        "Pitcher: Fly-ball prone (47% air allowed)",
-        "Elite air-pull (31%)",
-        "Strong barrels (14%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 691011,
       "name": "Drew Romo",
       "team": "Chicago White Sox",
@@ -2149,7 +2508,7 @@
         "Above-avg barrels (9%)",
         "Hard-hit 45%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -2191,7 +2550,7 @@
         "Proxy: elite HR rate (1/12 PA)",
         "Proxy: elite ISO (0.320)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Model: elite shape + clear cause"
       ],
       "warnings": [
@@ -2200,102 +2559,97 @@
       "role_notes": []
     },
     {
-      "id": 683953,
-      "name": "Travis Bazzana",
-      "team": "Cleveland Guardians",
-      "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Davis Martin",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.167,
+      "id": 657041,
+      "name": "Lane Thomas",
+      "team": "Kansas City Royals",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Kauffman Stadium",
+      "gamePk": 824093,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.12,
       "total": 68.5,
-      "tier": "Longshot",
-      "role": "Power Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 16.5,
-        "hitter": 32.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 5.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3929,
-        "barrel_rate": 0.1071,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.6071
-      },
-      "reasons": [
-        "vs Davis Martin \u2014 cause B (16.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.58)",
-        "Pitcher: Fly-ball prone (55% air allowed)",
-        "Elite air-pull (39%)",
-        "Above-avg barrels (11%)",
-        "Hard-hit 50%",
-        "Platoon edge (L vs RHP)",
-        "Hot (93\u00b0F)",
-        "Elite-hitter override (beats a neutral spot)",
-        "Model: elite shape + clear cause"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Elite-hitter override (beats a neutral spot)"
-      ]
-    },
-    {
-      "id": 621566,
-      "name": "Matt Olson",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": "Dustin May",
-      "venue": "Truist Park",
-      "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 20,
-      "iso": 0.251,
-      "total": 67.5,
       "tier": "Longshot",
       "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "A+",
+      "pitcher_grade": "A",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 19.5,
         "hitter": 25.0,
-        "environment": 10.0,
-        "lineup": 6.0,
+        "environment": 9.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.1724,
-        "barrel_rate": 0.069,
-        "hard_hit_rate": 0.3103,
-        "fb_rate": 0.2759
+        "air_pull_rate": 0.2286,
+        "barrel_rate": 0.0857,
+        "hard_hit_rate": 0.3714,
+        "fb_rate": 0.4571
       },
       "reasons": [
-        "vs Dustin May \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.76)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Strong air-pull (17%)",
-        "Platoon edge (L vs RHP)",
+        "vs Ian Seymour \u2014 cause A (19.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.26)",
+        "Pitcher: Fly-ball prone (62% air allowed)",
+        "Elite air-pull (23%)",
+        "Platoon edge (R vs LHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
+        "Heart of order (#4)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 682985,
+      "name": "Riley Greene",
+      "team": "Detroit Tigers",
+      "bats": "L",
+      "opp": "Texas Rangers",
+      "opp_pitcher": "Nathan Eovaldi",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.161,
+      "total": 67.5,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 31.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3043,
+        "barrel_rate": 0.1304,
+        "hard_hit_rate": 0.4783,
+        "fb_rate": 0.7391
+      },
+      "reasons": [
+        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.53)",
+        "Pitcher: Fly-ball prone (38% air allowed)",
+        "Elite air-pull (30%)",
+        "Strong barrels (13%)",
+        "Hard-hit 48%",
+        "Platoon edge (L vs RHP)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#4)",
+        "Model: one strong signal"
       ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -2386,7 +2740,7 @@
         "Elite air-pull (20%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -2443,51 +2797,50 @@
       "role_notes": []
     },
     {
-      "id": 677951,
-      "name": "Bobby Witt Jr.",
-      "team": "Kansas City Royals",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Kauffman Stadium",
-      "gamePk": 824093,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.183,
+      "id": 642086,
+      "name": "Dominic Smith",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Dustin May",
+      "venue": "Truist Park",
+      "gamePk": 824906,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 6,
+      "iso": 0.136,
       "total": 66.5,
       "tier": "Longshot",
       "role": "Cause Satellite",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "A",
+      "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 19.5,
-        "hitter": 28.0,
-        "environment": 9.0,
-        "lineup": 6.0,
+        "pitcher": 22.5,
+        "hitter": 22.0,
+        "environment": 10.0,
+        "lineup": 8.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2,
-        "barrel_rate": 0.04,
-        "hard_hit_rate": 0.6,
-        "fb_rate": 0.52
+        "air_pull_rate": 0.3182,
+        "barrel_rate": 0.0455,
+        "hard_hit_rate": 0.2273,
+        "fb_rate": 0.3636
       },
       "reasons": [
-        "vs Ian Seymour \u2014 cause A (19.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.26)",
-        "Pitcher: Fly-ball prone (62% air allowed)",
-        "Elite air-pull (20%)",
-        "Hard-hit 60%",
-        "Platoon edge (R vs LHP)",
+        "vs Dustin May \u2014 cause A+ (22.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.76)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (32%)",
+        "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Slightly + park (103)",
+        "Hot (98\u00b0F)",
+        "Mid order (#6)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -2588,6 +2941,52 @@
       "role_notes": []
     },
     {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Texas Rangers",
+      "opp_pitcher": "Nathan Eovaldi",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 19,
+      "iso": 0.263,
+      "total": 65.5,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 28.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2581,
+        "barrel_rate": 0.0968,
+        "hard_hit_rate": 0.4194,
+        "fb_rate": 0.4839
+      },
+      "reasons": [
+        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.53)",
+        "Pitcher: Fly-ball prone (38% air allowed)",
+        "Elite air-pull (26%)",
+        "Above-avg barrels (10%)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 664034,
       "name": "Ty France",
       "team": "San Diego Padres",
@@ -2636,54 +3035,6 @@
       "role_notes": []
     },
     {
-      "id": 642086,
-      "name": "Dominic Smith",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": "Dustin May",
-      "venue": "Truist Park",
-      "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.136,
-      "total": 64.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 22.5,
-        "hitter": 22.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3182,
-        "barrel_rate": 0.0455,
-        "hard_hit_rate": 0.2273,
-        "fb_rate": 0.3636
-      },
-      "reasons": [
-        "vs Dustin May \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.76)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (32%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Hot (99\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 678662,
       "name": "Ezequiel Tovar",
       "team": "Colorado Rockies",
@@ -2696,14 +3047,14 @@
       "confirmed": false,
       "season_hr": 6,
       "iso": 0.12,
-      "total": 64.5,
+      "total": 65.5,
       "tier": "Longshot",
       "role": "Longshot",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 22.5,
+        "pitcher": 23.5,
         "hitter": 18.0,
         "environment": 14.0,
         "lineup": 6.0,
@@ -2716,8 +3067,8 @@
         "fb_rate": 0.6667
       },
       "reasons": [
-        "vs Ryan Gusto \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.85)",
+        "vs Ryan Gusto \u2014 cause A+ (23.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.12)",
         "Pitcher: Barrels up (12% allowed)",
         "Elite air-pull (33%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
@@ -2732,6 +3083,101 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 690993,
+      "name": "Colt Keith",
+      "team": "Detroit Tigers",
+      "bats": "L",
+      "opp": "Texas Rangers",
+      "opp_pitcher": "Nathan Eovaldi",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.12,
+      "total": 65.5,
+      "tier": "Longshot",
+      "role": "Core",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 32.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2,
+        "barrel_rate": 0.2,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.55
+      },
+      "reasons": [
+        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.53)",
+        "Pitcher: Fly-ball prone (38% air allowed)",
+        "Elite air-pull (20%)",
+        "Elite barrel rate (20%)",
+        "Hard-hit 50%",
+        "Platoon edge (L vs RHP)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "Cincinnati Reds",
+      "opp_pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.23,
+      "total": 65.0,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 28.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2286,
+        "barrel_rate": 0.0857,
+        "hard_hit_rate": 0.4857,
+        "fb_rate": 0.4286
+      },
+      "reasons": [
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
+        "Pitcher: Fly-ball prone (43% air allowed)",
+        "Elite air-pull (23%)",
+        "Hard-hit 49%",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hitter-friendly park (105)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
     },
     {
       "id": 624641,
@@ -2767,14 +3213,14 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Strong air-pull (19%)",
         "Above-avg barrels (10%)",
         "Hard-hit 48%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -2783,247 +3229,240 @@
       "role_notes": []
     },
     {
-      "id": 689414,
-      "name": "Liam Hicks",
-      "team": "Miami Marlins",
-      "bats": "L",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Michael Lorenzen",
-      "venue": "Coors Field",
-      "gamePk": 824335,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.186,
-      "total": 64.0,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 17.0,
-        "hitter": 23.0,
-        "environment": 14.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.36,
-        "barrel_rate": 0.04,
-        "hard_hit_rate": 0.24,
-        "fb_rate": 0.4
-      },
-      "reasons": [
-        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Pitcher: Fly-ball prone (58% air allowed)",
-        "Elite air-pull (36%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Elite HR park (115)",
-        "Altitude; elite carry",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 645277,
-      "name": "Ozzie Albies",
+      "id": 686948,
+      "name": "Drake Baldwin",
       "team": "Atlanta Braves",
-      "bats": "S",
+      "bats": "L",
       "opp": "St. Louis Cardinals",
       "opp_pitcher": "Dustin May",
       "venue": "Truist Park",
       "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.168,
-      "total": 63.5,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.201,
+      "total": 64.0,
       "tier": "Longshot",
       "role": "Longshot",
       "shape_source": "statcast",
-      "pull_fit": true,
+      "pull_fit": false,
       "pitcher_grade": "A+",
       "breakdown": {
         "pitcher": 22.5,
-        "hitter": 21.0,
+        "hitter": 15.5,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.3889,
-        "barrel_rate": 0.0278,
-        "hard_hit_rate": 0.3333,
-        "fb_rate": 0.6944
+        "air_pull_rate": 0.0833,
+        "barrel_rate": 0.0833,
+        "hard_hit_rate": 0.25,
+        "fb_rate": 0.1667
       },
       "reasons": [
         "vs Dustin May \u2014 cause A+ (22.5/25)",
         "Pitcher: Elevated HR allowed (HR/9 0.76)",
         "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (39%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Platoon edge (L vs RHP)",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
+        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 690993,
-      "name": "Colt Keith",
+      "id": 592885,
+      "name": "Christian Yelich",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Cincinnati Reds",
+      "opp_pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.134,
+      "total": 64.0,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 27.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.25,
+        "barrel_rate": 0.0833,
+        "hard_hit_rate": 0.4167,
+        "fb_rate": 0.5
+      },
+      "reasons": [
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
+        "Pitcher: Fly-ball prone (43% air allowed)",
+        "Elite air-pull (25%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 681481,
+      "name": "Kerry Carpenter",
       "team": "Detroit Tigers",
       "bats": "L",
       "opp": "Texas Rangers",
       "opp_pitcher": "Nathan Eovaldi",
       "venue": "Globe Life Field",
       "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.12,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.265,
       "total": 63.5,
       "tier": "Longshot",
-      "role": "Power Satellite",
+      "role": "Longshot",
       "shape_source": "statcast",
       "pull_fit": true,
       "pitcher_grade": "B",
       "breakdown": {
         "pitcher": 13.5,
-        "hitter": 32.0,
+        "hitter": 27.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2,
-        "barrel_rate": 0.2,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.55
+        "air_pull_rate": 0.2941,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.5294,
+        "fb_rate": 0.5882
       },
       "reasons": [
         "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
         "Pitcher: High HR allowed (HR/9 1.53)",
         "Pitcher: Fly-ball prone (38% air allowed)",
-        "Elite air-pull (20%)",
-        "Elite barrel rate (20%)",
-        "Hard-hit 50%",
+        "Elite air-pull (29%)",
+        "Hard-hit 53%",
         "Platoon edge (L vs RHP)",
         "Slightly + park (100)",
         "Retractable roof (weather neutralized)",
-        "Elite-hitter override (beats a neutral spot)",
+        "Heart of order (#3)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Elite-hitter override (beats a neutral spot)"
-      ]
-    },
-    {
-      "id": 657041,
-      "name": "Lane Thomas",
-      "team": "Kansas City Royals",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Kauffman Stadium",
-      "gamePk": 824093,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.12,
-      "total": 63.5,
-      "tier": "Longshot",
-      "role": "Cause Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.5,
-        "hitter": 25.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2286,
-        "barrel_rate": 0.0857,
-        "hard_hit_rate": 0.3714,
-        "fb_rate": 0.4571
-      },
-      "reasons": [
-        "vs Ian Seymour \u2014 cause A (19.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.26)",
-        "Pitcher: Fly-ball prone (62% air allowed)",
-        "Elite air-pull (23%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
-      "id": 695600,
-      "name": "Carter Jensen",
-      "team": "Kansas City Royals",
+      "id": 668930,
+      "name": "Brice Turang",
+      "team": "Milwaukee Brewers",
       "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Kauffman Stadium",
-      "gamePk": 824093,
-      "slot": null,
-      "confirmed": false,
+      "opp": "Cincinnati Reds",
+      "opp_pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 12,
-      "iso": 0.193,
-      "total": 63.0,
+      "iso": 0.191,
+      "total": 63.5,
       "tier": "Longshot",
-      "role": "Cause Satellite",
+      "role": "Pass",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "A",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 19.5,
-        "hitter": 24.5,
-        "environment": 9.0,
-        "lineup": 6.0,
+        "pitcher": 11.0,
+        "hitter": 27.5,
+        "environment": 10.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2222,
-        "barrel_rate": 0.0278,
-        "hard_hit_rate": 0.5278,
-        "fb_rate": 0.4722
+        "air_pull_rate": 0.12,
+        "barrel_rate": 0.16,
+        "hard_hit_rate": 0.36,
+        "fb_rate": 0.4
       },
       "reasons": [
-        "vs Ian Seymour \u2014 cause A (19.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.26)",
-        "Pitcher: Fly-ball prone (62% air allowed)",
-        "Elite air-pull (22%)",
-        "Hard-hit 53%",
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
+        "Pitcher: Fly-ball prone (43% air allowed)",
+        "Good air-pull (12%)",
+        "Elite barrel rate (16%)",
+        "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#3)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 669394,
+      "name": "Jake Burger",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Framber Valdez",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.182,
+      "total": 63.0,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 28.5,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2727,
+        "barrel_rate": 0.0909,
+        "hard_hit_rate": 0.3636,
+        "fb_rate": 0.4545
+      },
+      "reasons": [
+        "vs Framber Valdez \u2014 cause C (11.5/25)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (27%)",
+        "Above-avg barrels (9%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#4)",
+        "Model: one strong signal"
       ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -3060,12 +3499,12 @@
       },
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Elite air-pull (35%)",
         "Strong barrels (13%)",
         "Platoon edge (L vs RHP)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3112,13 +3551,111 @@
         "Elite air-pull (20%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 643289,
+      "name": "Mauricio Dub\u00f3n",
+      "team": "Atlanta Braves",
+      "bats": "R",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Dustin May",
+      "venue": "Truist Park",
+      "gamePk": 824906,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.151,
+      "total": 63.0,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 22.5,
+        "hitter": 18.5,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2368,
+        "barrel_rate": 0.0263,
+        "hard_hit_rate": 0.3421,
+        "fb_rate": 0.5
+      },
+      "reasons": [
+        "vs Dustin May \u2014 cause A+ (22.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.76)",
+        "Pitcher: Barrels up (11% allowed)",
+        "Elite air-pull (24%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (103)",
+        "Hot (98\u00b0F)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 672640,
+      "name": "Otto Lopez",
+      "team": "Miami Marlins",
+      "bats": "R",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Michael Lorenzen",
+      "venue": "Coors Field",
+      "gamePk": 824335,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.159,
+      "total": 63.0,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 16.0,
+        "environment": 14.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.125,
+        "barrel_rate": 0.025,
+        "hard_hit_rate": 0.375,
+        "fb_rate": 0.425
+      },
+      "reasons": [
+        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
+        "Pitcher: Fly-ball prone (58% air allowed)",
+        "Good air-pull (12%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Elite HR park (117)",
+        "Altitude; elite carry",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -3134,8 +3671,8 @@
       "gamePk": 823765,
       "slot": 2,
       "confirmed": true,
-      "season_hr": 16,
-      "iso": 0.207,
+      "season_hr": 17,
+      "iso": 0.214,
       "total": 62.5,
       "tier": "Longshot",
       "role": "Pass",
@@ -3157,7 +3694,7 @@
       },
       "reasons": [
         "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (40%)",
         "Strong barrels (13%)",
@@ -3171,99 +3708,97 @@
       "role_notes": []
     },
     {
-      "id": 694192,
-      "name": "Jackson Chourio",
+      "id": 661388,
+      "name": "William Contreras",
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Cincinnati Reds",
       "opp_pitcher": "Chase Burns",
       "venue": "American Family Field",
       "gamePk": 823765,
-      "slot": 2,
+      "slot": 4,
       "confirmed": true,
-      "season_hr": 12,
-      "iso": 0.235,
+      "season_hr": 9,
+      "iso": 0.125,
       "total": 62.5,
       "tier": "Longshot",
       "role": "Pass",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "Pass",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 28.0,
+        "pitcher": 11.0,
+        "hitter": 26.5,
         "environment": 10.0,
-        "lineup": 12.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2286,
-        "barrel_rate": 0.0857,
-        "hard_hit_rate": 0.4857,
-        "fb_rate": 0.4286
+        "air_pull_rate": 0.3529,
+        "barrel_rate": 0.0882,
+        "hard_hit_rate": 0.6471,
+        "fb_rate": 0.7059
       },
       "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
         "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Elite air-pull (23%)",
-        "Hard-hit 49%",
+        "Elite air-pull (35%)",
+        "Hard-hit 65%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
-        "Top of order (#2)",
+        "Heart of order (#4)",
         "Model: one strong signal"
       ],
       "warnings": [],
       "role_notes": []
     },
     {
-      "id": 682985,
-      "name": "Riley Greene",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Texas Rangers",
-      "opp_pitcher": "Nathan Eovaldi",
+      "id": 673962,
+      "name": "Josh Jung",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Framber Valdez",
       "venue": "Globe Life Field",
       "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.161,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.149,
       "total": 62.5,
       "tier": "Longshot",
-      "role": "Core",
+      "role": "Pass",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "B",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 31.0,
+        "pitcher": 11.5,
+        "hitter": 27.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.3043,
-        "barrel_rate": 0.1304,
-        "hard_hit_rate": 0.4783,
-        "fb_rate": 0.7391
+        "air_pull_rate": 0.2,
+        "barrel_rate": 0.0571,
+        "hard_hit_rate": 0.6857,
+        "fb_rate": 0.5714
       },
       "reasons": [
-        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.53)",
-        "Pitcher: Fly-ball prone (38% air allowed)",
-        "Elite air-pull (30%)",
-        "Strong barrels (13%)",
-        "Hard-hit 48%",
-        "Platoon edge (L vs RHP)",
+        "vs Framber Valdez \u2014 cause C (11.5/25)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (20%)",
+        "Hard-hit 69%",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Slightly + park (100)",
         "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -3306,7 +3841,7 @@
         "Strong barrels (13%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -3315,49 +3850,51 @@
       "role_notes": []
     },
     {
-      "id": 686681,
-      "name": "Michael Massey",
-      "team": "Kansas City Royals",
+      "id": 641343,
+      "name": "Jake Bauers",
+      "team": "Milwaukee Brewers",
       "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Kauffman Stadium",
-      "gamePk": 824093,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.176,
-      "total": 61.5,
-      "tier": "Pass",
-      "role": "Cause Satellite",
+      "opp": "Cincinnati Reds",
+      "opp_pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.229,
+      "total": 62.0,
+      "tier": "Longshot",
+      "role": "Pass",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "A",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 19.5,
-        "hitter": 23.0,
-        "environment": 9.0,
-        "lineup": 6.0,
+        "pitcher": 11.0,
+        "hitter": 29.0,
+        "environment": 10.0,
+        "lineup": 8.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2812,
-        "barrel_rate": 0.0625,
-        "hard_hit_rate": 0.25,
-        "fb_rate": 0.5625
+        "air_pull_rate": 0.2353,
+        "barrel_rate": 0.0588,
+        "hard_hit_rate": 0.5294,
+        "fb_rate": 0.6471
       },
       "reasons": [
-        "vs Ian Seymour \u2014 cause A (19.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.26)",
-        "Pitcher: Fly-ball prone (62% air allowed)",
-        "Elite air-pull (28%)",
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
+        "Pitcher: Fly-ball prone (43% air allowed)",
+        "Elite air-pull (24%)",
+        "Hard-hit 53%",
+        "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -3394,163 +3931,18 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Elite air-pull (55%)",
         "Above-avg barrels (9%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)"
+        "Hot (95\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Cincinnati Reds",
-      "opp_pitcher": "Chase Burns",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": 1,
-      "confirmed": true,
-      "season_hr": 5,
-      "iso": 0.136,
-      "total": 61.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 27.0,
-        "environment": 10.0,
-        "lineup": 12.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.25,
-        "barrel_rate": 0.0833,
-        "hard_hit_rate": 0.4167,
-        "fb_rate": 0.5
-      },
-      "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
-        "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Elite air-pull (25%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)",
-        "Top of order (#1)",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 668930,
-      "name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Cincinnati Reds",
-      "opp_pitcher": "Chase Burns",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 12,
-      "iso": 0.191,
-      "total": 61.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 27.5,
-        "environment": 10.0,
-        "lineup": 11.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.12,
-        "barrel_rate": 0.16,
-        "hard_hit_rate": 0.36,
-        "fb_rate": 0.4
-      },
-      "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
-        "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Good air-pull (12%)",
-        "Elite barrel rate (16%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)",
-        "Heart of order (#3)",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 643289,
-      "name": "Mauricio Dub\u00f3n",
-      "team": "Atlanta Braves",
-      "bats": "R",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": "Dustin May",
-      "venue": "Truist Park",
-      "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.151,
-      "total": 61.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 22.5,
-        "hitter": 18.5,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2368,
-        "barrel_rate": 0.0263,
-        "hard_hit_rate": 0.3421,
-        "fb_rate": 0.5
-      },
-      "reasons": [
-        "vs Dustin May \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.76)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Elite air-pull (24%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (103)",
-        "Hot (99\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 542303,
@@ -3564,7 +3956,7 @@
       "slot": 7,
       "confirmed": true,
       "season_hr": 7,
-      "iso": 0.124,
+      "iso": 0.122,
       "total": 61.0,
       "tier": "Pass",
       "role": "Pass",
@@ -3586,16 +3978,62 @@
       },
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Elite air-pull (43%)",
         "Strong barrels (14%)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Bottom of order (#7)"
       ],
+      "role_notes": []
+    },
+    {
+      "id": 679529,
+      "name": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Texas Rangers",
+      "opp_pitcher": "Nathan Eovaldi",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.209,
+      "total": 60.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 27.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.3043,
+        "barrel_rate": 0.1304,
+        "hard_hit_rate": 0.3913,
+        "fb_rate": 0.5217
+      },
+      "reasons": [
+        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.53)",
+        "Pitcher: Fly-ball prone (38% air allowed)",
+        "Elite air-pull (30%)",
+        "Strong barrels (13%)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#6)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -3646,6 +4084,52 @@
       "role_notes": []
     },
     {
+      "id": 686681,
+      "name": "Michael Massey",
+      "team": "Kansas City Royals",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Kauffman Stadium",
+      "gamePk": 824093,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.176,
+      "total": 60.5,
+      "tier": "Pass",
+      "role": "Cause Satellite",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.5,
+        "hitter": 23.0,
+        "environment": 9.0,
+        "lineup": 5.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2812,
+        "barrel_rate": 0.0625,
+        "hard_hit_rate": 0.25,
+        "fb_rate": 0.5625
+      },
+      "reasons": [
+        "vs Ian Seymour \u2014 cause A (19.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.26)",
+        "Pitcher: Fly-ball prone (62% air allowed)",
+        "Elite air-pull (28%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (95\u00b0F)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": []
+    },
+    {
       "id": 681082,
       "name": "Bryson Stott",
       "team": "Philadelphia Phillies",
@@ -3657,7 +4141,7 @@
       "slot": 6,
       "confirmed": true,
       "season_hr": 7,
-      "iso": 0.148,
+      "iso": 0.146,
       "total": 60.5,
       "tier": "Pass",
       "role": "Pass",
@@ -3679,13 +4163,13 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Strong air-pull (18%)",
         "Platoon edge (L vs RHP)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Mid order (#6)"
       ],
       "warnings": [],
@@ -3725,59 +4209,12 @@
       },
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Elite air-pull (24%)",
         "Platoon edge (L vs RHP)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Mid order (#5)"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 661388,
-      "name": "William Contreras",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "Cincinnati Reds",
-      "opp_pitcher": "Chase Burns",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 9,
-      "iso": 0.127,
-      "total": 60.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 26.5,
-        "environment": 10.0,
-        "lineup": 11.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3529,
-        "barrel_rate": 0.0882,
-        "hard_hit_rate": 0.6471,
-        "fb_rate": 0.7059
-      },
-      "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
-        "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Elite air-pull (35%)",
-        "Hard-hit 65%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (105)",
-        "Retractable roof (weather neutralized)",
-        "Heart of order (#4)",
-        "Model: one strong signal"
       ],
       "warnings": [],
       "role_notes": []
@@ -3879,53 +4316,6 @@
       "role_notes": []
     },
     {
-      "id": 699013,
-      "name": "Esmerlyn Valdez",
-      "team": "Pittsburgh Pirates",
-      "bats": "R",
-      "opp": "Philadelphia Phillies",
-      "opp_pitcher": "Alan Rangel",
-      "venue": "Citizens Bank Park",
-      "gamePk": 823442,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 6,
-      "iso": 0.415,
-      "total": 60.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 14.0,
-        "hitter": 20.0,
-        "environment": 12.0,
-        "lineup": 11.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.0,
-        "barrel_rate": 0.2,
-        "hard_hit_rate": 0.4,
-        "fb_rate": 0.6
-      },
-      "reasons": [
-        "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
-        "Low air-pull (0%)",
-        "Elite barrel rate (20%)",
-        "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
-        "Heart of order (#4)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 592663,
       "name": "J.T. Realmuto",
       "team": "Philadelphia Phillies",
@@ -3959,60 +4349,13 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Elite air-pull (27%)",
         "Above-avg barrels (9%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Texas Rangers",
-      "opp_pitcher": "Nathan Eovaldi",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 19,
-      "iso": 0.263,
-      "total": 59.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 28.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2581,
-        "barrel_rate": 0.0968,
-        "hard_hit_rate": 0.4194,
-        "fb_rate": 0.4839
-      },
-      "reasons": [
-        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.53)",
-        "Pitcher: Fly-ball prone (38% air allowed)",
-        "Elite air-pull (26%)",
-        "Above-avg barrels (10%)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Model: one strong signal"
+        "Hot (95\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -4068,54 +4411,6 @@
       "role_notes": []
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Cincinnati Reds",
-      "opp_pitcher": "Chase Burns",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": 5,
-      "confirmed": true,
-      "season_hr": 15,
-      "iso": 0.232,
-      "total": 59.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 29.0,
-        "environment": 10.0,
-        "lineup": 8.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2353,
-        "barrel_rate": 0.0588,
-        "hard_hit_rate": 0.5294,
-        "fb_rate": 0.6471
-      },
-      "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
-        "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Elite air-pull (24%)",
-        "Hard-hit 53%",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)",
-        "Mid order (#5)",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
       "id": 592626,
       "name": "Joc Pederson",
       "team": "Texas Rangers",
@@ -4161,6 +4456,53 @@
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": []
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Cincinnati Reds",
+      "opp_pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.188,
+      "total": 59.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 26.5,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2593,
+        "barrel_rate": 0.0741,
+        "hard_hit_rate": 0.3704,
+        "fb_rate": 0.4444
+      },
+      "reasons": [
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
+        "Pitcher: Fly-ball prone (43% air allowed)",
+        "Elite air-pull (26%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#6)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -4211,101 +4553,6 @@
       "role_notes": []
     },
     {
-      "id": 679529,
-      "name": "Spencer Torkelson",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Texas Rangers",
-      "opp_pitcher": "Nathan Eovaldi",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.209,
-      "total": 58.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 27.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3043,
-        "barrel_rate": 0.1304,
-        "hard_hit_rate": 0.3913,
-        "fb_rate": 0.5217
-      },
-      "reasons": [
-        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.53)",
-        "Pitcher: Fly-ball prone (38% air allowed)",
-        "Elite air-pull (30%)",
-        "Strong barrels (13%)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 681481,
-      "name": "Kerry Carpenter",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Texas Rangers",
-      "opp_pitcher": "Nathan Eovaldi",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.265,
-      "total": 58.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 27.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2941,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.5294,
-        "fb_rate": 0.5882
-      },
-      "reasons": [
-        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.53)",
-        "Pitcher: Fly-ball prone (38% air allowed)",
-        "Elite air-pull (29%)",
-        "Hard-hit 53%",
-        "Platoon edge (L vs RHP)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 680779,
       "name": "Henry Davis",
       "team": "Pittsburgh Pirates",
@@ -4339,165 +4586,16 @@
       },
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Good air-pull (14%)",
         "Strong barrels (14%)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)"
+        "Hot (95\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 686948,
-      "name": "Drake Baldwin",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": "Dustin May",
-      "venue": "Truist Park",
-      "gamePk": 824906,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.201,
-      "total": 58.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": false,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 22.5,
-        "hitter": 15.5,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.0833,
-        "barrel_rate": 0.0833,
-        "hard_hit_rate": 0.25,
-        "fb_rate": 0.1667
-      },
-      "reasons": [
-        "vs Dustin May \u2014 cause A+ (22.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.76)",
-        "Pitcher: Barrels up (11% allowed)",
-        "Platoon edge (L vs RHP)",
-        "Slightly + park (103)",
-        "Hot (99\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669394,
-      "name": "Jake Burger",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Framber Valdez",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.182,
-      "total": 58.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.5,
-        "hitter": 28.5,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2727,
-        "barrel_rate": 0.0909,
-        "hard_hit_rate": 0.3636,
-        "fb_rate": 0.4545
-      },
-      "reasons": [
-        "vs Framber Valdez \u2014 cause C (11.5/25)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (27%)",
-        "Above-avg barrels (9%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 680574,
-      "name": "Matt McLain",
-      "team": "Cincinnati Reds",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.142,
-      "total": 58.0,
-      "tier": "Pass",
-      "role": "Power Satellite",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 32.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.3571,
-        "barrel_rate": 0.2143,
-        "hard_hit_rate": 0.5,
-        "fb_rate": 0.7143
-      },
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
-        "Pitcher: Fly-ball prone (50% air allowed)",
-        "Elite air-pull (36%)",
-        "Elite barrel rate (21%)",
-        "Hard-hit 50%",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (105)",
-        "Retractable roof (weather neutralized)",
-        "Elite-hitter override (beats a neutral spot)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Elite-hitter override (beats a neutral spot)"
-      ]
     },
     {
       "id": 663656,
@@ -4562,7 +4660,7 @@
       "slot": 3,
       "confirmed": true,
       "season_hr": 13,
-      "iso": 0.257,
+      "iso": 0.251,
       "total": 57.5,
       "tier": "Pass",
       "role": "Pass",
@@ -4584,7 +4682,7 @@
       },
       "reasons": [
         "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (35%)",
         "Platoon edge (L vs RHP)",
@@ -4626,11 +4724,11 @@
       "statcast": null,
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (108)",
-        "Hot (99\u00b0F)"
+        "Hot (95\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -4649,7 +4747,7 @@
       "slot": 1,
       "confirmed": true,
       "season_hr": 10,
-      "iso": 0.129,
+      "iso": 0.127,
       "total": 57.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -4671,12 +4769,12 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Good air-pull (14%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -4686,117 +4784,18 @@
       ]
     },
     {
-      "id": 672640,
-      "name": "Otto Lopez",
-      "team": "Miami Marlins",
+      "id": 680574,
+      "name": "Matt McLain",
+      "team": "Cincinnati Reds",
       "bats": "R",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Michael Lorenzen",
-      "venue": "Coors Field",
-      "gamePk": 824335,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.152,
-      "total": 57.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 17.0,
-        "hitter": 16.0,
-        "environment": 14.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.125,
-        "barrel_rate": 0.025,
-        "hard_hit_rate": 0.375,
-        "fb_rate": 0.425
-      },
-      "reasons": [
-        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Pitcher: Fly-ball prone (58% air allowed)",
-        "Good air-pull (12%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Elite HR park (117)",
-        "Altitude; elite carry",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 805367,
-      "name": "Chase Meidroth",
-      "team": "Chicago White Sox",
-      "bats": "R",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Slade Cecconi",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.107,
-      "total": 57.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 18.5,
-        "hitter": 19.5,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2727,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.3636,
-        "fb_rate": 0.5
-      },
-      "reasons": [
-        "vs Slade Cecconi \u2014 cause A (18.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.20)",
-        "Pitcher: Fly-ball prone (47% air allowed)",
-        "Elite air-pull (27%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Cincinnati Reds",
-      "opp_pitcher": "Chase Burns",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
       "venue": "American Family Field",
       "gamePk": 823765,
-      "slot": 6,
+      "slot": 7,
       "confirmed": true,
-      "season_hr": 6,
-      "iso": 0.177,
+      "season_hr": 8,
+      "iso": 0.142,
       "total": 57.0,
       "tier": "Pass",
       "role": "Pass",
@@ -4804,78 +4803,32 @@
       "pull_fit": true,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 26.5,
+        "pitcher": 6.0,
+        "hitter": 32.0,
         "environment": 10.0,
-        "lineup": 8.0,
+        "lineup": 5.0,
         "confidence": 4.0
       },
       "statcast": {
-        "air_pull_rate": 0.2593,
-        "barrel_rate": 0.0741,
-        "hard_hit_rate": 0.3704,
-        "fb_rate": 0.4444
+        "air_pull_rate": 0.3571,
+        "barrel_rate": 0.2143,
+        "hard_hit_rate": 0.5,
+        "fb_rate": 0.7143
       },
       "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
-        "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Elite air-pull (26%)",
-        "Platoon edge (L vs RHP)",
+        "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
+        "Pitcher: Fly-ball prone (50% air allowed)",
+        "Elite air-pull (36%)",
+        "Elite barrel rate (21%)",
+        "Hard-hit 50%",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)",
-        "Mid order (#6)",
-        "Model: one strong signal"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 673962,
-      "name": "Josh Jung",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Framber Valdez",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.149,
-      "total": 56.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.5,
-        "hitter": 27.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2,
-        "barrel_rate": 0.0571,
-        "hard_hit_rate": 0.6857,
-        "fb_rate": 0.5714
-      },
-      "reasons": [
-        "vs Framber Valdez \u2014 cause C (11.5/25)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (20%)",
-        "Hard-hit 69%",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (100)",
+        "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": []
     },
@@ -4917,12 +4870,108 @@
         "Pitcher: Fly-ball prone (62% air allowed)",
         "Elite air-pull (50%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668715,
+      "name": "Spencer Steer",
+      "team": "Cincinnati Reds",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.179,
+      "total": 56.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 28.0,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2222,
+        "barrel_rate": 0.1667,
+        "hard_hit_rate": 0.3333,
+        "fb_rate": 0.2778
+      },
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
+        "Pitcher: Fly-ball prone (50% air allowed)",
+        "Elite air-pull (22%)",
+        "Elite barrel rate (17%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hitter-friendly park (105)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 805367,
+      "name": "Chase Meidroth",
+      "team": "Chicago White Sox",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Slade Cecconi",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 6,
+      "iso": 0.107,
+      "total": 56.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.5,
+        "hitter": 19.5,
+        "environment": 9.0,
+        "lineup": 5.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2727,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.3636,
+        "fb_rate": 0.5
+      },
+      "reasons": [
+        "vs Slade Cecconi \u2014 cause A (18.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.20)",
+        "Pitcher: Fly-ball prone (47% air allowed)",
+        "Elite air-pull (27%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (91\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -4940,7 +4989,7 @@
       "slot": 5,
       "confirmed": true,
       "season_hr": 10,
-      "iso": 0.136,
+      "iso": 0.138,
       "total": 55.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -4962,12 +5011,12 @@
       },
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "Strong air-pull (17%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -5061,12 +5110,59 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Elite air-pull (36%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 679822,
+      "name": "Justin Foscue",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Framber Valdez",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.23,
+      "total": 55.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 21.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.0909,
+        "barrel_rate": 0.0909,
+        "hard_hit_rate": 0.3636,
+        "fb_rate": 0.1818
+      },
+      "reasons": [
+        "vs Framber Valdez \u2014 cause C (11.5/25)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Above-avg barrels (9%)",
+        "Platoon edge (R vs LHP)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -5133,7 +5229,7 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 8,
-      "iso": 0.167,
+      "iso": 0.163,
       "total": 55.0,
       "tier": "Pass",
       "role": "Pass",
@@ -5155,7 +5251,7 @@
       },
       "reasons": [
         "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (25%)",
         "Above-avg barrels (10%)",
@@ -5166,6 +5262,101 @@
       ],
       "warnings": [],
       "role_notes": []
+    },
+    {
+      "id": 699013,
+      "name": "Esmerlyn Valdez",
+      "team": "Pittsburgh Pirates",
+      "bats": "R",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Alan Rangel",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823442,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 6,
+      "iso": 0.421,
+      "total": 55.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 20.0,
+        "environment": 12.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.0,
+        "barrel_rate": 0.2,
+        "hard_hit_rate": 0.4,
+        "fb_rate": 0.6
+      },
+      "reasons": [
+        "vs Alan Rangel \u2014 cause B (14.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
+        "Low air-pull (0%)",
+        "Elite barrel rate (20%)",
+        "Hitter-friendly park (106)",
+        "Hot (95\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 677587,
+      "name": "Brayan Rocchio",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Davis Martin",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.113,
+      "total": 55.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.5,
+        "hitter": 19.5,
+        "environment": 9.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2667,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.2667,
+        "fb_rate": 0.6333
+      },
+      "reasons": [
+        "vs Davis Martin \u2014 cause B (16.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.58)",
+        "Pitcher: Fly-ball prone (55% air allowed)",
+        "Elite air-pull (27%)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hot (91\u00b0F)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 682657,
@@ -5200,12 +5391,107 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "team": "Detroit Tigers",
+      "bats": "L",
+      "opp": "Texas Rangers",
+      "opp_pitcher": "Nathan Eovaldi",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.142,
+      "total": 54.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 19.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2727,
+        "barrel_rate": 0.0303,
+        "hard_hit_rate": 0.3333,
+        "fb_rate": 0.4545
+      },
+      "reasons": [
+        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.53)",
+        "Pitcher: Fly-ball prone (38% air allowed)",
+        "Elite air-pull (27%)",
+        "Platoon edge (L vs RHP)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669364,
+      "name": "Xavier Edwards",
+      "team": "Miami Marlins",
+      "bats": "S",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Michael Lorenzen",
+      "venue": "Coors Field",
+      "gamePk": 824335,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 6,
+      "iso": 0.129,
+      "total": 54.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 8.5,
+        "environment": 14.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.0667,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.2333,
+        "fb_rate": 0.2667
+      },
+      "reasons": [
+        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.37)",
+        "Pitcher: Fly-ball prone (58% air allowed)",
+        "Elite HR park (116)",
+        "Altitude; elite carry",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -5222,7 +5508,7 @@
       "slot": 6,
       "confirmed": true,
       "season_hr": 5,
-      "iso": 0.19,
+      "iso": 0.183,
       "total": 54.5,
       "tier": "Pass",
       "role": "Pass",
@@ -5244,7 +5530,7 @@
       },
       "reasons": [
         "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (25%)",
         "Strong barrels (12%)",
@@ -5255,54 +5541,6 @@
         "Model: one strong signal"
       ],
       "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 668715,
-      "name": "Spencer Steer",
-      "team": "Cincinnati Reds",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.179,
-      "total": 54.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 28.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2222,
-        "barrel_rate": 0.1667,
-        "hard_hit_rate": 0.3333,
-        "fb_rate": 0.2778
-      },
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
-        "Pitcher: Fly-ball prone (50% air allowed)",
-        "Elite air-pull (22%)",
-        "Elite barrel rate (17%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (105)",
-        "Retractable roof (weather neutralized)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
       "role_notes": []
     },
     {
@@ -5341,7 +5579,7 @@
         "vs Stephen Kolek \u2014 cause A+ (23.5/25)",
         "Pitcher: Elevated HR allowed (HR/9 1.38)",
         "Pitcher: Above-avg barrels allowed (9%)",
-        "Hot (96\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -5351,6 +5589,51 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 543309,
+      "name": "Kyle Higashioka",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Framber Valdez",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 5,
+      "iso": 0.128,
+      "total": 54.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 23.5,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.2,
+        "barrel_rate": 0.0667,
+        "hard_hit_rate": 0.2667,
+        "fb_rate": 0.4
+      },
+      "reasons": [
+        "vs Framber Valdez \u2014 cause C (11.5/25)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Elite air-pull (20%)",
+        "Platoon edge (R vs LHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#5)"
+      ],
+      "warnings": [],
+      "role_notes": []
     },
     {
       "id": 660670,
@@ -5385,7 +5668,7 @@
         "Pitcher: Barrels up (11% allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
@@ -5435,7 +5718,7 @@
         "Strong barrels (14%)",
         "Hard-hit 46%",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5528,7 +5811,7 @@
       },
       "reasons": [
         "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "Elite air-pull (71%)",
         "Hard-hit 57%",
@@ -5541,54 +5824,6 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 677587,
-      "name": "Brayan Rocchio",
-      "team": "Cleveland Guardians",
-      "bats": "S",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Davis Martin",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.113,
-      "total": 53.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 16.5,
-        "hitter": 19.5,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2667,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.2667,
-        "fb_rate": 0.6333
-      },
-      "reasons": [
-        "vs Davis Martin \u2014 cause B (16.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.58)",
-        "Pitcher: Fly-ball prone (55% air allowed)",
-        "Elite air-pull (27%)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 666176,
@@ -5678,7 +5913,7 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Strong air-pull (17%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -5727,7 +5962,7 @@
         "Hard-hit 54%",
         "Platoon edge (L vs RHP)",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -5736,50 +5971,50 @@
       "role_notes": []
     },
     {
-      "id": 543309,
-      "name": "Kyle Higashioka",
-      "team": "Texas Rangers",
+      "id": 693304,
+      "name": "Nick Gonzales",
+      "team": "Pittsburgh Pirates",
       "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Framber Valdez",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.128,
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Alan Rangel",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823442,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 4,
+      "iso": 0.082,
       "total": 52.0,
       "tier": "Pass",
-      "role": "Pass",
+      "role": "Watchlist",
       "shape_source": "statcast",
       "pull_fit": true,
-      "pitcher_grade": "C",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 11.5,
-        "hitter": 23.5,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 3.0
+        "pitcher": 14.0,
+        "hitter": 16.0,
+        "environment": 12.0,
+        "lineup": 8.0,
+        "confidence": 2.0
       },
       "statcast": {
-        "air_pull_rate": 0.2,
-        "barrel_rate": 0.0667,
-        "hard_hit_rate": 0.2667,
-        "fb_rate": 0.4
+        "air_pull_rate": 0.2258,
+        "barrel_rate": 0.0323,
+        "hard_hit_rate": 0.3226,
+        "fb_rate": 0.5161
       },
       "reasons": [
-        "vs Framber Valdez \u2014 cause C (11.5/25)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Elite air-pull (20%)",
-        "Platoon edge (R vs LHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)"
+        "vs Alan Rangel \u2014 cause B (14.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
+        "Elite air-pull (23%)",
+        "Hitter-friendly park (106)",
+        "Hot (95\u00b0F)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 657656,
@@ -5911,7 +6146,7 @@
         "Pitcher: Fly-ball prone (55% air allowed)",
         "Strong air-pull (18%)",
         "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hot (93\u00b0F)",
+        "Hot (91\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -5960,204 +6195,13 @@
         "Above-avg barrels (9%)",
         "Hard-hit 58%",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 663993,
-      "name": "Nathaniel Lowe",
-      "team": "Cincinnati Reds",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": 5,
-      "confirmed": true,
-      "season_hr": 9,
-      "iso": 0.22,
-      "total": 49.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 22.5,
-        "environment": 10.0,
-        "lineup": 8.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.25,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.3125,
-        "fb_rate": 0.375
-      },
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
-        "Pitcher: Fly-ball prone (50% air allowed)",
-        "Elite air-pull (25%)",
-        "Platoon edge (L vs RHP)",
-        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)",
-        "Mid order (#5)"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 669364,
-      "name": "Xavier Edwards",
-      "team": "Miami Marlins",
-      "bats": "S",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Michael Lorenzen",
-      "venue": "Coors Field",
-      "gamePk": 824335,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.129,
-      "total": 49.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": false,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 17.0,
-        "hitter": 8.5,
-        "environment": 14.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.0667,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.2333,
-        "fb_rate": 0.2667
-      },
-      "reasons": [
-        "vs Michael Lorenzen \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Pitcher: Fly-ball prone (58% air allowed)",
-        "Elite HR park (116)",
-        "Altitude; elite carry",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 679822,
-      "name": "Justin Foscue",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Framber Valdez",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 5,
-      "iso": 0.23,
-      "total": 49.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.5,
-        "hitter": 21.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.0909,
-        "barrel_rate": 0.0909,
-        "hard_hit_rate": 0.3636,
-        "fb_rate": 0.1818
-      },
-      "reasons": [
-        "vs Framber Valdez \u2014 cause C (11.5/25)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Above-avg barrels (9%)",
-        "Platoon edge (R vs LHP)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 805808,
-      "name": "Kevin McGonigle",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Texas Rangers",
-      "opp_pitcher": "Nathan Eovaldi",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.142,
-      "total": 48.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": true,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 19.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.2727,
-        "barrel_rate": 0.0303,
-        "hard_hit_rate": 0.3333,
-        "fb_rate": 0.4545
-      },
-      "reasons": [
-        "vs Nathan Eovaldi \u2014 cause B (13.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.53)",
-        "Pitcher: Fly-ball prone (38% air allowed)",
-        "Elite air-pull (27%)",
-        "Platoon edge (L vs RHP)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 592206,
@@ -6262,7 +6306,7 @@
       "slot": 1,
       "confirmed": true,
       "season_hr": 13,
-      "iso": 0.216,
+      "iso": 0.213,
       "total": 48.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -6279,7 +6323,7 @@
       "statcast": null,
       "reasons": [
         "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.45)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
         "Pitcher: Fly-ball prone (50% air allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
@@ -6332,6 +6376,94 @@
         "Weather unavailable",
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "team": "Cincinnati Reds",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 9,
+      "iso": 0.215,
+      "total": 47.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "statcast",
+      "pull_fit": true,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 22.5,
+        "environment": 10.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.25,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.3125,
+        "fb_rate": 0.375
+      },
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.61)",
+        "Pitcher: Fly-ball prone (50% air allowed)",
+        "Elite air-pull (25%)",
+        "Platoon edge (L vs RHP)",
+        "Cause-capture synergy (air-pull bat vs fly-ball/barrel-prone arm)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Davis Martin",
+      "venue": "Progressive Field",
+      "gamePk": 824416,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.147,
+      "total": 47.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.5,
+        "hitter": 8.0,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Davis Martin \u2014 cause B (16.5/25)",
+        "Pitcher: Elevated HR allowed (HR/9 0.58)",
+        "Pitcher: Fly-ball prone (55% air allowed)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (91\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -6425,6 +6557,52 @@
       ]
     },
     {
+      "id": 677649,
+      "name": "Ezequiel Duran",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Detroit Tigers",
+      "opp_pitcher": "Framber Valdez",
+      "venue": "Globe Life Field",
+      "gamePk": 822884,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 6,
+      "iso": 0.14,
+      "total": 46.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 13.5,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.1111,
+        "barrel_rate": 0.037,
+        "hard_hit_rate": 0.3704,
+        "fb_rate": 0.2963
+      },
+      "reasons": [
+        "vs Framber Valdez \u2014 cause C (11.5/25)",
+        "Pitcher: Above-avg barrels allowed (9%)",
+        "Platoon edge (R vs LHP)",
+        "Slightly + park (100)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 701675,
       "name": "Nathan Church",
       "team": "St. Louis Cardinals",
@@ -6463,7 +6641,7 @@
         "Above-avg barrels (11%)",
         "Platoon edge (L vs RHP)",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)"
+        "Hot (98\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -6551,7 +6729,7 @@
         "Strong air-pull (19%)",
         "Platoon edge (L vs RHP)",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6649,6 +6827,54 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
+    },
+    {
+      "id": 596142,
+      "name": "Gary S\u00e1nchez",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "Cincinnati Reds",
+      "opp_pitcher": "Chase Burns",
+      "venue": "American Family Field",
+      "gamePk": 823765,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.231,
+      "total": 42.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "statcast",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 13.5,
+        "environment": 10.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": {
+        "air_pull_rate": 0.0769,
+        "barrel_rate": 0.0,
+        "hard_hit_rate": 0.4615,
+        "fb_rate": 0.3846
+      },
+      "reasons": [
+        "vs Chase Burns \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.11)",
+        "Pitcher: Fly-ball prone (43% air allowed)",
+        "Hard-hit 46%",
+        "Hitter-friendly park (105)",
+        "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 677594,
@@ -6787,48 +7013,6 @@
       ]
     },
     {
-      "id": 800050,
-      "name": "Chase DeLauter",
-      "team": "Cleveland Guardians",
-      "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Davis Martin",
-      "venue": "Progressive Field",
-      "gamePk": 824416,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.147,
-      "total": 41.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 16.5,
-        "hitter": 8.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Davis Martin \u2014 cause B (16.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.58)",
-        "Pitcher: Fly-ball prone (55% air allowed)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (93\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 666969,
       "name": "Adolis Garc\u00eda",
       "team": "Philadelphia Phillies",
@@ -6857,11 +7041,11 @@
       "statcast": null,
       "reasons": [
         "vs Jared Jones \u2014 cause B (15.5/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.80)",
+        "Pitcher: Elevated HR allowed (HR/9 1.55)",
         "Pitcher: Fly-ball prone (41% air allowed)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6915,53 +7099,6 @@
       ]
     },
     {
-      "id": 677649,
-      "name": "Ezequiel Duran",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Detroit Tigers",
-      "opp_pitcher": "Framber Valdez",
-      "venue": "Globe Life Field",
-      "gamePk": 822884,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 6,
-      "iso": 0.14,
-      "total": 41.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.5,
-        "hitter": 13.5,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.1111,
-        "barrel_rate": 0.037,
-        "hard_hit_rate": 0.3704,
-        "fb_rate": 0.2963
-      },
-      "reasons": [
-        "vs Framber Valdez \u2014 cause C (11.5/25)",
-        "Pitcher: Above-avg barrels allowed (9%)",
-        "Platoon edge (R vs LHP)",
-        "Slightly + park (100)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 687093,
       "name": "Vaughn Grissom",
       "team": "Los Angeles Angels",
@@ -7003,54 +7140,6 @@
       ],
       "warnings": [
         "Pitcher park (93)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 596142,
-      "name": "Gary S\u00e1nchez",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "Cincinnati Reds",
-      "opp_pitcher": "Chase Burns",
-      "venue": "American Family Field",
-      "gamePk": 823765,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.231,
-      "total": 40.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "statcast",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 13.5,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": {
-        "air_pull_rate": 0.0769,
-        "barrel_rate": 0.0,
-        "hard_hit_rate": 0.4615,
-        "fb_rate": 0.3846
-      },
-      "reasons": [
-        "vs Chase Burns \u2014 cause Pass (8.5/25)",
-        "Pitcher: Fly-ball prone (43% air allowed)",
-        "Pitcher: High K rate (31%)",
-        "Hard-hit 46%",
-        "Hitter-friendly park (105)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -7223,10 +7312,10 @@
       "statcast": null,
       "reasons": [
         "vs Alan Rangel \u2014 cause B (14.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 0.75)",
+        "Pitcher: Elevated HR allowed (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
-        "Hot (99\u00b0F)",
+        "Hot (95\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7358,7 +7447,7 @@
         "Pitcher: Suppresses HR (HR/9 0.00)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Hot (99\u00b0F)",
+        "Hot (98\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7414,27 +7503,27 @@
   "structures": {
     "rr_core_4leg": {
       "legs": [
-        "Mickey Moniak (Colorado Rockies, 83.5, Cause Satellite)",
+        "Mickey Moniak (Colorado Rockies, 84.5, Cause Satellite)",
+        "Michael Harris II (Atlanta Braves, 82.5, Locked Core)",
         "Kyle Schwarber (Philadelphia Phillies, 81.5, Locked Core)",
-        "Michael Harris II (Atlanta Braves, 77.5, Core)",
-        "Colson Montgomery (Chicago White Sox, 75.5, Core)"
+        "Jac Caglianone (Kansas City Royals, 78.5, Locked Core)"
       ],
       "why": "Four different games/causes (survival layer) \u2014 RR scores on cause diversity."
     },
     "same_game_pair": {
       "legs": [
-        "Mickey Moniak (83.5)",
-        "Hunter Goodman (77.5)"
+        "Mickey Moniak (84.5)",
+        "Hunter Goodman (78.5)"
       ],
       "game": "Colorado Rockies vs Miami Marlins",
       "why": "Shared cause: Ryan Gusto grades A+. Both Colorado Rockies bats have the shape to capture the same environment."
     },
     "longshot_group": {
       "legs": [
-        "Jake McCarthy (Colorado Rockies, 74.0)",
-        "TJ Rumfield (Colorado Rockies, 73.0)",
-        "Ezequiel Tovar (Colorado Rockies, 64.5)",
-        "Edmundo Sosa (Philadelphia Phillies, 64.5)"
+        "Jake McCarthy (Colorado Rockies, 75.0)",
+        "TJ Rumfield (Colorado Rockies, 74.0)",
+        "Ozzie Albies (Atlanta Braves, 69.5)",
+        "Dillon Dingler (Detroit Tigers, 65.5)"
       ],
       "why": "Deeper bats with a real pitcher/park cause \u2014 bonus-only convergence."
     }
@@ -7453,6 +7542,19 @@
       ],
       "hr9": 1.38,
       "barrel_allowed": 0.0882
+    },
+    {
+      "id": 687473,
+      "name": "Ryan Gusto",
+      "score": 23.5,
+      "grade": "A+",
+      "flags": [
+        "Elevated HR allowed (HR/9 1.12)",
+        "Barrels up (12% allowed)",
+        "Fly-ball prone (66% air allowed)"
+      ],
+      "hr9": 1.12,
+      "barrel_allowed": 0.125
     },
     {
       "id": 808963,
@@ -7479,19 +7581,6 @@
       ],
       "hr9": 0.76,
       "barrel_allowed": 0.1071
-    },
-    {
-      "id": 687473,
-      "name": "Ryan Gusto",
-      "score": 22.5,
-      "grade": "A+",
-      "flags": [
-        "Elevated HR allowed (HR/9 0.85)",
-        "Barrels up (12% allowed)",
-        "Fly-ball prone (66% air allowed)"
-      ],
-      "hr9": 0.85,
-      "barrel_allowed": 0.125
     },
     {
       "id": 681190,
@@ -7549,10 +7638,10 @@
       "score": 17.0,
       "grade": "A",
       "flags": [
-        "High HR allowed (HR/9 1.44)",
+        "High HR allowed (HR/9 1.37)",
         "Fly-ball prone (58% air allowed)"
       ],
-      "hr9": 1.44,
+      "hr9": 1.37,
       "barrel_allowed": 0.0606
     },
     {
@@ -7573,10 +7662,10 @@
       "score": 15.5,
       "grade": "B",
       "flags": [
-        "Elevated HR allowed (HR/9 1.80)",
+        "Elevated HR allowed (HR/9 1.55)",
         "Fly-ball prone (41% air allowed)"
       ],
-      "hr9": 1.8,
+      "hr9": 1.55,
       "barrel_allowed": 0.0455
     },
     {
@@ -7585,9 +7674,9 @@
       "score": 14.0,
       "grade": "B",
       "flags": [
-        "Elevated HR allowed (HR/9 0.75)"
+        "Elevated HR allowed (HR/9 0.56)"
       ],
-      "hr9": 0.75,
+      "hr9": 0.56,
       "barrel_allowed": 0.0625
     },
     {
@@ -7616,13 +7705,14 @@
     {
       "id": 695505,
       "name": "Chase Burns",
-      "score": 8.5,
-      "grade": "Pass",
+      "score": 11.0,
+      "grade": "C",
       "flags": [
+        "Avg+ HR allowed (HR/9 1.11)",
         "Fly-ball prone (43% air allowed)",
-        "High K rate (31%)"
+        "High K rate (30%)"
       ],
-      "hr9": 1.09,
+      "hr9": 1.11,
       "barrel_allowed": 0.0
     },
     {
@@ -7631,11 +7721,11 @@
       "score": 6.0,
       "grade": "Pass",
       "flags": [
-        "Suppresses HR (HR/9 0.45)",
+        "Suppresses HR (HR/9 0.61)",
         "Fly-ball prone (50% air allowed)",
         "High K rate (39%)"
       ],
-      "hr9": 0.45,
+      "hr9": 0.61,
       "barrel_allowed": 0.0
     },
     {
@@ -7675,8 +7765,32 @@
         "team": "Colorado Rockies",
         "opp_pitcher": "Ryan Gusto",
         "role": "Cause Satellite",
-        "total": 83.5,
+        "total": 84.5,
         "cause_grade": "A+",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
+        "player": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opp_pitcher": "Dustin May",
+        "role": "Locked Core",
+        "total": 82.5,
+        "cause_grade": "A+",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
+        "player": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opp_pitcher": "Michael Lorenzen",
+        "role": "Locked Core",
+        "total": 82.0,
+        "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
         "teammate_hr": null,
@@ -7699,7 +7813,7 @@
         "team": "Miami Marlins",
         "opp_pitcher": "Michael Lorenzen",
         "role": "Core",
-        "total": 78.0,
+        "total": 80.0,
         "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
@@ -7711,7 +7825,7 @@
         "team": "Colorado Rockies",
         "opp_pitcher": "Ryan Gusto",
         "role": "Cause Satellite",
-        "total": 78.0,
+        "total": 79.0,
         "cause_grade": "A+",
         "result_hr": null,
         "cause_fired": null,
@@ -7723,7 +7837,7 @@
         "team": "Colorado Rockies",
         "opp_pitcher": "Ryan Gusto",
         "role": "Cause Satellite",
-        "total": 77.5,
+        "total": 78.5,
         "cause_grade": "A+",
         "result_hr": null,
         "cause_fired": null,
@@ -7731,23 +7845,11 @@
         "outcome": null
       },
       {
-        "player": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opp_pitcher": "Dustin May",
-        "role": "Core",
-        "total": 77.5,
-        "cause_grade": "A+",
-        "result_hr": null,
-        "cause_fired": null,
-        "teammate_hr": null,
-        "outcome": null
-      },
-      {
-        "player": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opp_pitcher": "Michael Lorenzen",
-        "role": "Core",
-        "total": 77.0,
+        "player": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opp_pitcher": "Ian Seymour",
+        "role": "Locked Core",
+        "total": 78.5,
         "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
@@ -7759,8 +7861,32 @@
         "team": "Colorado Rockies",
         "opp_pitcher": "Ryan Gusto",
         "role": "Cause Satellite",
-        "total": 77.0,
+        "total": 78.0,
         "cause_grade": "A+",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
+        "player": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opp_pitcher": "Slade Cecconi",
+        "role": "Locked Core",
+        "total": 77.5,
+        "cause_grade": "A",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
+        "player": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opp_pitcher": "Slade Cecconi",
+        "role": "Locked Core",
+        "total": 76.5,
+        "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
         "teammate_hr": null,
@@ -7773,30 +7899,6 @@
         "role": "Locked Core",
         "total": 76.0,
         "cause_grade": "B",
-        "result_hr": null,
-        "cause_fired": null,
-        "teammate_hr": null,
-        "outcome": null
-      },
-      {
-        "player": "Joe Mack",
-        "team": "Miami Marlins",
-        "opp_pitcher": "Michael Lorenzen",
-        "role": "Core",
-        "total": 76.0,
-        "cause_grade": "A",
-        "result_hr": null,
-        "cause_fired": null,
-        "teammate_hr": null,
-        "outcome": null
-      },
-      {
-        "player": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opp_pitcher": "Slade Cecconi",
-        "role": "Core",
-        "total": 75.5,
-        "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
         "teammate_hr": null,
@@ -7827,23 +7929,11 @@
         "outcome": null
       },
       {
-        "player": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opp_pitcher": "Jared Jones",
-        "role": "Core",
-        "total": 74.5,
-        "cause_grade": "B",
-        "result_hr": null,
-        "cause_fired": null,
-        "teammate_hr": null,
-        "outcome": null
-      },
-      {
-        "player": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opp_pitcher": "Alan Rangel",
+        "player": "Kyle Manzardo",
+        "team": "Cleveland Guardians",
+        "opp_pitcher": "Davis Martin",
         "role": "Locked Core",
-        "total": 74.5,
+        "total": 75.0,
         "cause_grade": "B",
         "result_hr": null,
         "cause_fired": null,
