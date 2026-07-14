@@ -1,21 +1,21 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-07-13T20:39:11.508510+00:00",
-  "slate_date": "2026-07-13",
-  "games": 0,
-  "confirmed_lineups": 0,
-  "statcast": true,
+  "generated_utc": "2026-07-14T15:56:19.815792+00:00",
+  "slate_date": "2026-07-14",
+  "games": 1,
+  "confirmed_lineups": 2,
+  "statcast": false,
   "statcast_meta": {
     "window_days": 21,
     "recent_days": 7,
-    "start": "2026-06-23",
-    "end": "2026-07-13",
+    "start": "2026-06-24",
+    "end": "2026-07-14",
     "days_fetched": 0,
-    "days_cached": 21,
-    "batters": 15,
-    "pitchers": 52
+    "days_cached": 20,
+    "batters": 0,
+    "pitchers": 0
   },
-  "method": "v2.3: rank causes \u2192 choose capture \u2192 lock confirmed shape that captures the cause. Weights P25/Hitter-shape40/Env15/Lineup12/Src8. Statcast (Savant) air-pull/barrel active.",
+  "method": "v2.3: rank causes \u2192 choose capture \u2192 lock confirmed shape that captures the cause. Weights P25/Hitter-shape40/Env15/Lineup12/Src8. PROXY shape mode (no Statcast) \u2014 hitter scores capped.",
   "tiers": {
     "Elite Core": "85+",
     "Core": "78-84",
@@ -33,10 +33,62 @@
     "Watchlist",
     "Pass"
   ],
-  "causes": [],
+  "causes": [
+    {
+      "team": "National League All-Stars",
+      "opp": "American League All-Stars",
+      "pitcher": "Dylan Cease",
+      "venue": "Citizens Bank Park",
+      "grade": "Pass",
+      "pitcher_cause": 3.0,
+      "park_hr": 107,
+      "cause_score": 4.8,
+      "capture_method": "Watchlist / pass (no clear cause)",
+      "public_heat": false,
+      "playable_bats": []
+    },
+    {
+      "team": "American League All-Stars",
+      "opp": "National League All-Stars",
+      "pitcher": "Cristopher S\u00e1nchez",
+      "venue": "Citizens Bank Park",
+      "grade": "Pass",
+      "pitcher_cause": 2.0,
+      "park_hr": 107,
+      "cause_score": 3.8,
+      "capture_method": "Watchlist / pass (no clear cause)",
+      "public_heat": false,
+      "playable_bats": []
+    }
+  ],
   "candidates": [],
   "structures": {},
-  "pitcher_board": [],
+  "pitcher_board": [
+    {
+      "id": 656302,
+      "name": "Dylan Cease",
+      "score": 3.0,
+      "grade": "Pass",
+      "flags": [
+        "Suppresses HR (HR/9 0.46)",
+        "High K rate (37%)"
+      ],
+      "hr9": 0.46,
+      "barrel_allowed": null
+    },
+    {
+      "id": 650911,
+      "name": "Cristopher S\u00e1nchez",
+      "score": 2.0,
+      "grade": "Pass",
+      "flags": [
+        "Suppresses HR (HR/9 0.85)",
+        "High K rate (27%)"
+      ],
+      "hr9": 0.85,
+      "barrel_allowed": null
+    }
+  ],
   "audit_template": {
     "legend": {
       "A": "cause fired + our bat hit (perfect)",
