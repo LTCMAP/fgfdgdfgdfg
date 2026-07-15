@@ -1,17 +1,17 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-07-14T20:38:31.883495+00:00",
-  "slate_date": "2026-07-14",
-  "games": 1,
-  "confirmed_lineups": 2,
+  "generated_utc": "2026-07-15T16:01:04.534100+00:00",
+  "slate_date": "2026-07-15",
+  "games": 0,
+  "confirmed_lineups": 0,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
     "recent_days": 7,
-    "start": "2026-06-24",
-    "end": "2026-07-14",
+    "start": "2026-06-25",
+    "end": "2026-07-15",
     "days_fetched": 0,
-    "days_cached": 21,
+    "days_cached": 20,
     "batters": 0,
     "pitchers": 0
   },
@@ -33,62 +33,10 @@
     "Watchlist",
     "Pass"
   ],
-  "causes": [
-    {
-      "team": "National League All-Stars",
-      "opp": "American League All-Stars",
-      "pitcher": "Dylan Cease",
-      "venue": "Citizens Bank Park",
-      "grade": "Pass",
-      "pitcher_cause": 3.0,
-      "park_hr": 107,
-      "cause_score": 4.8,
-      "capture_method": "Watchlist / pass (no clear cause)",
-      "public_heat": false,
-      "playable_bats": []
-    },
-    {
-      "team": "American League All-Stars",
-      "opp": "National League All-Stars",
-      "pitcher": "Cristopher S\u00e1nchez",
-      "venue": "Citizens Bank Park",
-      "grade": "Pass",
-      "pitcher_cause": 2.0,
-      "park_hr": 107,
-      "cause_score": 3.8,
-      "capture_method": "Watchlist / pass (no clear cause)",
-      "public_heat": false,
-      "playable_bats": []
-    }
-  ],
+  "causes": [],
   "candidates": [],
   "structures": {},
-  "pitcher_board": [
-    {
-      "id": 656302,
-      "name": "Dylan Cease",
-      "score": 3.0,
-      "grade": "Pass",
-      "flags": [
-        "Suppresses HR (HR/9 0.46)",
-        "High K rate (37%)"
-      ],
-      "hr9": 0.46,
-      "barrel_allowed": null
-    },
-    {
-      "id": 650911,
-      "name": "Cristopher S\u00e1nchez",
-      "score": 2.0,
-      "grade": "Pass",
-      "flags": [
-        "Suppresses HR (HR/9 0.85)",
-        "High K rate (27%)"
-      ],
-      "hr9": 0.85,
-      "barrel_allowed": null
-    }
-  ],
+  "pitcher_board": [],
   "audit_template": {
     "legend": {
       "A": "cause fired + our bat hit (perfect)",
