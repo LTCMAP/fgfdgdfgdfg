@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-07-15T16:01:04.534100+00:00",
+  "generated_utc": "2026-07-15T20:34:14.075800+00:00",
   "slate_date": "2026-07-15",
   "games": 0,
   "confirmed_lineups": 0,
@@ -11,7 +11,7 @@
     "start": "2026-06-25",
     "end": "2026-07-15",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
