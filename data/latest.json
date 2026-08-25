@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-08-25T15:13:48.849641+00:00",
+  "generated_utc": "2026-08-25T19:55:51.094432+00:00",
   "slate_date": "2026-08-25",
   "games": 15,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 12,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-08-05",
     "end": "2026-08-25",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -99,6 +99,19 @@
       ]
     },
     {
+      "team": "Baltimore Orioles",
+      "opp": "St. Louis Cardinals",
+      "pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "grade": "A",
+      "pitcher_cause": 17.0,
+      "park_hr": 95,
+      "cause_score": 15.8,
+      "capture_method": "Team-HR placeholder (cause strong, bat capture thin)",
+      "public_heat": false,
+      "playable_bats": []
+    },
+    {
       "team": "Los Angeles Dodgers",
       "opp": "Atlanta Braves",
       "pitcher": "Bryce Elder",
@@ -112,7 +125,12 @@
       "playable_bats": [
         {
           "name": "Shohei Ohtani",
-          "total": 62.0,
+          "total": 68.0,
+          "role": "Longshot"
+        },
+        {
+          "name": "Max Muncy",
+          "total": 64.0,
           "role": "Longshot"
         }
       ]
@@ -248,6 +266,19 @@
       "playable_bats": []
     },
     {
+      "team": "Boston Red Sox",
+      "opp": "Miami Marlins",
+      "pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "grade": "C",
+      "pitcher_cause": 11.5,
+      "park_hr": 95,
+      "cause_score": 10.2,
+      "capture_method": "Watchlist / pass (no clear cause)",
+      "public_heat": false,
+      "playable_bats": []
+    },
+    {
       "team": "New York Mets",
       "opp": "Milwaukee Brewers",
       "pitcher": "Kyle Harrison",
@@ -271,7 +302,13 @@
       "cause_score": 10.2,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
-      "playable_bats": []
+      "playable_bats": [
+        {
+          "name": "Matt Olson",
+          "total": 64.5,
+          "role": "Pass"
+        }
+      ]
     },
     {
       "team": "Chicago Cubs",
@@ -310,7 +347,18 @@
       "cause_score": 9.5,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
-      "playable_bats": []
+      "playable_bats": [
+        {
+          "name": "Ben Rice",
+          "total": 66.5,
+          "role": "Pass"
+        },
+        {
+          "name": "Luis Garc\u00eda Jr.",
+          "total": 62.5,
+          "role": "Pass"
+        }
+      ]
     },
     {
       "team": "Milwaukee Brewers",
@@ -449,6 +497,170 @@
       "role_notes": []
     },
     {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "team": "Los Angeles Dodgers",
+      "bats": "L",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Bryce Elder",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 30,
+      "iso": 0.257,
+      "total": 68.0,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.0,
+        "hitter": 27.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Bryce Elder \u2014 cause B (15.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.44)",
+        "Proxy: strong HR rate",
+        "Proxy: elite ISO (0.257)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Top of order (#1)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 700250,
+      "name": "Ben Rice",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Ethan Pecko",
+      "venue": "Yankee Stadium",
+      "gamePk": 823505,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 34,
+      "iso": 0.276,
+      "total": 66.5,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 7.5,
+        "hitter": 30.0,
+        "environment": 13.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "Proxy: elite HR rate (1/16 PA)",
+        "Proxy: elite ISO (0.276)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Top of order (#2)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 621566,
+      "name": "Matt Olson",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 36,
+      "iso": 0.273,
+      "total": 64.5,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 30.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (33%)",
+        "Proxy: elite HR rate (1/16 PA)",
+        "Proxy: elite ISO (0.273)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Heart of order (#3)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 571970,
+      "name": "Max Muncy",
+      "team": "Los Angeles Dodgers",
+      "bats": "L",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Bryce Elder",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.253,
+      "total": 64.0,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.0,
+        "hitter": 25.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Bryce Elder \u2014 cause B (15.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.44)",
+        "Proxy: strong HR rate",
+        "Proxy: elite ISO (0.253)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 695506,
       "name": "Jac Caglianone",
       "team": "Kansas City Royals",
@@ -491,171 +703,87 @@
       "role_notes": []
     },
     {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "team": "Los Angeles Dodgers",
-      "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Bryce Elder",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 30,
-      "iso": 0.257,
-      "total": 62.0,
+      "id": 677951,
+      "name": "Bobby Witt Jr.",
+      "team": "Kansas City Royals",
+      "bats": "R",
+      "opp": "Toronto Blue Jays",
+      "opp_pitcher": "Max Scherzer",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.172,
+      "total": 63.0,
       "tier": "Longshot",
       "role": "Longshot",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "A+",
       "breakdown": {
-        "pitcher": 15.0,
-        "hitter": 27.0,
-        "environment": 10.0,
-        "lineup": 6.0,
+        "pitcher": 23.0,
+        "hitter": 16.0,
+        "environment": 8.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": null,
       "reasons": [
-        "vs Bryce Elder \u2014 cause B (15.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Proxy: strong HR rate",
-        "Proxy: elite ISO (0.257)",
+        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 2.40)",
+        "Pitcher: Hard contact allowed (.508 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
-      "id": 700250,
-      "name": "Ben Rice",
+      "id": 671277,
+      "name": "Luis Garc\u00eda Jr.",
       "team": "New York Yankees",
       "bats": "L",
       "opp": "Houston Astros",
       "opp_pitcher": "Ethan Pecko",
       "venue": "Yankee Stadium",
       "gamePk": 823505,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 34,
-      "iso": 0.276,
-      "total": 60.5,
-      "tier": "Pass",
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.265,
+      "total": 62.5,
+      "tier": "Longshot",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 7.5,
-        "hitter": 30.0,
+        "hitter": 27.0,
         "environment": 13.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": null,
       "reasons": [
         "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Proxy: elite HR rate (1/16 PA)",
-        "Proxy: elite ISO (0.276)",
+        "Proxy: strong HR rate",
+        "Proxy: elite ISO (0.265)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Elite HR park (113)",
         "Short RF porch boosts LHB HR",
+        "Heart of order (#3)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 621566,
-      "name": "Matt Olson",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Tyler Glasnow",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 36,
-      "iso": 0.273,
-      "total": 59.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 30.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
-        "Pitcher: High K rate (33%)",
-        "Proxy: elite HR rate (1/16 PA)",
-        "Proxy: elite ISO (0.273)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 571970,
-      "name": "Max Muncy",
-      "team": "Los Angeles Dodgers",
-      "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Bryce Elder",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.253,
-      "total": 59.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.0,
-        "hitter": 25.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Bryce Elder \u2014 cause B (15.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "Proxy: strong HR rate",
-        "Proxy: elite ISO (0.253)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -700,6 +828,49 @@
       "role_notes": []
     },
     {
+      "id": 695600,
+      "name": "Carter Jensen",
+      "team": "Kansas City Royals",
+      "bats": "L",
+      "opp": "Toronto Blue Jays",
+      "opp_pitcher": "Max Scherzer",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.183,
+      "total": 59.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 23.0,
+        "hitter": 12.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 2.40)",
+        "Pitcher: Hard contact allowed (.508 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 691406,
       "name": "Junior Caminero",
       "team": "Tampa Bay Rays",
@@ -733,7 +904,7 @@
         "Proxy: elite HR rate (1/16 PA)",
         "Proxy: elite ISO (0.254)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -743,44 +914,84 @@
       "role_notes": []
     },
     {
-      "id": 671277,
-      "name": "Luis Garc\u00eda Jr.",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Ethan Pecko",
-      "venue": "Yankee Stadium",
-      "gamePk": 823505,
+      "id": 624413,
+      "name": "Pete Alonso",
+      "team": "Baltimore Orioles",
+      "bats": "R",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
       "slot": null,
       "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.265,
-      "total": 57.5,
+      "season_hr": 30,
+      "iso": 0.23,
+      "total": 58.0,
       "tier": "Pass",
-      "role": "Pass",
+      "role": "Cause Satellite",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "Pass",
+      "pitcher_grade": "A",
       "breakdown": {
-        "pitcher": 7.5,
-        "hitter": 27.0,
-        "environment": 13.0,
+        "pitcher": 17.0,
+        "hitter": 22.0,
+        "environment": 9.0,
         "lineup": 6.0,
         "confidence": 4.0
       },
       "statcast": null,
       "reasons": [
-        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
         "Proxy: strong HR rate",
-        "Proxy: elite ISO (0.265)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
+        "Hot (88\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Comerica Park",
+      "gamePk": 824233,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.23,
+      "total": 57.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.5,
+        "hitter": 22.0,
+        "environment": 6.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ian Seymour \u2014 cause B (15.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.60)",
+        "Pitcher: Hard contact allowed (.433 SLG)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [
+        "Pitcher park (94)"
       ],
       "role_notes": []
     },
@@ -869,6 +1080,83 @@
       "role_notes": []
     },
     {
+      "id": 691023,
+      "name": "Jordan Walker",
+      "team": "St. Louis Cardinals",
+      "bats": "R",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Chris Bassitt",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 27,
+      "iso": 0.218,
+      "total": 57.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 22.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Chris Bassitt \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.439 SLG)",
+        "Pitcher: Low K rate (15%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 575929,
+      "name": "Willson Contreras",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.248,
+      "total": 56.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 24.0,
+        "environment": 7.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 592450,
       "name": "Aaron Judge",
       "team": "New York Yankees",
@@ -944,7 +1232,7 @@
         "Proxy: strong HR rate",
         "Proxy: elite ISO (0.256)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -993,6 +1281,94 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
+    },
+    {
+      "id": 694212,
+      "name": "Samuel Basallo",
+      "team": "Baltimore Orioles",
+      "bats": "L",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.21,
+      "total": 56.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 20.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 691723,
+      "name": "Coby Mayo",
+      "team": "Baltimore Orioles",
+      "bats": "R",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.225,
+      "total": 56.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 20.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 687221,
@@ -1115,7 +1491,7 @@
       ],
       "warnings": [
         "Pitcher park (92)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -1123,59 +1499,18 @@
       ]
     },
     {
-      "id": 665052,
-      "name": "Griffin Conine",
-      "team": "Miami Marlins",
-      "bats": "L",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.261,
-      "total": 55.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 30.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Payton Tolle \u2014 cause Pass (8.5/25)",
-        "Pitcher: High K rate (28%)",
-        "Proxy: elite HR rate (1/15 PA)",
-        "Proxy: elite ISO (0.261)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 677951,
-      "name": "Bobby Witt Jr.",
+      "id": 521692,
+      "name": "Salvador Perez",
       "team": "Kansas City Royals",
       "bats": "R",
       "opp": "Toronto Blue Jays",
       "opp_pitcher": "Max Scherzer",
       "venue": "Rogers Centre",
       "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.172,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.154,
       "total": 55.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1184,9 +1519,9 @@
       "pitcher_grade": "A+",
       "breakdown": {
         "pitcher": 23.0,
-        "hitter": 14.0,
+        "hitter": 9.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -1197,12 +1532,11 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (102)",
         "Retractable roof (weather neutralized)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1239,7 +1573,7 @@
         "Proxy: elite HR rate (1/16 PA)",
         "Proxy: elite ISO (0.292)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -1327,11 +1661,94 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
         "Suppressive park + no pull/barrel fit \u2192 Watchlist"
+      ]
+    },
+    {
+      "id": 665052,
+      "name": "Griffin Conine",
+      "team": "Miami Marlins",
+      "bats": "L",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.261,
+      "total": 54.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.5,
+        "hitter": 30.0,
+        "environment": 7.0,
+        "lineup": 5.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Payton Tolle \u2014 cause Pass (8.5/25)",
+        "Pitcher: High K rate (28%)",
+        "Proxy: elite HR rate (1/15 PA)",
+        "Proxy: elite ISO (0.261)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 672960,
+      "name": "Kazuma Okamoto",
+      "team": "Toronto Blue Jays",
+      "bats": "R",
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.209,
+      "total": 54.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 20.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
@@ -1375,6 +1792,49 @@
         "Pitcher park (93)",
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 686681,
+      "name": "Michael Massey",
+      "team": "Kansas City Royals",
+      "bats": "L",
+      "opp": "Toronto Blue Jays",
+      "opp_pitcher": "Max Scherzer",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.169,
+      "total": 54.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 23.0,
+        "hitter": 11.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 2.40)",
+        "Pitcher: Hard contact allowed (.508 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1541,50 +2001,6 @@
       "role_notes": []
     },
     {
-      "id": 695600,
-      "name": "Carter Jensen",
-      "team": "Kansas City Royals",
-      "bats": "L",
-      "opp": "Toronto Blue Jays",
-      "opp_pitcher": "Max Scherzer",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.183,
-      "total": 53.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "A+",
-      "breakdown": {
-        "pitcher": 23.0,
-        "hitter": 12.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 2.40)",
-        "Pitcher: Hard contact allowed (.508 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 696100,
       "name": "Hunter Goodman",
       "team": "Colorado Rockies",
@@ -1618,51 +2034,10 @@
         "Proxy: elite ISO (0.290)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (100)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Comerica Park",
-      "gamePk": 824233,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.23,
-      "total": 52.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 22.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ian Seymour \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.60)",
-        "Pitcher: Hard contact allowed (.433 SLG)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
         "Lineup not confirmed"
       ],
       "role_notes": []
@@ -1701,7 +2076,7 @@
         "Proxy: elite ISO (0.270)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (102)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -1710,43 +2085,42 @@
       "role_notes": []
     },
     {
-      "id": 691023,
-      "name": "Jordan Walker",
-      "team": "St. Louis Cardinals",
-      "bats": "R",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Chris Bassitt",
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 27,
-      "iso": 0.218,
+      "id": 682928,
+      "name": "CJ Abrams",
+      "team": "Washington Nationals",
+      "bats": "L",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": null,
+      "venue": "Nationals Park",
+      "gamePk": 822693,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 29,
+      "iso": 0.252,
       "total": 52.0,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "?",
       "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 22.0,
+        "pitcher": 0,
+        "hitter": 27.0,
         "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 3.0
+        "lineup": 12.0,
+        "confidence": 4.0
       },
       "statcast": null,
       "reasons": [
-        "vs Chris Bassitt \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.439 SLG)",
-        "Pitcher: Low K rate (15%)",
         "Proxy: strong HR rate",
+        "Proxy: elite ISO (0.252)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)"
+        "Slightly + park (102)",
+        "Warm (81\u00b0F)",
+        "Top of order (#1)",
+        "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -1789,45 +2163,42 @@
       "role_notes": []
     },
     {
-      "id": 686681,
-      "name": "Michael Massey",
-      "team": "Kansas City Royals",
+      "id": 518692,
+      "name": "Freddie Freeman",
+      "team": "Los Angeles Dodgers",
       "bats": "L",
-      "opp": "Toronto Blue Jays",
-      "opp_pitcher": "Max Scherzer",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.169,
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Bryce Elder",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.161,
       "total": 52.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "A+",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 23.0,
-        "hitter": 11.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
+        "pitcher": 15.0,
+        "hitter": 13.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 2.40)",
-        "Pitcher: Hard contact allowed (.508 SLG)",
+        "vs Bryce Elder \u2014 cause B (15.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.44)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1872,6 +2243,88 @@
       "role_notes": []
     },
     {
+      "id": 681715,
+      "name": "Heriberto Hern\u00e1ndez",
+      "team": "Miami Marlins",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 19,
+      "iso": 0.222,
+      "total": 50.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.5,
+        "hitter": 20.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Payton Tolle \u2014 cause Pass (8.5/25)",
+        "Pitcher: High K rate (28%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663757,
+      "name": "Trent Grisham",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Ethan Pecko",
+      "venue": "Yankee Stadium",
+      "gamePk": 823505,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 18,
+      "iso": 0.201,
+      "total": 50.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 7.5,
+        "hitter": 16.0,
+        "environment": 13.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 681481,
       "name": "Kerry Carpenter",
       "team": "Detroit Tigers",
@@ -1904,13 +2357,54 @@
         "Pitcher: Hard contact allowed (.433 SLG)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Pitcher park (94)",
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 676475,
+      "name": "Alec Burleson",
+      "team": "St. Louis Cardinals",
+      "bats": "L",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Chris Bassitt",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.197,
+      "total": 50.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 16.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Chris Bassitt \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.439 SLG)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1960,45 +2454,42 @@
       ]
     },
     {
-      "id": 521692,
-      "name": "Salvador Perez",
-      "team": "Kansas City Royals",
+      "id": 605141,
+      "name": "Mookie Betts",
+      "team": "Los Angeles Dodgers",
       "bats": "R",
-      "opp": "Toronto Blue Jays",
-      "opp_pitcher": "Max Scherzer",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.154,
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Bryce Elder",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.171,
       "total": 50.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "A+",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 23.0,
-        "hitter": 9.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
+        "pitcher": 15.0,
+        "hitter": 12.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 2.40)",
-        "Pitcher: Hard contact allowed (.508 SLG)",
+        "vs Bryce Elder \u2014 cause B (15.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.44)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -2041,7 +2532,7 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -2049,47 +2540,83 @@
       ]
     },
     {
-      "id": 672960,
-      "name": "Kazuma Okamoto",
-      "team": "Toronto Blue Jays",
-      "bats": "R",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
+      "id": 677800,
+      "name": "Wilyer Abreu",
+      "team": "Boston Red Sox",
+      "bats": "L",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 22,
       "iso": 0.209,
-      "total": 49.0,
+      "total": 49.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 20.0,
-        "environment": 8.0,
+        "pitcher": 11.5,
+        "hitter": 18.0,
+        "environment": 7.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 678554,
+      "name": "Curtis Mead",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.245,
+      "total": 49.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 22.0,
+        "environment": 7.0,
         "lineup": 6.0,
         "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
+        "Retractable roof (weather neutralized)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
+      "role_notes": []
     },
     {
       "id": 668723,
@@ -2124,7 +2651,7 @@
         "Pitcher: Hard contact allowed (.434 SLG)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)"
+        "Warm (79\u00b0F)"
       ],
       "warnings": [
         "Pitcher park (94)",
@@ -2163,7 +2690,7 @@
         "vs Zac Thornton \u2014 cause Pass (9.5/25)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)"
+        "Warm (77\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -2208,7 +2735,7 @@
       ],
       "warnings": [
         "Pitcher park (92)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -2419,6 +2946,49 @@
       "role_notes": []
     },
     {
+      "id": 683002,
+      "name": "Gunnar Henderson",
+      "team": "Baltimore Orioles",
+      "bats": "L",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 20,
+      "iso": 0.175,
+      "total": 48.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 12.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 677594,
       "name": "Julio Rodr\u00edguez",
       "team": "Seattle Mariners",
@@ -2463,6 +3033,176 @@
       ]
     },
     {
+      "id": 641933,
+      "name": "Tyler O'Neill",
+      "team": "Baltimore Orioles",
+      "bats": "R",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 10,
+      "iso": 0.165,
+      "total": 48.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 12.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 673357,
+      "name": "Luis Robert Jr.",
+      "team": "New York Mets",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Kyle Harrison",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.18,
+      "total": 48.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 16.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 686469,
+      "name": "Vinnie Pasquantino",
+      "team": "Kansas City Royals",
+      "bats": "L",
+      "opp": "Toronto Blue Jays",
+      "opp_pitcher": "Max Scherzer",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.134,
+      "total": 48.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A+",
+      "breakdown": {
+        "pitcher": 23.0,
+        "hitter": 2.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 2.40)",
+        "Pitcher: Hard contact allowed (.508 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 686948,
+      "name": "Drake Baldwin",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.175,
+      "total": 47.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 14.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 664034,
       "name": "Ty France",
       "team": "San Diego Padres",
@@ -2494,12 +3234,51 @@
         "Pitcher: High K rate (30%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)"
+        "Warm (84\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "New York Mets",
+      "opp_pitcher": "Zac Thornton",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.183,
+      "total": 47.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 16.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 805811,
@@ -2539,7 +3318,7 @@
       ],
       "warnings": [
         "Pitcher park (92)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -2675,6 +3454,47 @@
       ]
     },
     {
+      "id": 596019,
+      "name": "Francisco Lindor",
+      "team": "New York Mets",
+      "bats": "S",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Kyle Harrison",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.183,
+      "total": 47.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 14.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 680777,
       "name": "Ryan Jeffers",
       "team": "Minnesota Twins",
@@ -2748,7 +3568,7 @@
         "Pitcher: Hard contact allowed (.434 SLG)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -2797,7 +3617,7 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -2879,47 +3699,7 @@
         "Proxy: elite ISO (0.270)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (102)",
-        "Warm (82\u00b0F)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 682928,
-      "name": "CJ Abrams",
-      "team": "Washington Nationals",
-      "bats": "L",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": null,
-      "venue": "Nationals Park",
-      "gamePk": 822693,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 29,
-      "iso": 0.252,
-      "total": 46.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 27.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "Proxy: strong HR rate",
-        "Proxy: elite ISO (0.252)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Model: one strong signal"
       ],
       "warnings": [
@@ -2958,7 +3738,7 @@
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)"
+        "Warm (84\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -3040,54 +3820,12 @@
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)"
+        "Warm (84\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 518692,
-      "name": "Freddie Freeman",
-      "team": "Los Angeles Dodgers",
-      "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Bryce Elder",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.161,
-      "total": 46.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.0,
-        "hitter": 13.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Bryce Elder \u2014 cause B (15.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 682829,
@@ -3126,9 +3864,51 @@
       ],
       "warnings": [
         "Pitcher park (91)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 671739,
+      "name": "Michael Harris II",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.199,
+      "total": 45.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 16.0,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -3177,6 +3957,46 @@
       ]
     },
     {
+      "id": 678882,
+      "name": "Ceddanne Rafaela",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.172,
+      "total": 45.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 13.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 694671,
       "name": "Wyatt Langford",
       "team": "Texas Rangers",
@@ -3218,6 +4038,48 @@
       ]
     },
     {
+      "id": 660670,
+      "name": "Ronald Acu\u00f1a Jr.",
+      "team": "Atlanta Braves",
+      "bats": "R",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.177,
+      "total": 45.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 12.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 679822,
       "name": "Justin Foscue",
       "team": "Texas Rangers",
@@ -3249,48 +4111,6 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.13)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 676475,
-      "name": "Alec Burleson",
-      "team": "St. Louis Cardinals",
-      "bats": "L",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Chris Bassitt",
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.197,
-      "total": 45.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 16.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Chris Bassitt \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.439 SLG)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -3344,39 +4164,40 @@
       ]
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "team": "Los Angeles Dodgers",
-      "bats": "R",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Bryce Elder",
-      "venue": "Truist Park",
-      "gamePk": 824881,
+      "id": 681297,
+      "name": "Colton Cowser",
+      "team": "Baltimore Orioles",
+      "bats": "L",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
       "slot": null,
       "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.171,
+      "season_hr": 12,
+      "iso": 0.153,
       "total": 45.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "A",
       "breakdown": {
-        "pitcher": 15.0,
-        "hitter": 12.0,
-        "environment": 10.0,
+        "pitcher": 17.0,
+        "hitter": 9.0,
+        "environment": 9.0,
         "lineup": 6.0,
-        "confidence": 2.0
+        "confidence": 4.0
       },
       "statcast": null,
       "reasons": [
-        "vs Bryce Elder \u2014 cause B (15.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
+        "Hot (88\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -3386,60 +4207,18 @@
       ]
     },
     {
-      "id": 681715,
-      "name": "Heriberto Hern\u00e1ndez",
-      "team": "Miami Marlins",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 19,
-      "iso": 0.222,
-      "total": 44.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 20.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Payton Tolle \u2014 cause Pass (8.5/25)",
-        "Pitcher: High K rate (28%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 663757,
-      "name": "Trent Grisham",
+      "id": 682987,
+      "name": "Spencer Jones",
       "team": "New York Yankees",
       "bats": "L",
       "opp": "Houston Astros",
       "opp_pitcher": "Ethan Pecko",
       "venue": "Yankee Stadium",
       "gamePk": 823505,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.201,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.195,
       "total": 44.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3448,9 +4227,9 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 7.5,
-        "hitter": 16.0,
+        "hitter": 14.0,
         "environment": 13.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -3460,11 +4239,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Elite HR park (113)",
         "Short RF porch boosts LHB HR",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -3511,18 +4289,18 @@
       ]
     },
     {
-      "id": 671739,
-      "name": "Michael Harris II",
+      "id": 645277,
+      "name": "Ozzie Albies",
       "team": "Atlanta Braves",
-      "bats": "L",
+      "bats": "S",
       "opp": "Los Angeles Dodgers",
       "opp_pitcher": "Tyler Glasnow",
       "venue": "Truist Park",
       "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.199,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 20,
+      "iso": 0.165,
       "total": 43.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3531,9 +4309,9 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 9.5,
-        "hitter": 16.0,
+        "hitter": 14.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -3544,11 +4322,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
         "Hot (89\u00b0F)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -3585,12 +4362,94 @@
         "Pitcher: High HR allowed (HR/9 1.60)",
         "Pitcher: Hard contact allowed (.433 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Pitcher park (94)",
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 596142,
+      "name": "Gary S\u00e1nchez",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "New York Mets",
+      "opp_pitcher": "Zac Thornton",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.22,
+      "total": 43.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 16.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 701678,
+      "name": "Hao-Yu Lee",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Comerica Park",
+      "gamePk": 824233,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.155,
+      "total": 43.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.5,
+        "hitter": 8.0,
+        "environment": 6.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ian Seymour \u2014 cause B (15.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.60)",
+        "Pitcher: Hard contact allowed (.433 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (94)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3765,49 +4624,6 @@
       ]
     },
     {
-      "id": 673357,
-      "name": "Luis Robert Jr.",
-      "team": "New York Mets",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Kyle Harrison",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.18,
-      "total": 43.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 16.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 665953,
       "name": "Andr\u00e9s Chaparro",
       "team": "Washington Nationals",
@@ -3839,7 +4655,7 @@
         "Proxy: elite ISO (0.272)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (100)",
-        "Warm (82\u00b0F)"
+        "Warm (81\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -3891,44 +4707,82 @@
       ]
     },
     {
-      "id": 686469,
-      "name": "Vinnie Pasquantino",
-      "team": "Kansas City Royals",
+      "id": 668930,
+      "name": "Brice Turang",
+      "team": "Milwaukee Brewers",
       "bats": "L",
-      "opp": "Toronto Blue Jays",
-      "opp_pitcher": "Max Scherzer",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.134,
-      "total": 43.0,
+      "opp": "New York Mets",
+      "opp_pitcher": "Zac Thornton",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.173,
+      "total": 42.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "A+",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 23.0,
-        "hitter": 2.0,
+        "pitcher": 9.5,
+        "hitter": 11.0,
         "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
+        "lineup": 12.0,
+        "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Max Scherzer \u2014 cause A+ (23.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 2.40)",
-        "Pitcher: Hard contact allowed (.508 SLG)",
+        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
+        "Warm (77\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 805808,
+      "name": "Kevin McGonigle",
+      "team": "Detroit Tigers",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Comerica Park",
+      "gamePk": 824233,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.147,
+      "total": 42.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.5,
+        "hitter": 8.0,
+        "environment": 6.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ian Seymour \u2014 cause B (15.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.60)",
+        "Pitcher: Hard contact allowed (.433 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Pitcher park (94)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -4020,48 +4874,6 @@
       ]
     },
     {
-      "id": 682987,
-      "name": "Spencer Jones",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Ethan Pecko",
-      "venue": "Yankee Stadium",
-      "gamePk": 823505,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.195,
-      "total": 42.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 7.5,
-        "hitter": 14.0,
-        "environment": 13.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 650490,
       "name": "Yandy D\u00edaz",
       "team": "Tampa Bay Rays",
@@ -4093,11 +4905,54 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "Pitcher: Hard contact allowed (.434 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Pitcher park (94)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669236,
+      "name": "Jeremiah Jackson",
+      "team": "Baltimore Orioles",
+      "bats": "R",
+      "opp": "St. Louis Cardinals",
+      "opp_pitcher": "Matthew Liberatore",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 7,
+      "iso": 0.133,
+      "total": 42.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 6.0,
+        "environment": 9.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Matthew Liberatore \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.51)",
+        "Pitcher: Hard contact allowed (.460 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -4177,175 +5032,6 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
         "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 686948,
-      "name": "Drake Baldwin",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Tyler Glasnow",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.175,
-      "total": 41.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 14.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
-        "Pitcher: High K rate (33%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 645277,
-      "name": "Ozzie Albies",
-      "team": "Atlanta Braves",
-      "bats": "S",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Tyler Glasnow",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 20,
-      "iso": 0.165,
-      "total": 41.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 14.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
-        "Pitcher: High K rate (33%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 679529,
-      "name": "Spencer Torkelson",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Comerica Park",
-      "gamePk": 824233,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 20,
-      "iso": 0.185,
-      "total": 41.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 12.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ian Seymour \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.60)",
-        "Pitcher: Hard contact allowed (.433 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 694192,
-      "name": "Jackson Chourio",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "New York Mets",
-      "opp_pitcher": "Zac Thornton",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.183,
-      "total": 41.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 16.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -4480,18 +5166,18 @@
       ]
     },
     {
-      "id": 596142,
-      "name": "Gary S\u00e1nchez",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "New York Mets",
-      "opp_pitcher": "Zac Thornton",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.22,
+      "id": 641355,
+      "name": "Cody Bellinger",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Ethan Pecko",
+      "venue": "Yankee Stadium",
+      "gamePk": 823505,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.159,
       "total": 41.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -4499,22 +5185,23 @@
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 16.0,
-        "environment": 8.0,
-        "lineup": 6.0,
+        "pitcher": 7.5,
+        "hitter": 8.0,
+        "environment": 13.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
+        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -4551,7 +5238,7 @@
         "Pitcher: High HR allowed (HR/9 1.60)",
         "Pitcher: Hard contact allowed (.433 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -4594,7 +5281,7 @@
         "Pitcher: High HR allowed (HR/9 1.46)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -4636,12 +5323,94 @@
         "Pitcher: High HR allowed (HR/9 1.46)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 802139,
+      "name": "JJ Wetherholt",
+      "team": "St. Louis Cardinals",
+      "bats": "L",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Chris Bassitt",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.133,
+      "total": 41.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 6.0,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Chris Bassitt \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.439 SLG)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 671056,
+      "name": "Iv\u00e1n Herrera",
+      "team": "St. Louis Cardinals",
+      "bats": "R",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Chris Bassitt",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.137,
+      "total": 41.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 6.0,
+        "environment": 9.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Chris Bassitt \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.439 SLG)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hot (88\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -4730,18 +5499,18 @@
       ]
     },
     {
-      "id": 596019,
-      "name": "Francisco Lindor",
-      "team": "New York Mets",
-      "bats": "S",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Kyle Harrison",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.183,
+      "id": 660821,
+      "name": "Jes\u00fas S\u00e1nchez",
+      "team": "Toronto Blue Jays",
+      "bats": "L",
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.164,
       "total": 41.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -4749,65 +5518,65 @@
       "pull_fit": false,
       "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 14.0,
+        "pitcher": 12.0,
+        "hitter": 11.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Ethan Pecko",
-      "venue": "Yankee Stadium",
-      "gamePk": 823505,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.177,
+      "id": 679529,
+      "name": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Comerica Park",
+      "gamePk": 824233,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 20,
+      "iso": 0.185,
       "total": 40.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "Pass",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 7.5,
+        "pitcher": 15.5,
         "hitter": 12.0,
-        "environment": 13.0,
-        "lineup": 6.0,
+        "environment": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "vs Ian Seymour \u2014 cause B (15.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.60)",
+        "Pitcher: Hard contact allowed (.433 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Pitcher park (94)",
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -4850,86 +5619,12 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
-    },
-    {
-      "id": 624413,
-      "name": "Pete Alonso",
-      "team": "Baltimore Orioles",
-      "bats": "R",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 30,
-      "iso": 0.23,
-      "total": 40.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 22.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 575929,
-      "name": "Willson Contreras",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "Miami Marlins",
-      "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.248,
-      "total": 40.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 24.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
     },
     {
       "id": 689414,
@@ -4963,13 +5658,54 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "Pitcher: Hard contact allowed (.434 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Pitcher park (94)",
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 701807,
+      "name": "Carson Benge",
+      "team": "New York Mets",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Kyle Harrison",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.15,
+      "total": 40.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 8.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -5063,6 +5799,47 @@
       ]
     },
     {
+      "id": 676724,
+      "name": "Jared Young",
+      "team": "New York Mets",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Kyle Harrison",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.177,
+      "total": 40.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 11.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 608324,
       "name": "Alex Bregman",
       "team": "Chicago Cubs",
@@ -5104,6 +5881,48 @@
       ]
     },
     {
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Ethan Pecko",
+      "venue": "Yankee Stadium",
+      "gamePk": 823505,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 18,
+      "iso": 0.177,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 7.5,
+        "hitter": 12.0,
+        "environment": 13.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 663993,
       "name": "Nathaniel Lowe",
       "team": "Cleveland Guardians",
@@ -5134,49 +5953,6 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 660670,
-      "name": "Ronald Acu\u00f1a Jr.",
-      "team": "Atlanta Braves",
-      "bats": "R",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Tyler Glasnow",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.177,
-      "total": 39.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 12.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
-        "Pitcher: High K rate (33%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
         "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -5223,6 +5999,49 @@
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 650402,
+      "name": "Gleyber Torres",
+      "team": "Detroit Tigers",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Ian Seymour",
+      "venue": "Comerica Park",
+      "gamePk": 824233,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.123,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.5,
+        "hitter": 4.0,
+        "environment": 6.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ian Seymour \u2014 cause B (15.5/25)",
+        "Pitcher: High HR allowed (HR/9 1.60)",
+        "Pitcher: Hard contact allowed (.433 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (94)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -5302,7 +6121,7 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.19)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -5344,7 +6163,7 @@
         "Pitcher: High HR allowed (HR/9 1.46)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -5428,91 +6247,7 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.19)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 660821,
-      "name": "Jes\u00fas S\u00e1nchez",
-      "team": "Toronto Blue Jays",
-      "bats": "L",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.164,
-      "total": 39.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 11.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 620443,
-      "name": "Luis Torrens",
-      "team": "New York Mets",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Kyle Harrison",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.169,
-      "total": 39.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 12.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -5553,7 +6288,7 @@
         "vs Paul Skenes \u2014 cause Pass (8.5/25)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -5600,7 +6335,7 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -5685,129 +6420,12 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
-    },
-    {
-      "id": 694212,
-      "name": "Samuel Basallo",
-      "team": "Baltimore Orioles",
-      "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.21,
-      "total": 38.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 20.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 691723,
-      "name": "Coby Mayo",
-      "team": "Baltimore Orioles",
-      "bats": "R",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.225,
-      "total": 38.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 20.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 678554,
-      "name": "Curtis Mead",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "Miami Marlins",
-      "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.245,
-      "total": 38.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 22.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
     },
     {
       "id": 671976,
@@ -5852,18 +6470,59 @@
       ]
     },
     {
-      "id": 676724,
-      "name": "Jared Young",
-      "team": "New York Mets",
+      "id": 664770,
+      "name": "Nathan Lukes",
+      "team": "Toronto Blue Jays",
       "bats": "L",
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.113,
+      "total": 38.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 620443,
+      "name": "Luis Torrens",
+      "team": "New York Mets",
+      "bats": "R",
       "opp": "Milwaukee Brewers",
       "opp_pitcher": "Kyle Harrison",
       "venue": "Citi Field",
       "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 8,
-      "iso": 0.177,
+      "iso": 0.169,
       "total": 38.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -5872,9 +6531,9 @@
       "pitcher_grade": "C",
       "breakdown": {
         "pitcher": 11.0,
-        "hitter": 11.0,
+        "hitter": 12.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -5883,11 +6542,11 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.19)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -5977,49 +6636,6 @@
       ]
     },
     {
-      "id": 805808,
-      "name": "Kevin McGonigle",
-      "team": "Detroit Tigers",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Comerica Park",
-      "gamePk": 824233,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.147,
-      "total": 37.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 8.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ian Seymour \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.60)",
-        "Pitcher: Hard contact allowed (.433 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 641857,
       "name": "Ryan McMahon",
       "team": "New York Yankees",
@@ -6093,7 +6709,7 @@
         "Pitcher: High HR allowed (HR/9 1.60)",
         "Pitcher: Hard contact allowed (.433 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6142,50 +6758,7 @@
       ],
       "warnings": [
         "Pitcher park (92)",
-        "High wind 15 mph (dir not modeled)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 701678,
-      "name": "Hao-Yu Lee",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Comerica Park",
-      "gamePk": 824233,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.155,
-      "total": 37.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 8.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ian Seymour \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.60)",
-        "Pitcher: Hard contact allowed (.433 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -6222,7 +6795,7 @@
       "reasons": [
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6271,6 +6844,88 @@
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666182,
+      "name": "Bo Bichette",
+      "team": "New York Mets",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Kyle Harrison",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.129,
+      "total": 37.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "team": "Los Angeles Dodgers",
+      "bats": "L",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Bryce Elder",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.132,
+      "total": 37.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 15.0,
+        "hitter": 2.0,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Bryce Elder \u2014 cause B (15.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.44)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -6391,7 +7046,7 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "Pitcher: Hard contact allowed (.434 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6436,48 +7091,6 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
         "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 678218,
-      "name": "Brandon Valenzuela",
-      "team": "Toronto Blue Jays",
-      "bats": "S",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.158,
-      "total": 37.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 9.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6561,7 +7174,7 @@
         "vs Paul Skenes \u2014 cause Pass (8.5/25)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6602,89 +7215,7 @@
         "vs Paul Skenes \u2014 cause Pass (8.5/25)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 668930,
-      "name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "New York Mets",
-      "opp_pitcher": "Zac Thornton",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.173,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 11.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 641355,
-      "name": "Cody Bellinger",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Ethan Pecko",
-      "venue": "Yankee Stadium",
-      "gamePk": 823505,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.159,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 7.5,
-        "hitter": 8.0,
-        "environment": 13.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6893,7 +7424,7 @@
         "vs Paul Skenes \u2014 cause Pass (8.5/25)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -6946,48 +7477,6 @@
       ]
     },
     {
-      "id": 543760,
-      "name": "Marcus Semien",
-      "team": "New York Mets",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Kyle Harrison",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.137,
-      "total": 36.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 9.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 666139,
       "name": "Josh Lowe",
       "team": "Los Angeles Angels",
@@ -7019,11 +7508,53 @@
         "Pitcher: High HR allowed (HR/9 1.46)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 678218,
+      "name": "Brandon Valenzuela",
+      "team": "Toronto Blue Jays",
+      "bats": "S",
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.158,
+      "total": 36.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 9.0,
+        "environment": 8.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -7144,7 +7675,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7185,7 +7716,7 @@
         "vs Paul Skenes \u2014 cause Pass (8.5/25)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7232,7 +7763,7 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -7311,7 +7842,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7363,6 +7894,47 @@
       ]
     },
     {
+      "id": 668939,
+      "name": "Adley Rutschman",
+      "team": "Boston Red Sox",
+      "bats": "S",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 9,
+      "iso": 0.17,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 9.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 687551,
       "name": "Drew Gilbert",
       "team": "San Francisco Giants",
@@ -7400,7 +7972,7 @@
       ],
       "warnings": [
         "Pitcher park (92)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -7408,100 +7980,16 @@
       ]
     },
     {
-      "id": 802139,
-      "name": "JJ Wetherholt",
-      "team": "St. Louis Cardinals",
-      "bats": "L",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Chris Bassitt",
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.133,
-      "total": 35.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 6.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Chris Bassitt \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.439 SLG)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 701807,
-      "name": "Carson Benge",
+      "id": 543760,
+      "name": "Marcus Semien",
       "team": "New York Mets",
-      "bats": "L",
+      "bats": "R",
       "opp": "Milwaukee Brewers",
       "opp_pitcher": "Kyle Harrison",
       "venue": "Citi Field",
       "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.15,
-      "total": 35.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 8.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 671056,
-      "name": "Iv\u00e1n Herrera",
-      "team": "St. Louis Cardinals",
-      "bats": "R",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Chris Bassitt",
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 14,
       "iso": 0.137,
       "total": 35.0,
@@ -7511,10 +7999,52 @@
       "pull_fit": false,
       "pitcher_grade": "C",
       "breakdown": {
+        "pitcher": 11.0,
+        "hitter": 9.0,
+        "environment": 8.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669357,
+      "name": "Nolan Gorman",
+      "team": "St. Louis Cardinals",
+      "bats": "L",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Chris Bassitt",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.124,
+      "total": 35.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
         "pitcher": 12.0,
-        "hitter": 6.0,
+        "hitter": 4.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -7523,53 +8053,51 @@
         "Pitcher: Hard contact allowed (.439 SLG)",
         "Pitcher: Low K rate (15%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
+        "Hot (88\u00b0F)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "team": "Los Angeles Dodgers",
+      "id": 680776,
+      "name": "Jarren Duran",
+      "team": "Boston Red Sox",
       "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Bryce Elder",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.132,
-      "total": 35.0,
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.156,
+      "total": 34.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 15.0,
-        "hitter": 2.0,
-        "environment": 10.0,
-        "lineup": 6.0,
+        "pitcher": 11.5,
+        "hitter": 9.0,
+        "environment": 7.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Bryce Elder \u2014 cause B (15.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.44)",
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
+        "Retractable roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -7607,12 +8135,51 @@
         "Pitcher: Suppresses HR (HR/9 0.45)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 661388,
+      "name": "William Contreras",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "New York Mets",
+      "opp_pitcher": "Zac Thornton",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.123,
+      "total": 34.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -7655,7 +8222,7 @@
       ],
       "warnings": [
         "Strong pitcher park (89)",
-        "High wind 15 mph (dir not modeled)",
+        "High wind 16 mph (dir not modeled)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -7694,7 +8261,7 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "Pitcher: Hard contact allowed (.434 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7735,7 +8302,7 @@
       "reasons": [
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7874,49 +8441,6 @@
       ]
     },
     {
-      "id": 663586,
-      "name": "Austin Riley",
-      "team": "Atlanta Braves",
-      "bats": "R",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Tyler Glasnow",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.143,
-      "total": 33.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 6.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
-        "Pitcher: High K rate (33%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 656555,
       "name": "Rhys Hoskins",
       "team": "Cleveland Guardians",
@@ -7947,7 +8471,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -7988,7 +8512,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -8030,7 +8554,7 @@
         "Pitcher: Suppresses HR (HR/9 0.45)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (102)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -8041,19 +8565,139 @@
       ]
     },
     {
-      "id": 573262,
-      "name": "Mike Yastrzemski",
-      "team": "Atlanta Braves",
+      "id": 672640,
+      "name": "Otto Lopez",
+      "team": "Miami Marlins",
+      "bats": "R",
+      "opp": "Boston Red Sox",
+      "opp_pitcher": "Payton Tolle",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.139,
+      "total": 33.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.5,
+        "hitter": 4.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Payton Tolle \u2014 cause Pass (8.5/25)",
+        "Pitcher: High K rate (28%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 695734,
+      "name": "Daylen Lile",
+      "team": "Washington Nationals",
       "bats": "L",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": null,
+      "venue": "Nationals Park",
+      "gamePk": 822693,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.165,
+      "total": 33.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 11.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Warm (81\u00b0F)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 665489,
+      "name": "Vladimir Guerrero Jr.",
+      "team": "Toronto Blue Jays",
+      "bats": "R",
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.091,
+      "total": 33.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 0.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "team": "Atlanta Braves",
+      "bats": "R",
       "opp": "Los Angeles Dodgers",
       "opp_pitcher": "Tyler Glasnow",
       "venue": "Truist Park",
       "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.156,
-      "total": 33.5,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.143,
+      "total": 32.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -8063,7 +8707,7 @@
         "pitcher": 9.5,
         "hitter": 6.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -8077,173 +8721,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 650402,
-      "name": "Gleyber Torres",
-      "team": "Detroit Tigers",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Ian Seymour",
-      "venue": "Comerica Park",
-      "gamePk": 824233,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.123,
-      "total": 33.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 4.0,
-        "environment": 6.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ian Seymour \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.60)",
-        "Pitcher: Hard contact allowed (.433 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (94)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 677800,
-      "name": "Wilyer Abreu",
-      "team": "Boston Red Sox",
-      "bats": "L",
-      "opp": "Miami Marlins",
-      "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.209,
-      "total": 33.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 18.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 701675,
-      "name": "Nathan Church",
-      "team": "St. Louis Cardinals",
-      "bats": "L",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Chris Bassitt",
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.124,
-      "total": 33.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 4.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Chris Bassitt \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.439 SLG)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669357,
-      "name": "Nolan Gorman",
-      "team": "St. Louis Cardinals",
-      "bats": "L",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Chris Bassitt",
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.124,
-      "total": 33.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 4.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Chris Bassitt \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.439 SLG)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -8280,7 +8758,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -8291,18 +8769,59 @@
       ]
     },
     {
-      "id": 669224,
-      "name": "Austin Wells",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Ethan Pecko",
-      "venue": "Yankee Stadium",
-      "gamePk": 823505,
+      "id": 702332,
+      "name": "Caleb Durbin",
+      "team": "Boston Red Sox",
+      "bats": "R",
+      "opp": "Miami Marlins",
+      "opp_pitcher": "Tyler Phillips",
+      "venue": "loanDepot park",
+      "gamePk": 823826,
       "slot": null,
       "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.118,
+      "season_hr": 12,
+      "iso": 0.143,
+      "total": 32.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 11.5,
+        "hitter": 6.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Phillips \u2014 cause C (11.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.17)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 643289,
+      "name": "Mauricio Dub\u00f3n",
+      "team": "Atlanta Braves",
+      "bats": "R",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.126,
       "total": 32.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -8310,23 +8829,66 @@
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 7.5,
-        "hitter": 4.0,
-        "environment": 13.0,
-        "lineup": 6.0,
+        "pitcher": 9.5,
+        "hitter": 0.0,
+        "environment": 10.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (33%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 573262,
+      "name": "Mike Yastrzemski",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "Truist Park",
+      "gamePk": 824881,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.156,
+      "total": 32.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 6.0,
+        "environment": 10.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -8364,7 +8926,7 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "Pitcher: Hard contact allowed (.434 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (80\u00b0F)",
+        "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -8376,18 +8938,18 @@
       ]
     },
     {
-      "id": 664770,
-      "name": "Nathan Lukes",
-      "team": "Toronto Blue Jays",
+      "id": 701675,
+      "name": "Nathan Church",
+      "team": "St. Louis Cardinals",
       "bats": "L",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.113,
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Chris Bassitt",
+      "venue": "Busch Stadium",
+      "gamePk": 823016,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.124,
       "total": 32.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -8397,21 +8959,21 @@
       "breakdown": {
         "pitcher": 12.0,
         "hitter": 4.0,
-        "environment": 8.0,
-        "lineup": 6.0,
+        "environment": 9.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
+        "vs Chris Bassitt \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.439 SLG)",
+        "Pitcher: Low K rate (15%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
+        "Hot (88\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -8488,7 +9050,7 @@
       "reasons": [
         "vs Zac Thornton \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -8542,6 +9104,48 @@
       ]
     },
     {
+      "id": 669224,
+      "name": "Austin Wells",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Ethan Pecko",
+      "venue": "Yankee Stadium",
+      "gamePk": 823505,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.118,
+      "total": 31.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 7.5,
+        "hitter": 4.0,
+        "environment": 13.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#8)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 607208,
       "name": "Trea Turner",
       "team": "Philadelphia Phillies",
@@ -8577,48 +9181,6 @@
       ],
       "warnings": [
         "Pitcher park (93)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 666182,
-      "name": "Bo Bichette",
-      "team": "New York Mets",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Kyle Harrison",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.129,
-      "total": 31.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 4.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -8794,48 +9356,6 @@
       ]
     },
     {
-      "id": 676609,
-      "name": "Jos\u00e9 Caballero",
-      "team": "New York Yankees",
-      "bats": "R",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Ethan Pecko",
-      "venue": "Yankee Stadium",
-      "gamePk": 823505,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.142,
-      "total": 30.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 7.5,
-        "hitter": 6.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 671218,
       "name": "Heliot Ramos",
       "team": "New York Yankees",
@@ -8878,18 +9398,59 @@
       ]
     },
     {
-      "id": 661388,
-      "name": "William Contreras",
-      "team": "Milwaukee Brewers",
+      "id": 676391,
+      "name": "Ernie Clement",
+      "team": "Toronto Blue Jays",
       "bats": "R",
-      "opp": "New York Mets",
-      "opp_pitcher": "Zac Thornton",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.118,
+      "total": 30.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 0.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 676609,
+      "name": "Jos\u00e9 Caballero",
+      "team": "New York Yankees",
+      "bats": "R",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Ethan Pecko",
+      "venue": "Yankee Stadium",
+      "gamePk": 823505,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 12,
-      "iso": 0.123,
+      "iso": 0.142,
       "total": 29.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -8897,21 +9458,23 @@
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 4.0,
-        "environment": 8.0,
-        "lineup": 6.0,
+        "pitcher": 7.5,
+        "hitter": 6.0,
+        "environment": 9.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
+        "vs Ethan Pecko \u2014 cause Pass (7.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Slightly + park (103)",
+        "Short RF porch boosts LHB HR",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -8950,46 +9513,6 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
         "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "New York Mets",
-      "opp_pitcher": "Zac Thornton",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.16,
-      "total": 29.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 4.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9041,45 +9564,6 @@
       ]
     },
     {
-      "id": 683002,
-      "name": "Gunnar Henderson",
-      "team": "Baltimore Orioles",
-      "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 20,
-      "iso": 0.175,
-      "total": 29.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 12.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 687462,
       "name": "Spencer Horwitz",
       "team": "Pittsburgh Pirates",
@@ -9109,46 +9593,7 @@
       "reasons": [
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 641933,
-      "name": "Tyler O'Neill",
-      "team": "Baltimore Orioles",
-      "bats": "R",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.165,
-      "total": 29.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 12.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9272,7 +9717,7 @@
         "Pitcher: Suppresses HR (HR/9 0.45)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (102)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9313,7 +9758,7 @@
         "vs Paul Skenes \u2014 cause Pass (8.5/25)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9355,11 +9800,51 @@
         "Pitcher: Suppresses HR (HR/9 0.45)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (100)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "New York Mets",
+      "opp_pitcher": "Zac Thornton",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.16,
+      "total": 28.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zac Thornton \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (77\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -9408,18 +9893,18 @@
       ]
     },
     {
-      "id": 695734,
-      "name": "Daylen Lile",
+      "id": 686611,
+      "name": "Dylan Crews",
       "team": "Washington Nationals",
-      "bats": "L",
+      "bats": "R",
       "opp": "Colorado Rockies",
       "opp_pitcher": null,
       "venue": "Nationals Park",
       "gamePk": 822693,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.165,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.145,
       "total": 28.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -9428,38 +9913,37 @@
       "pitcher_grade": "?",
       "breakdown": {
         "pitcher": 0,
-        "hitter": 11.0,
+        "hitter": 6.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Warm (82\u00b0F)",
+        "Slightly + park (100)",
+        "Warm (81\u00b0F)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 678882,
-      "name": "Ceddanne Rafaela",
-      "team": "Boston Red Sox",
+      "id": 691781,
+      "name": "Brady House",
+      "team": "Washington Nationals",
       "bats": "R",
-      "opp": "Miami Marlins",
+      "opp": "Colorado Rockies",
       "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.172,
+      "venue": "Nationals Park",
+      "gamePk": 822693,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.157,
       "total": 28.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -9468,104 +9952,20 @@
       "pitcher_grade": "?",
       "breakdown": {
         "pitcher": 0,
-        "hitter": 13.0,
-        "environment": 7.0,
-        "lineup": 6.0,
+        "hitter": 9.0,
+        "environment": 9.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
+        "Slightly + park (100)",
+        "Warm (81\u00b0F)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 676391,
-      "name": "Ernie Clement",
-      "team": "Toronto Blue Jays",
-      "bats": "R",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.118,
-      "total": 28.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 0.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 665926,
-      "name": "Andr\u00e9s Gim\u00e9nez",
-      "team": "Toronto Blue Jays",
-      "bats": "L",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.116,
-      "total": 28.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 0.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -9600,92 +10000,7 @@
       "reasons": [
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
-        "Warm (82\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 665489,
-      "name": "Vladimir Guerrero Jr.",
-      "team": "Toronto Blue Jays",
-      "bats": "R",
-      "opp": "Kansas City Royals",
-      "opp_pitcher": "Seth Lugo",
-      "venue": "Rogers Centre",
-      "gamePk": 822773,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.091,
-      "total": 28.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 0.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Seth Lugo \u2014 cause C (12.0/25)",
-        "Pitcher: Hard contact allowed (.446 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (102)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 643289,
-      "name": "Mauricio Dub\u00f3n",
-      "team": "Atlanta Braves",
-      "bats": "R",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Tyler Glasnow",
-      "venue": "Truist Park",
-      "gamePk": 824881,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.126,
-      "total": 27.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 0.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Tyler Glasnow \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
-        "Pitcher: High K rate (33%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (89\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9726,48 +10041,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 672640,
-      "name": "Otto Lopez",
-      "team": "Miami Marlins",
-      "bats": "R",
-      "opp": "Boston Red Sox",
-      "opp_pitcher": "Payton Tolle",
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.139,
-      "total": 27.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 4.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Payton Tolle \u2014 cause Pass (8.5/25)",
-        "Pitcher: High K rate (28%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9934,7 +10208,7 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.19)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -9974,11 +10248,53 @@
       "reasons": [
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 665926,
+      "name": "Andr\u00e9s Gim\u00e9nez",
+      "team": "Toronto Blue Jays",
+      "bats": "L",
+      "opp": "Kansas City Royals",
+      "opp_pitcher": "Seth Lugo",
+      "venue": "Rogers Centre",
+      "gamePk": 822773,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.116,
+      "total": 27.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 0.0,
+        "environment": 8.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Seth Lugo \u2014 cause C (12.0/25)",
+        "Pitcher: Hard contact allowed (.446 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (102)",
+        "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -10014,49 +10330,7 @@
       "reasons": [
         "vs Michael King \u2014 cause Pass (7.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (83\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 805999,
-      "name": "A.J. Ewing",
-      "team": "New York Mets",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Kyle Harrison",
-      "venue": "Citi Field",
-      "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.119,
-      "total": 27.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 0.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Kyle Harrison \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (84\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10098,7 +10372,7 @@
         "Pitcher: High HR allowed (HR/9 1.46)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10140,7 +10414,7 @@
         "Pitcher: High HR allowed (HR/9 1.46)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10182,7 +10456,7 @@
         "Pitcher: Suppresses HR (HR/9 0.45)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (100)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10193,79 +10467,42 @@
       ]
     },
     {
-      "id": 681297,
-      "name": "Colton Cowser",
-      "team": "Baltimore Orioles",
+      "id": 805999,
+      "name": "A.J. Ewing",
+      "team": "New York Mets",
       "bats": "L",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.153,
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Kyle Harrison",
+      "venue": "Citi Field",
+      "gamePk": 823585,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 7,
+      "iso": 0.119,
       "total": 26.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "?",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 0,
-        "hitter": 9.0,
-        "environment": 9.0,
-        "lineup": 6.0,
+        "pitcher": 11.0,
+        "hitter": 0.0,
+        "environment": 8.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
+        "vs Kyle Harrison \u2014 cause C (11.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 691781,
-      "name": "Brady House",
-      "team": "Washington Nationals",
-      "bats": "R",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": null,
-      "venue": "Nationals Park",
-      "gamePk": 822693,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.157,
-      "total": 26.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 9.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (100)",
-        "Warm (82\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -10344,7 +10581,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10404,11 +10641,11 @@
       "opp_pitcher": "Zac Thornton",
       "venue": "Citi Field",
       "gamePk": 823585,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 7,
       "iso": 0.128,
-      "total": 25.5,
+      "total": 24.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -10418,96 +10655,18 @@
         "pitcher": 9.5,
         "hitter": 0.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "vs Zac Thornton \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (76\u00b0F)",
+        "Warm (77\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 680776,
-      "name": "Jarren Duran",
-      "team": "Boston Red Sox",
-      "bats": "L",
-      "opp": "Miami Marlins",
-      "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.156,
-      "total": 24.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 9.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 668939,
-      "name": "Adley Rutschman",
-      "team": "Boston Red Sox",
-      "bats": "S",
-      "opp": "Miami Marlins",
-      "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.17,
-      "total": 24.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 9.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -10544,7 +10703,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10596,46 +10755,6 @@
       ]
     },
     {
-      "id": 686611,
-      "name": "Dylan Crews",
-      "team": "Washington Nationals",
-      "bats": "R",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": null,
-      "venue": "Nationals Park",
-      "gamePk": 822693,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.145,
-      "total": 23.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 6.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (100)",
-        "Warm (82\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 696285,
       "name": "Jacob Young",
       "team": "Washington Nationals",
@@ -10644,11 +10763,11 @@
       "opp_pitcher": null,
       "venue": "Nationals Park",
       "gamePk": 822693,
-      "slot": null,
-      "confirmed": false,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.149,
-      "total": 23.0,
+      "total": 22.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -10658,57 +10777,18 @@
         "pitcher": 0,
         "hitter": 6.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (100)",
-        "Warm (82\u00b0F)",
+        "Warm (81\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669236,
-      "name": "Jeremiah Jackson",
-      "team": "Baltimore Orioles",
-      "bats": "R",
-      "opp": "St. Louis Cardinals",
-      "opp_pitcher": null,
-      "venue": "Busch Stadium",
-      "gamePk": 823016,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 7,
-      "iso": 0.133,
-      "total": 23.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 6.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -10745,46 +10825,7 @@
         "vs Walbert Ure\u00f1a \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.56)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hot (86\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 702332,
-      "name": "Caleb Durbin",
-      "team": "Boston Red Sox",
-      "bats": "R",
-      "opp": "Miami Marlins",
-      "opp_pitcher": null,
-      "venue": "loanDepot park",
-      "gamePk": 823826,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.143,
-      "total": 21.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 6.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
+        "Hot (89\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -10840,7 +10881,9 @@
   "structures": {
     "longshot_group": {
       "legs": [
-        "Shohei Ohtani (Los Angeles Dodgers, 62.0)"
+        "Shohei Ohtani (Los Angeles Dodgers, 68.0)",
+        "Max Muncy (Los Angeles Dodgers, 64.0)",
+        "Bobby Witt Jr. (Kansas City Royals, 63.0)"
       ],
       "why": "Deeper bats with a real pitcher/park cause \u2014 bonus-only convergence."
     }
@@ -10881,6 +10924,18 @@
         "Hard contact allowed (.464 SLG)"
       ],
       "hr9": 1.71,
+      "barrel_allowed": null
+    },
+    {
+      "id": 669461,
+      "name": "Matthew Liberatore",
+      "score": 17.0,
+      "grade": "A",
+      "flags": [
+        "High HR allowed (HR/9 1.51)",
+        "Hard contact allowed (.460 SLG)"
+      ],
+      "hr9": 1.51,
       "barrel_allowed": null
     },
     {
@@ -10987,6 +11042,17 @@
         "Hard contact allowed (.434 SLG)"
       ],
       "hr9": 1.29,
+      "barrel_allowed": null
+    },
+    {
+      "id": 663969,
+      "name": "Tyler Phillips",
+      "score": 11.5,
+      "grade": "C",
+      "flags": [
+        "Avg+ HR allowed (HR/9 1.17)"
+      ],
+      "hr9": 1.17,
       "barrel_allowed": null
     },
     {
@@ -11179,6 +11245,18 @@
         "role": "Cause Satellite",
         "total": 63.0,
         "cause_grade": "A+",
+        "result_hr": null,
+        "cause_fired": null,
+        "teammate_hr": null,
+        "outcome": null
+      },
+      {
+        "player": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opp_pitcher": "Matthew Liberatore",
+        "role": "Cause Satellite",
+        "total": 58.0,
+        "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
         "teammate_hr": null,
