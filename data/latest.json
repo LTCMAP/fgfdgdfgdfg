@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-09-10T17:46:54.929693+00:00",
+  "generated_utc": "2026-09-10T21:46:22.582348+00:00",
   "slate_date": "2026-09-10",
   "games": 5,
-  "confirmed_lineups": 6,
+  "confirmed_lineups": 10,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-08-21",
     "end": "2026-09-10",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -48,12 +48,12 @@
       "playable_bats": [
         {
           "name": "Ben Rice",
-          "total": 69.0,
+          "total": 75.0,
           "role": "Cause Satellite"
         },
         {
           "name": "Luis Garc\u00eda Jr.",
-          "total": 68.0,
+          "total": 73.0,
           "role": "Cause Satellite"
         },
         {
@@ -83,19 +83,6 @@
       ]
     },
     {
-      "team": "Texas Rangers",
-      "opp": "Seattle Mariners",
-      "pitcher": "Logan Gilbert",
-      "venue": "T-Mobile Park",
-      "grade": "B",
-      "pitcher_cause": 15.5,
-      "park_hr": 93,
-      "cause_score": 13.8,
-      "capture_method": "Team-HR placeholder (cause strong, bat capture thin)",
-      "public_heat": false,
-      "playable_bats": []
-    },
-    {
       "team": "Atlanta Braves",
       "opp": "Tampa Bay Rays",
       "pitcher": "Nick Martinez",
@@ -109,6 +96,25 @@
       "playable_bats": []
     },
     {
+      "team": "Texas Rangers",
+      "opp": "Seattle Mariners",
+      "pitcher": "Logan Gilbert",
+      "venue": "T-Mobile Park",
+      "grade": "B",
+      "pitcher_cause": 14.0,
+      "park_hr": 93,
+      "cause_score": 12.2,
+      "capture_method": "Single best bat",
+      "public_heat": false,
+      "playable_bats": [
+        {
+          "name": "Joc Pederson",
+          "total": 63.0,
+          "role": "Longshot"
+        }
+      ]
+    },
+    {
       "team": "Chicago White Sox",
       "opp": "Pittsburgh Pirates",
       "pitcher": "Jared Jones",
@@ -119,7 +125,13 @@
       "cause_score": 12.2,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
-      "playable_bats": []
+      "playable_bats": [
+        {
+          "name": "Munetaka Murakami",
+          "total": 63.0,
+          "role": "Pass"
+        }
+      ]
     },
     {
       "team": "Houston Astros",
@@ -206,7 +218,7 @@
       "slot": 1,
       "confirmed": true,
       "season_hr": 44,
-      "iso": 0.288,
+      "iso": 0.286,
       "total": 76.0,
       "tier": "Satellite",
       "role": "Cause Satellite",
@@ -223,10 +235,10 @@
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "Proxy: elite HR rate (1/14 PA)",
-        "Proxy: elite ISO (0.288)",
+        "Proxy: elite ISO (0.286)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (108)",
         "Hot (87\u00b0F)",
@@ -245,12 +257,12 @@
       "opp_pitcher": "Ryan Feltner",
       "venue": "Yankee Stadium",
       "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
+      "slot": 1,
+      "confirmed": true,
       "season_hr": 36,
       "iso": 0.262,
-      "total": 69.0,
-      "tier": "Longshot",
+      "total": 75.0,
+      "tier": "Satellite",
       "role": "Cause Satellite",
       "shape_source": "proxy",
       "pull_fit": false,
@@ -259,7 +271,7 @@
         "pitcher": 18.0,
         "hitter": 28.0,
         "environment": 13.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -272,11 +284,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Elite HR park (113)",
         "Short RF porch boosts LHB HR",
+        "Top of order (#1)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -288,12 +299,12 @@
       "opp_pitcher": "Ryan Feltner",
       "venue": "Yankee Stadium",
       "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 29,
       "iso": 0.262,
-      "total": 68.0,
-      "tier": "Longshot",
+      "total": 73.0,
+      "tier": "Satellite",
       "role": "Cause Satellite",
       "shape_source": "proxy",
       "pull_fit": false,
@@ -302,7 +313,7 @@
         "pitcher": 18.0,
         "hitter": 27.0,
         "environment": 13.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -315,11 +326,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Elite HR park (113)",
         "Short RF porch boosts LHB HR",
+        "Heart of order (#4)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -394,7 +404,7 @@
       "statcast": null,
       "reasons": [
         "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
         "Pitcher: High K rate (30%)",
         "Proxy: strong HR rate",
         "Proxy: elite ISO (0.280)",
@@ -405,6 +415,90 @@
         "Model: one strong signal"
       ],
       "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 808959,
+      "name": "Munetaka Murakami",
+      "team": "Chicago White Sox",
+      "bats": "L",
+      "opp": "Pittsburgh Pirates",
+      "opp_pitcher": "Jared Jones",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 31,
+      "iso": 0.27,
+      "total": 63.0,
+      "tier": "Longshot",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 28.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jared Jones \u2014 cause C (12.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
+        "Pitcher: High K rate (28%)",
+        "Proxy: elite HR rate (1/16 PA)",
+        "Proxy: elite ISO (0.270)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Heart of order (#3)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 592626,
+      "name": "Joc Pederson",
+      "team": "Texas Rangers",
+      "bats": "L",
+      "opp": "Seattle Mariners",
+      "opp_pitcher": "Logan Gilbert",
+      "venue": "T-Mobile Park",
+      "gamePk": 823088,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.254,
+      "total": 63.0,
+      "tier": "Longshot",
+      "role": "Longshot",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 28.0,
+        "environment": 5.0,
+        "lineup": 12.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
+        "Proxy: elite HR rate (1/16 PA)",
+        "Proxy: elite ISO (0.254)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Pitcher park (93)"
+      ],
       "role_notes": []
     },
     {
@@ -419,7 +513,7 @@
       "slot": 3,
       "confirmed": true,
       "season_hr": 27,
-      "iso": 0.224,
+      "iso": 0.223,
       "total": 62.0,
       "tier": "Longshot",
       "role": "Longshot",
@@ -436,8 +530,8 @@
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (108)",
         "Hot (87\u00b0F)",
@@ -502,7 +596,7 @@
       "slot": 3,
       "confirmed": true,
       "season_hr": 39,
-      "iso": 0.251,
+      "iso": 0.25,
       "total": 60.5,
       "tier": "Pass",
       "role": "Pass",
@@ -521,7 +615,7 @@
         "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.89)",
         "Proxy: elite HR rate (1/16 PA)",
-        "Proxy: elite ISO (0.251)",
+        "Proxy: elite ISO (0.250)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
         "Hot (86\u00b0F)",
@@ -532,19 +626,103 @@
       "role_notes": []
     },
     {
-      "id": 808959,
-      "name": "Munetaka Murakami",
-      "team": "Chicago White Sox",
+      "id": 696100,
+      "name": "Hunter Goodman",
+      "team": "Colorado Rockies",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 823499,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 37,
+      "iso": 0.281,
+      "total": 60.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 30.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Fried \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.28)",
+        "Proxy: elite HR rate (1/14 PA)",
+        "Proxy: elite ISO (0.281)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Short RF porch boosts LHB HR",
+        "Heart of order (#3)",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 682987,
+      "name": "Spencer Jones",
+      "team": "New York Yankees",
       "bats": "L",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Ryan Feltner",
+      "venue": "Yankee Stadium",
+      "gamePk": 823499,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.201,
+      "total": 59.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.0,
+        "hitter": 16.0,
+        "environment": 13.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ryan Feltner \u2014 cause A (18.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.61)",
+        "Pitcher: Hard contact allowed (.514 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 678246,
+      "name": "Miguel Vargas",
+      "team": "Chicago White Sox",
+      "bats": "R",
       "opp": "Pittsburgh Pirates",
       "opp_pitcher": "Jared Jones",
       "venue": "Rate Field",
       "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 31,
-      "iso": 0.27,
-      "total": 58.0,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 30,
+      "iso": 0.23,
+      "total": 57.0,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
@@ -552,65 +730,22 @@
       "pitcher_grade": "C",
       "breakdown": {
         "pitcher": 12.0,
-        "hitter": 28.0,
+        "hitter": 22.0,
         "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
+        "lineup": 12.0,
+        "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
         "vs Jared Jones \u2014 cause C (12.0/25)",
         "Pitcher: Avg+ HR allowed (HR/9 1.38)",
         "Pitcher: High K rate (28%)",
-        "Proxy: elite HR rate (1/16 PA)",
-        "Proxy: elite ISO (0.270)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 592626,
-      "name": "Joc Pederson",
-      "team": "Texas Rangers",
-      "bats": "L",
-      "opp": "Seattle Mariners",
-      "opp_pitcher": "Logan Gilbert",
-      "venue": "T-Mobile Park",
-      "gamePk": 823088,
-      "slot": 1,
-      "confirmed": true,
-      "season_hr": 25,
-      "iso": 0.247,
-      "total": 57.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 22.0,
-        "environment": 5.0,
-        "lineup": 12.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.42)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Top of order (#1)"
+        "Slightly + park (101)",
+        "Top of order (#2)"
       ],
-      "warnings": [
-        "Pitcher park (93)"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -709,11 +844,11 @@
       "opp_pitcher": "Cristian Javier",
       "venue": "Citizens Bank Park",
       "gamePk": 823413,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.193,
-      "total": 57.0,
+      "total": 56.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -723,14 +858,14 @@
         "pitcher": 17.0,
         "hitter": 18.0,
         "environment": 12.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 4.0
       },
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
@@ -739,26 +874,26 @@
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 682987,
-      "name": "Spencer Jones",
+      "id": 641355,
+      "name": "Cody Bellinger",
       "team": "New York Yankees",
       "bats": "L",
       "opp": "Colorado Rockies",
       "opp_pitcher": "Ryan Feltner",
       "venue": "Yankee Stadium",
       "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.201,
-      "total": 57.0,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.154,
+      "total": 55.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -766,9 +901,9 @@
       "pitcher_grade": "A",
       "breakdown": {
         "pitcher": 18.0,
-        "hitter": 16.0,
+        "hitter": 8.0,
         "environment": 13.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -779,12 +914,11 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Elite HR park (113)",
         "Short RF porch boosts LHB HR",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -801,15 +935,15 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 17,
-      "iso": 0.205,
-      "total": 55.5,
+      "iso": 0.203,
+      "total": 54.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 15.5,
+        "pitcher": 14.0,
         "hitter": 20.0,
         "environment": 5.0,
         "lineup": 12.0,
@@ -817,8 +951,9 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
         "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
@@ -828,89 +963,6 @@
       "warnings": [
         "Pitcher park (93)"
       ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 696100,
-      "name": "Hunter Goodman",
-      "team": "Colorado Rockies",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 37,
-      "iso": 0.281,
-      "total": 55.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 30.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.28)",
-        "Proxy: elite HR rate (1/14 PA)",
-        "Proxy: elite ISO (0.281)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Short RF porch boosts LHB HR",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 671739,
-      "name": "Michael Harris II",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 24,
-      "iso": 0.2,
-      "total": 53.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.5,
-        "hitter": 18.0,
-        "environment": 10.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause C (12.5/25)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
-        "Heart of order (#4)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1015,7 +1067,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 11,
-      "iso": 0.211,
+      "iso": 0.21,
       "total": 52.5,
       "tier": "Pass",
       "role": "Pass",
@@ -1038,6 +1090,47 @@
         "Slightly + park (103)",
         "Hot (86\u00b0F)",
         "Top of order (#2)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 804668,
+      "name": "Rafael Flores Jr.",
+      "team": "Pittsburgh Pirates",
+      "bats": "R",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.272,
+      "total": 52.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 28.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.56)",
+        "Pitcher: High K rate (37%)",
+        "Proxy: elite HR rate (1/14 PA)",
+        "Proxy: elite ISO (0.272)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Mid order (#6)",
+        "Model: one strong signal"
       ],
       "warnings": [],
       "role_notes": []
@@ -1071,8 +1164,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
@@ -1084,69 +1177,109 @@
       "role_notes": []
     },
     {
-      "id": 679822,
-      "name": "Justin Foscue",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Seattle Mariners",
-      "opp_pitcher": "Logan Gilbert",
-      "venue": "T-Mobile Park",
-      "gamePk": 823088,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.233,
+      "id": 671739,
+      "name": "Michael Harris II",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 24,
+      "iso": 0.199,
+      "total": 51.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.5,
+        "hitter": 16.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause C (12.5/25)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Mart\u00edn P\u00e9rez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.237,
       "total": 51.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 15.5,
+        "pitcher": 5.5,
         "hitter": 22.0,
-        "environment": 5.0,
-        "lineup": 6.0,
+        "environment": 10.0,
+        "lineup": 11.0,
         "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.42)",
+        "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.89)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)"
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
+        "Heart of order (#4)"
       ],
-      "warnings": [
-        "Pitcher park (93)",
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
-      "id": 678246,
-      "name": "Miguel Vargas",
+      "id": 695657,
+      "name": "Colson Montgomery",
       "team": "Chicago White Sox",
-      "bats": "R",
+      "bats": "L",
       "opp": "Pittsburgh Pirates",
       "opp_pitcher": "Jared Jones",
       "venue": "Rate Field",
       "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 30,
-      "iso": 0.23,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 31,
+      "iso": 0.223,
       "total": 51.0,
       "tier": "Pass",
-      "role": "Pass",
+      "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "C",
       "breakdown": {
         "pitcher": 12.0,
-        "hitter": 22.0,
+        "hitter": 20.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 3.0
       },
       "statcast": null,
@@ -1156,12 +1289,14 @@
         "Pitcher: High K rate (28%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)"
+        "Slightly + park (101)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 607208,
@@ -1175,7 +1310,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 19,
-      "iso": 0.148,
+      "iso": 0.147,
       "total": 51.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1192,8 +1327,8 @@
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
         "Hot (87\u00b0F)",
@@ -1303,7 +1438,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 16,
-      "iso": 0.186,
+      "iso": 0.185,
       "total": 50.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1331,48 +1466,6 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
-    },
-    {
-      "id": 804668,
-      "name": "Rafael Flores Jr.",
-      "team": "Pittsburgh Pirates",
-      "bats": "R",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.272,
-      "total": 50.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 28.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.56)",
-        "Pitcher: High K rate (37%)",
-        "Proxy: elite HR rate (1/14 PA)",
-        "Proxy: elite ISO (0.272)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
     },
     {
       "id": 666160,
@@ -1415,6 +1508,130 @@
       "role_notes": []
     },
     {
+      "id": 669016,
+      "name": "Brandon Marsh",
+      "team": "Philadelphia Phillies",
+      "bats": "L",
+      "opp": "Houston Astros",
+      "opp_pitcher": "Cristian Javier",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823413,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.151,
+      "total": 50.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 17.0,
+        "hitter": 11.0,
+        "environment": 12.0,
+        "lineup": 6.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Cristian Javier \u2014 cause A (17.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (108)",
+        "Hot (87\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 679822,
+      "name": "Justin Foscue",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Seattle Mariners",
+      "opp_pitcher": "Logan Gilbert",
+      "venue": "T-Mobile Park",
+      "gamePk": 823088,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 11,
+      "iso": 0.233,
+      "total": 50.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 22.0,
+        "environment": 5.0,
+        "lineup": 6.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)"
+      ],
+      "warnings": [
+        "Pitcher park (93)",
+        "Lineup not confirmed"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 665833,
+      "name": "Oneil Cruz",
+      "team": "Pittsburgh Pirates",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.203,
+      "total": 49.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 22.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.56)",
+        "Pitcher: High K rate (37%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Top of order (#2)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 665161,
       "name": "Jeremy Pe\u00f1a",
       "team": "Houston Astros",
@@ -1426,7 +1643,7 @@
       "slot": 1,
       "confirmed": true,
       "season_hr": 17,
-      "iso": 0.185,
+      "iso": 0.184,
       "total": 49.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1443,185 +1660,12 @@
       "statcast": null,
       "reasons": [
         "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
         "Hot (87\u00b0F)",
         "Top of order (#1)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 695657,
-      "name": "Colson Montgomery",
-      "team": "Chicago White Sox",
-      "bats": "L",
-      "opp": "Pittsburgh Pirates",
-      "opp_pitcher": "Jared Jones",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 31,
-      "iso": 0.223,
-      "total": 49.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 20.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jared Jones \u2014 cause C (12.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
-        "Pitcher: High K rate (28%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669016,
-      "name": "Brandon Marsh",
-      "team": "Philadelphia Phillies",
-      "bats": "L",
-      "opp": "Houston Astros",
-      "opp_pitcher": "Cristian Javier",
-      "venue": "Citizens Bank Park",
-      "gamePk": 823413,
-      "slot": 7,
-      "confirmed": true,
-      "season_hr": 17,
-      "iso": 0.152,
-      "total": 49.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 17.0,
-        "hitter": 11.0,
-        "environment": 12.0,
-        "lineup": 5.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (108)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Bottom of order (#7)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 641355,
-      "name": "Cody Bellinger",
-      "team": "New York Yankees",
-      "bats": "L",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Ryan Feltner",
-      "venue": "Yankee Stadium",
-      "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.154,
-      "total": 49.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 18.0,
-        "hitter": 8.0,
-        "environment": 13.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ryan Feltner \u2014 cause A (18.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.61)",
-        "Pitcher: Hard contact allowed (.514 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 670623,
-      "name": "Isaac Paredes",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Philadelphia Phillies",
-      "opp_pitcher": "Zack Wheeler",
-      "venue": "Citizens Bank Park",
-      "gamePk": 823413,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 19,
-      "iso": 0.166,
-      "total": 48.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 14.0,
-        "environment": 12.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (106)",
-        "Hot (87\u00b0F)",
-        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
@@ -1641,7 +1685,7 @@
       "slot": 5,
       "confirmed": true,
       "season_hr": 15,
-      "iso": 0.143,
+      "iso": 0.145,
       "total": 47.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1658,8 +1702,8 @@
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
         "Hot (87\u00b0F)",
@@ -1673,45 +1717,83 @@
       ]
     },
     {
-      "id": 641857,
-      "name": "Ryan McMahon",
-      "team": "New York Yankees",
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "team": "Chicago White Sox",
       "bats": "L",
-      "opp": "Colorado Rockies",
-      "opp_pitcher": "Ryan Feltner",
-      "venue": "Yankee Stadium",
-      "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.145,
+      "opp": "Pittsburgh Pirates",
+      "opp_pitcher": "Jared Jones",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.18,
       "total": 47.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "A",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 18.0,
-        "hitter": 6.0,
-        "environment": 13.0,
-        "lineup": 6.0,
-        "confidence": 4.0
+        "pitcher": 12.0,
+        "hitter": 14.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Ryan Feltner \u2014 cause A (18.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.61)",
-        "Pitcher: Hard contact allowed (.514 SLG)",
+        "vs Jared Jones \u2014 cause C (12.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
+        "Pitcher: High K rate (28%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
+        "Slightly + park (101)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 645277,
+      "name": "Ozzie Albies",
+      "team": "Atlanta Braves",
+      "bats": "S",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.162,
+      "total": 46.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.5,
+        "hitter": 14.0,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause C (12.5/25)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1769,7 +1851,7 @@
       "slot": 2,
       "confirmed": true,
       "season_hr": 22,
-      "iso": 0.19,
+      "iso": 0.189,
       "total": 46.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1786,8 +1868,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Top of order (#2)",
@@ -1801,47 +1883,128 @@
       ]
     },
     {
-      "id": 669394,
-      "name": "Jake Burger",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Seattle Mariners",
-      "opp_pitcher": "Logan Gilbert",
-      "venue": "T-Mobile Park",
-      "gamePk": 823088,
-      "slot": 7,
+      "id": 664983,
+      "name": "Jake McCarthy",
+      "team": "Colorado Rockies",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 823499,
+      "slot": 1,
       "confirmed": true,
-      "season_hr": 26,
-      "iso": 0.198,
-      "total": 45.5,
+      "season_hr": 15,
+      "iso": 0.188,
+      "total": 46.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 18.0,
-        "environment": 5.0,
-        "lineup": 5.0,
+        "pitcher": 6.0,
+        "hitter": 13.0,
+        "environment": 13.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.42)",
-        "Proxy: strong HR rate",
+        "vs Max Fried \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.28)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 641857,
+      "name": "Ryan McMahon",
+      "team": "New York Yankees",
+      "bats": "L",
+      "opp": "Colorado Rockies",
+      "opp_pitcher": "Ryan Feltner",
+      "venue": "Yankee Stadium",
+      "gamePk": 823499,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.145,
+      "total": 46.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 18.0,
+        "hitter": 6.0,
+        "environment": 13.0,
+        "lineup": 5.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ryan Feltner \u2014 cause A (18.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.61)",
+        "Pitcher: Hard contact allowed (.514 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
       "warnings": [
-        "Pitcher park (93)",
         "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 664040,
+      "name": "Brandon Lowe",
+      "team": "Pittsburgh Pirates",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 29,
+      "iso": 0.22,
+      "total": 45.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 22.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.56)",
+        "Pitcher: High K rate (37%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Mid order (#5)"
+      ],
+      "warnings": [],
+      "role_notes": []
     },
     {
       "id": 572233,
@@ -1855,7 +2018,7 @@
       "slot": 6,
       "confirmed": true,
       "season_hr": 25,
-      "iso": 0.197,
+      "iso": 0.196,
       "total": 45.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1872,7 +2035,7 @@
       "statcast": null,
       "reasons": [
         "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
@@ -1927,6 +2090,48 @@
       ]
     },
     {
+      "id": 670623,
+      "name": "Isaac Paredes",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Zack Wheeler",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823413,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 19,
+      "iso": 0.165,
+      "total": 45.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 11.0,
+        "environment": 12.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (106)",
+        "Hot (87\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 663728,
       "name": "Cal Raleigh",
       "team": "Seattle Mariners",
@@ -1938,7 +2143,7 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 21,
-      "iso": 0.193,
+      "iso": 0.192,
       "total": 45.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1955,8 +2160,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
@@ -1999,8 +2204,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
@@ -2015,6 +2220,50 @@
       ]
     },
     {
+      "id": 669394,
+      "name": "Jake Burger",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Seattle Mariners",
+      "opp_pitcher": "Logan Gilbert",
+      "venue": "T-Mobile Park",
+      "gamePk": 823088,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.197,
+      "total": 44.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 18.0,
+        "environment": 5.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (93)",
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 669224,
       "name": "Austin Wells",
       "team": "New York Yankees",
@@ -2023,11 +2272,11 @@
       "opp_pitcher": "Ryan Feltner",
       "venue": "Yankee Stadium",
       "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.122,
-      "total": 45.0,
+      "total": 44.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -2037,7 +2286,7 @@
         "pitcher": 18.0,
         "hitter": 4.0,
         "environment": 13.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -2052,7 +2301,7 @@
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -2070,15 +2319,15 @@
       "slot": 3,
       "confirmed": true,
       "season_hr": 17,
-      "iso": 0.177,
-      "total": 44.5,
+      "iso": 0.175,
+      "total": 43.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 15.5,
+        "pitcher": 14.0,
         "hitter": 11.0,
         "environment": 5.0,
         "lineup": 11.0,
@@ -2086,8 +2335,9 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
         "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Heart of order (#3)",
@@ -2112,15 +2362,15 @@
       "slot": 5,
       "confirmed": true,
       "season_hr": 16,
-      "iso": 0.195,
-      "total": 44.5,
+      "iso": 0.194,
+      "total": 43.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 15.5,
+        "pitcher": 14.0,
         "hitter": 14.0,
         "environment": 5.0,
         "lineup": 8.0,
@@ -2128,8 +2378,9 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
         "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Mid order (#5)",
@@ -2143,167 +2394,42 @@
       ]
     },
     {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "team": "Tampa Bay Rays",
+      "id": 681198,
+      "name": "TJ Rumfield",
+      "team": "Colorado Rockies",
       "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Mart\u00edn P\u00e9rez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.217,
-      "total": 44.5,
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 823499,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.16,
+      "total": 43.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 5.5,
-        "hitter": 20.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.89)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 664040,
-      "name": "Brandon Lowe",
-      "team": "Pittsburgh Pirates",
-      "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 29,
-      "iso": 0.22,
-      "total": 43.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 22.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.56)",
-        "Pitcher: High K rate (37%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 665833,
-      "name": "Oneil Cruz",
-      "team": "Pittsburgh Pirates",
-      "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.203,
-      "total": 43.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 22.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.56)",
-        "Pitcher: High K rate (37%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 673237,
-      "name": "Yainer Diaz",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Philadelphia Phillies",
-      "opp_pitcher": "Zack Wheeler",
-      "venue": "Citizens Bank Park",
-      "gamePk": 823413,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.162,
-      "total": 43.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 14.0,
-        "environment": 12.0,
-        "lineup": 6.0,
+        "pitcher": 6.0,
+        "hitter": 11.0,
+        "environment": 13.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "Pitcher: High K rate (30%)",
+        "vs Max Fried \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.28)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (106)",
-        "Hot (87\u00b0F)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -2425,8 +2551,8 @@
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (106)",
         "Hot (87\u00b0F)",
@@ -2452,7 +2578,7 @@
       "slot": 6,
       "confirmed": true,
       "season_hr": 10,
-      "iso": 0.143,
+      "iso": 0.142,
       "total": 43.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -2469,8 +2595,8 @@
       "statcast": null,
       "reasons": [
         "vs Cristian Javier \u2014 cause A (17.0/25)",
-        "Pitcher: High HR allowed (HR/9 1.58)",
-        "Pitcher: Hard contact allowed (.458 SLG)",
+        "Pitcher: High HR allowed (HR/9 1.47)",
+        "Pitcher: Hard contact allowed (.447 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (108)",
         "Hot (87\u00b0F)",
@@ -2484,42 +2610,86 @@
       ]
     },
     {
-      "id": 643217,
-      "name": "Andrew Benintendi",
-      "team": "Chicago White Sox",
-      "bats": "L",
-      "opp": "Pittsburgh Pirates",
-      "opp_pitcher": "Jared Jones",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.18,
-      "total": 42.0,
+      "id": 701358,
+      "name": "Cam Smith",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Zack Wheeler",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823413,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 20,
+      "iso": 0.191,
+      "total": 42.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 12.0,
+        "pitcher": 9.5,
         "hitter": 14.0,
-        "environment": 8.0,
-        "lineup": 6.0,
+        "environment": 12.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Jared Jones \u2014 cause C (12.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
-        "Pitcher: High K rate (28%)",
+        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
+        "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
+        "Hitter-friendly park (106)",
+        "Hot (87\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 673237,
+      "name": "Yainer Diaz",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Zack Wheeler",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823413,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.161,
+      "total": 42.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 14.0,
+        "environment": 12.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (106)",
+        "Hot (87\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -2537,15 +2707,15 @@
       "slot": 4,
       "confirmed": true,
       "season_hr": 14,
-      "iso": 0.151,
-      "total": 41.5,
+      "iso": 0.15,
+      "total": 40.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 15.5,
+        "pitcher": 14.0,
         "hitter": 8.0,
         "environment": 5.0,
         "lineup": 11.0,
@@ -2553,8 +2723,9 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
         "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Heart of order (#4)",
@@ -2576,11 +2747,11 @@
       "opp_pitcher": "Jared Jones",
       "venue": "Rate Field",
       "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.187,
-      "total": 41.0,
+      "total": 40.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -2590,7 +2761,7 @@
         "pitcher": 12.0,
         "hitter": 13.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -2603,218 +2774,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 701358,
-      "name": "Cam Smith",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Philadelphia Phillies",
-      "opp_pitcher": "Zack Wheeler",
-      "venue": "Citizens Bank Park",
-      "gamePk": 823413,
-      "slot": 7,
-      "confirmed": true,
-      "season_hr": 19,
-      "iso": 0.185,
-      "total": 40.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 12.0,
-        "environment": 12.0,
-        "lineup": 5.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (106)",
-        "Hot (87\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Bottom of order (#7)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 514888,
-      "name": "Jose Altuve",
-      "team": "Houston Astros",
-      "bats": "R",
-      "opp": "Philadelphia Phillies",
-      "opp_pitcher": "Zack Wheeler",
-      "venue": "Citizens Bank Park",
-      "gamePk": 823413,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 15,
-      "iso": 0.153,
-      "total": 40.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 6.0,
-        "environment": 12.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "Pitcher: High K rate (30%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (106)",
-        "Hot (87\u00b0F)",
-        "Heart of order (#4)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 664983,
-      "name": "Jake McCarthy",
-      "team": "Colorado Rockies",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.188,
-      "total": 40.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 13.0,
-        "environment": 13.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.28)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 645277,
-      "name": "Ozzie Albies",
-      "team": "Atlanta Braves",
-      "bats": "S",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.16,
-      "total": 39.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.5,
-        "hitter": 9.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause C (12.5/25)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 681198,
-      "name": "TJ Rumfield",
-      "team": "Colorado Rockies",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.16,
-      "total": 38.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 11.0,
-        "environment": 13.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.28)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -2849,12 +2809,94 @@
       "statcast": null,
       "reasons": [
         "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
         "Pitcher: High K rate (30%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (108)",
         "Hot (87\u00b0F)",
         "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Mart\u00edn P\u00e9rez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 18,
+      "iso": 0.156,
+      "total": 36.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 5.5,
+        "hitter": 11.0,
+        "environment": 10.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.89)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668804,
+      "name": "Bryan Reynolds",
+      "team": "Pittsburgh Pirates",
+      "bats": "S",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.163,
+      "total": 36.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.56)",
+        "Pitcher: High K rate (37%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
@@ -2905,172 +2947,6 @@
       ]
     },
     {
-      "id": 676356,
-      "name": "Jonny DeLuca",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Mart\u00edn P\u00e9rez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 9,
-      "iso": 0.155,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 5.5,
-        "hitter": 8.0,
-        "environment": 10.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.89)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
-        "Heart of order (#4)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 673962,
-      "name": "Josh Jung",
-      "team": "Texas Rangers",
-      "bats": "R",
-      "opp": "Seattle Mariners",
-      "opp_pitcher": "Logan Gilbert",
-      "venue": "T-Mobile Park",
-      "gamePk": 823088,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.147,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 8.0,
-        "environment": 5.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.42)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (93)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 573262,
-      "name": "Mike Yastrzemski",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.144,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.5,
-        "hitter": 6.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause C (12.5/25)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 642086,
-      "name": "Dominic Smith",
-      "team": "Atlanta Braves",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
-      "slot": 6,
-      "confirmed": true,
-      "season_hr": 8,
-      "iso": 0.122,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.5,
-        "hitter": 4.0,
-        "environment": 10.0,
-        "lineup": 8.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause C (12.5/25)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
-        "Mid order (#6)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 663586,
       "name": "Austin Riley",
       "team": "Atlanta Braves",
@@ -3082,7 +2958,7 @@
       "slot": 7,
       "confirmed": true,
       "season_hr": 16,
-      "iso": 0.142,
+      "iso": 0.141,
       "total": 35.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3113,6 +2989,91 @@
       ]
     },
     {
+      "id": 514888,
+      "name": "Jose Altuve",
+      "team": "Houston Astros",
+      "bats": "R",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Zack Wheeler",
+      "venue": "Citizens Bank Park",
+      "gamePk": 823413,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 15,
+      "iso": 0.154,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 6.0,
+        "environment": 12.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Zack Wheeler \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.26)",
+        "Pitcher: High K rate (30%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (106)",
+        "Hot (87\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 573262,
+      "name": "Mike Yastrzemski",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.147,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.5,
+        "hitter": 6.0,
+        "environment": 10.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause C (12.5/25)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#8)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 677594,
       "name": "Julio Rodr\u00edguez",
       "team": "Seattle Mariners",
@@ -3124,7 +3085,7 @@
       "slot": 5,
       "confirmed": true,
       "season_hr": 20,
-      "iso": 0.151,
+      "iso": 0.15,
       "total": 35.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3141,8 +3102,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Mid order (#5)",
@@ -3156,41 +3117,42 @@
       ]
     },
     {
-      "id": 689414,
-      "name": "Liam Hicks",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Mart\u00edn P\u00e9rez",
-      "venue": "Truist Park",
-      "gamePk": 824872,
+      "id": 673962,
+      "name": "Josh Jung",
+      "team": "Texas Rangers",
+      "bats": "R",
+      "opp": "Seattle Mariners",
+      "opp_pitcher": "Logan Gilbert",
+      "venue": "T-Mobile Park",
+      "gamePk": 823088,
       "slot": null,
       "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.156,
-      "total": 34.5,
+      "season_hr": 9,
+      "iso": 0.147,
+      "total": 35.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "Pass",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 5.5,
-        "hitter": 11.0,
-        "environment": 10.0,
+        "pitcher": 14.0,
+        "hitter": 8.0,
+        "environment": 5.0,
         "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.89)",
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Hot (86\u00b0F)",
+        "Retractable roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
+        "Pitcher park (93)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -3240,6 +3202,48 @@
       ]
     },
     {
+      "id": 642086,
+      "name": "Dominic Smith",
+      "team": "Atlanta Braves",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 8,
+      "iso": 0.122,
+      "total": 34.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.5,
+        "hitter": 4.0,
+        "environment": 10.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause C (12.5/25)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 641487,
       "name": "J.P. Crawford",
       "team": "Seattle Mariners",
@@ -3268,8 +3272,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Top of order (#1)",
@@ -3278,6 +3282,47 @@
       "warnings": [
         "Pitcher park (93)"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 803011,
+      "name": "Sam Antonacci",
+      "team": "Chicago White Sox",
+      "bats": "L",
+      "opp": "Pittsburgh Pirates",
+      "opp_pitcher": "Jared Jones",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.123,
+      "total": 34.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 12.0,
+        "hitter": 0.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jared Jones \u2014 cause C (12.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
+        "Pitcher: High K rate (28%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -3325,6 +3370,47 @@
       ]
     },
     {
+      "id": 691720,
+      "name": "Kyle Karros",
+      "team": "Colorado Rockies",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 823499,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.158,
+      "total": 33.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 8.0,
+        "environment": 9.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Fried \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.28)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Short RF porch boosts LHB HR",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 806068,
       "name": "Colt Emerson",
       "team": "Seattle Mariners",
@@ -3353,8 +3439,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3379,7 +3465,7 @@
       "slot": 5,
       "confirmed": true,
       "season_hr": 11,
-      "iso": 0.12,
+      "iso": 0.119,
       "total": 32.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3409,18 +3495,18 @@
       ]
     },
     {
-      "id": 666018,
-      "name": "Jonathan Aranda",
+      "id": 676356,
+      "name": "Jonny DeLuca",
       "team": "Tampa Bay Rays",
-      "bats": "L",
+      "bats": "R",
       "opp": "Atlanta Braves",
       "opp_pitcher": "Mart\u00edn P\u00e9rez",
       "venue": "Truist Park",
       "gamePk": 824872,
       "slot": null,
       "confirmed": false,
-      "season_hr": 19,
-      "iso": 0.15,
+      "season_hr": 9,
+      "iso": 0.155,
       "total": 31.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3451,126 +3537,42 @@
       ]
     },
     {
-      "id": 668804,
-      "name": "Bryan Reynolds",
-      "team": "Pittsburgh Pirates",
-      "bats": "S",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.163,
-      "total": 31.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.56)",
-        "Pitcher: High K rate (37%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 691720,
-      "name": "Kyle Karros",
-      "team": "Colorado Rockies",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.158,
-      "total": 31.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 8.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.28)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 694497,
-      "name": "Evan Carter",
-      "team": "Texas Rangers",
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
       "bats": "L",
-      "opp": "Seattle Mariners",
-      "opp_pitcher": "Logan Gilbert",
-      "venue": "T-Mobile Park",
-      "gamePk": 823088,
-      "slot": 6,
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Mart\u00edn P\u00e9rez",
+      "venue": "Truist Park",
+      "gamePk": 824872,
+      "slot": 7,
       "confirmed": true,
-      "season_hr": 9,
-      "iso": 0.129,
+      "season_hr": 19,
+      "iso": 0.149,
       "total": 30.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 15.5,
-        "hitter": 0.0,
-        "environment": 5.0,
-        "lineup": 8.0,
+        "pitcher": 5.5,
+        "hitter": 8.0,
+        "environment": 10.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Logan Gilbert \u2014 cause B (15.5/25)",
-        "Pitcher: High HR allowed (HR/9 1.42)",
+        "vs Mart\u00edn P\u00e9rez \u2014 cause Pass (5.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.89)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Retractable roof (weather neutralized)",
-        "Mid order (#6)",
+        "Slightly + park (103)",
+        "Hot (86\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Pitcher park (93)"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3672,7 +3674,7 @@
       "slot": 7,
       "confirmed": true,
       "season_hr": 16,
-      "iso": 0.137,
+      "iso": 0.136,
       "total": 29.0,
       "tier": "Pass",
       "role": "Watchlist",
@@ -3689,8 +3691,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3698,6 +3700,49 @@
       "warnings": [
         "Pitcher park (93)",
         "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 694497,
+      "name": "Evan Carter",
+      "team": "Texas Rangers",
+      "bats": "L",
+      "opp": "Seattle Mariners",
+      "opp_pitcher": "Logan Gilbert",
+      "venue": "T-Mobile Park",
+      "gamePk": 823088,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.128,
+      "total": 29.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 14.0,
+        "hitter": 0.0,
+        "environment": 5.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Logan Gilbert \u2014 cause B (14.0/25)",
+        "Pitcher: High HR allowed (HR/9 1.42)",
+        "Pitcher: High K rate (28%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Retractable roof (weather neutralized)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (93)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3754,11 +3799,11 @@
       "opp_pitcher": "Jared Jones",
       "venue": "Rate Field",
       "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.123,
-      "total": 28.0,
+      "total": 27.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -3768,7 +3813,7 @@
         "pitcher": 12.0,
         "hitter": 0.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -3781,49 +3826,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 803011,
-      "name": "Sam Antonacci",
-      "team": "Chicago White Sox",
-      "bats": "L",
-      "opp": "Pittsburgh Pirates",
-      "opp_pitcher": "Jared Jones",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.123,
-      "total": 28.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 12.0,
-        "hitter": 0.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jared Jones \u2014 cause C (12.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.38)",
-        "Pitcher: High K rate (28%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3858,8 +3861,8 @@
       "statcast": null,
       "reasons": [
         "vs Jacob deGrom \u2014 cause C (11.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Pitcher: High K rate (30%)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.15)",
+        "Pitcher: High K rate (31%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Retractable roof (weather neutralized)",
         "Mid order (#6)",
@@ -3867,48 +3870,6 @@
       ],
       "warnings": [
         "Pitcher park (93)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 687462,
-      "name": "Spencer Horwitz",
-      "team": "Pittsburgh Pirates",
-      "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 824550,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.124,
-      "total": 24.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 4.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.56)",
-        "Pitcher: High K rate (37%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3957,6 +3918,48 @@
       ]
     },
     {
+      "id": 687462,
+      "name": "Spencer Horwitz",
+      "team": "Pittsburgh Pirates",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 824550,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.124,
+      "total": 23.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.56)",
+        "Pitcher: High K rate (37%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#8)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 678662,
       "name": "Ezequiel Tovar",
       "team": "Colorado Rockies",
@@ -3965,11 +3968,11 @@
       "opp_pitcher": "Max Fried",
       "venue": "Yankee Stadium",
       "gamePk": 823499,
-      "slot": null,
-      "confirmed": false,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.121,
-      "total": 23.0,
+      "total": 22.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -3979,7 +3982,7 @@
         "pitcher": 6.0,
         "hitter": 0.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -3992,7 +3995,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -4002,14 +4005,15 @@
   "structures": {
     "same_game_pair": {
       "legs": [
-        "Ben Rice (69.0)",
-        "Luis Garc\u00eda Jr. (68.0)"
+        "Ben Rice (75.0)",
+        "Luis Garc\u00eda Jr. (73.0)"
       ],
       "game": "New York Yankees vs Colorado Rockies",
       "why": "Shared cause: Ryan Feltner grades A. Both New York Yankees bats have the shape to capture the same environment."
     },
     "longshot_group": {
       "legs": [
+        "Joc Pederson (Texas Rangers, 63.0)",
         "Bryce Harper (Philadelphia Phillies, 62.0)"
       ],
       "why": "Deeper bats with a real pitcher/park cause \u2014 bonus-only convergence."
@@ -4034,19 +4038,20 @@
       "score": 17.0,
       "grade": "A",
       "flags": [
-        "High HR allowed (HR/9 1.58)",
-        "Hard contact allowed (.458 SLG)"
+        "High HR allowed (HR/9 1.47)",
+        "Hard contact allowed (.447 SLG)"
       ],
-      "hr9": 1.58,
+      "hr9": 1.47,
       "barrel_allowed": null
     },
     {
       "id": 669302,
       "name": "Logan Gilbert",
-      "score": 15.5,
+      "score": 14.0,
       "grade": "B",
       "flags": [
-        "High HR allowed (HR/9 1.42)"
+        "High HR allowed (HR/9 1.42)",
+        "High K rate (28%)"
       ],
       "hr9": 1.42,
       "barrel_allowed": null
@@ -4080,10 +4085,10 @@
       "score": 11.0,
       "grade": "C",
       "flags": [
-        "Avg+ HR allowed (HR/9 1.19)",
-        "High K rate (30%)"
+        "Avg+ HR allowed (HR/9 1.15)",
+        "High K rate (31%)"
       ],
-      "hr9": 1.19,
+      "hr9": 1.15,
       "barrel_allowed": null
     },
     {
@@ -4092,10 +4097,10 @@
       "score": 9.5,
       "grade": "Pass",
       "flags": [
-        "Avg+ HR allowed (HR/9 1.29)",
+        "Avg+ HR allowed (HR/9 1.26)",
         "High K rate (30%)"
       ],
-      "hr9": 1.29,
+      "hr9": 1.26,
       "barrel_allowed": null
     },
     {
@@ -4159,7 +4164,7 @@
         "team": "New York Yankees",
         "opp_pitcher": "Ryan Feltner",
         "role": "Cause Satellite",
-        "total": 69.0,
+        "total": 75.0,
         "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
@@ -4171,7 +4176,7 @@
         "team": "New York Yankees",
         "opp_pitcher": "Ryan Feltner",
         "role": "Cause Satellite",
-        "total": 68.0,
+        "total": 73.0,
         "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
