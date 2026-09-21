@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-09-21T19:38:39.857436+00:00",
+  "generated_utc": "2026-09-21T22:44:00.983042+00:00",
   "slate_date": "2026-09-21",
   "games": 3,
-  "confirmed_lineups": 3,
+  "confirmed_lineups": 5,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-01",
     "end": "2026-09-21",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -180,6 +180,49 @@
       ]
     },
     {
+      "id": 665019,
+      "name": "Kody Clemens",
+      "team": "Minnesota Twins",
+      "bats": "L",
+      "opp": "San Francisco Giants",
+      "opp_pitcher": "Blade Tidwell",
+      "venue": "Oracle Park",
+      "gamePk": 823169,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.224,
+      "total": 53.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 22.0,
+        "environment": 4.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blade Tidwell \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep RF triples alley suppresses LHB HR",
+        "Heart of order (#4)",
+        "Suppressive park + no pull/barrel fit \u2192 Watchlist"
+      ],
+      "warnings": [
+        "Pitcher park (92)"
+      ],
+      "role_notes": [
+        "Suppressive park + no pull/barrel fit \u2192 Watchlist"
+      ]
+    },
+    {
       "id": 624413,
       "name": "Pete Alonso",
       "team": "Baltimore Orioles",
@@ -308,49 +351,6 @@
       ]
     },
     {
-      "id": 665019,
-      "name": "Kody Clemens",
-      "team": "Minnesota Twins",
-      "bats": "L",
-      "opp": "San Francisco Giants",
-      "opp_pitcher": "Blade Tidwell",
-      "venue": "Oracle Park",
-      "gamePk": 823169,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.224,
-      "total": 48.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 22.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blade Tidwell \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep RF triples alley suppresses LHB HR",
-        "Suppressive park + no pull/barrel fit \u2192 Watchlist"
-      ],
-      "warnings": [
-        "Pitcher park (92)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Suppressive park + no pull/barrel fit \u2192 Watchlist"
-      ]
-    },
-    {
       "id": 687952,
       "name": "Christian Encarnacion-Strand",
       "team": "Baltimore Orioles",
@@ -390,6 +390,133 @@
       ],
       "role_notes": [
         "Suppressive park + no pull/barrel fit \u2192 Watchlist"
+      ]
+    },
+    {
+      "id": 672960,
+      "name": "Kazuma Okamoto",
+      "team": "Toronto Blue Jays",
+      "bats": "R",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Shane Baz",
+      "venue": "Oriole Park at Camden Yards",
+      "gamePk": 824787,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 33,
+      "iso": 0.224,
+      "total": 44.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.5,
+        "hitter": 20.0,
+        "environment": 5.0,
+        "lineup": 8.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Baz \u2014 cause Pass (8.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.78)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep LF wall suppresses RHB HR",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (92)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 686797,
+      "name": "Brooks Lee",
+      "team": "Minnesota Twins",
+      "bats": "S",
+      "opp": "San Francisco Giants",
+      "opp_pitcher": "Blade Tidwell",
+      "venue": "Oracle Park",
+      "gamePk": 823169,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 23,
+      "iso": 0.177,
+      "total": 44.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 14.0,
+        "environment": 4.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blade Tidwell \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep RF triples alley suppresses LHB HR",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (91)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 680777,
+      "name": "Ryan Jeffers",
+      "team": "Minnesota Twins",
+      "bats": "R",
+      "opp": "San Francisco Giants",
+      "opp_pitcher": "Blade Tidwell",
+      "venue": "Oracle Park",
+      "gamePk": 823169,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.212,
+      "total": 44.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 18.0,
+        "environment": 3.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blade Tidwell \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep RF triples alley suppresses LHB HR",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Strong pitcher park (89)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
@@ -517,91 +644,6 @@
       ]
     },
     {
-      "id": 672960,
-      "name": "Kazuma Okamoto",
-      "team": "Toronto Blue Jays",
-      "bats": "R",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Shane Baz",
-      "venue": "Oriole Park at Camden Yards",
-      "gamePk": 824787,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 33,
-      "iso": 0.224,
-      "total": 42.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 20.0,
-        "environment": 5.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shane Baz \u2014 cause Pass (8.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.78)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep LF wall suppresses RHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (92)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 680777,
-      "name": "Ryan Jeffers",
-      "team": "Minnesota Twins",
-      "bats": "R",
-      "opp": "San Francisco Giants",
-      "opp_pitcher": "Blade Tidwell",
-      "venue": "Oracle Park",
-      "gamePk": 823169,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.212,
-      "total": 42.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 18.0,
-        "environment": 3.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blade Tidwell \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep RF triples alley suppresses LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Strong pitcher park (89)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 695578,
       "name": "James Wood",
       "team": "Washington Nationals",
@@ -721,48 +763,6 @@
       "role_notes": []
     },
     {
-      "id": 686797,
-      "name": "Brooks Lee",
-      "team": "Minnesota Twins",
-      "bats": "S",
-      "opp": "San Francisco Giants",
-      "opp_pitcher": "Blade Tidwell",
-      "venue": "Oracle Park",
-      "gamePk": 823169,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 23,
-      "iso": 0.177,
-      "total": 39.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 14.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blade Tidwell \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep RF triples alley suppresses LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (91)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 605137,
       "name": "Josh Bell",
       "team": "Minnesota Twins",
@@ -841,6 +841,48 @@
       "warnings": [
         "Pitcher park (92)",
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 672386,
+      "name": "Alejandro Kirk",
+      "team": "Toronto Blue Jays",
+      "bats": "R",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Shane Baz",
+      "venue": "Oriole Park at Camden Yards",
+      "gamePk": 824787,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.142,
+      "total": 38.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.5,
+        "hitter": 11.0,
+        "environment": 5.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Baz \u2014 cause Pass (8.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.78)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep LF wall suppresses RHB HR",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (92)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -1094,43 +1136,42 @@
       ]
     },
     {
-      "id": 668952,
-      "name": "Ryan Kreidler",
-      "team": "Minnesota Twins",
-      "bats": "R",
-      "opp": "San Francisco Giants",
-      "opp_pitcher": "Blade Tidwell",
-      "venue": "Oracle Park",
-      "gamePk": 823169,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 8,
-      "iso": 0.167,
+      "id": 664770,
+      "name": "Nathan Lukes",
+      "team": "Toronto Blue Jays",
+      "bats": "L",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Shane Baz",
+      "venue": "Oriole Park at Camden Yards",
+      "gamePk": 824787,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.113,
       "total": 33.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 9.0,
-        "environment": 3.0,
-        "lineup": 6.0,
+        "pitcher": 8.5,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Blade Tidwell \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "vs Shane Baz \u2014 cause Pass (8.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.78)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep RF triples alley suppresses LHB HR",
+        "Slightly + park (101)",
+        "Deep LF wall suppresses RHB HR",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Strong pitcher park (89)",
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1217,18 +1258,18 @@
       ]
     },
     {
-      "id": 672386,
-      "name": "Alejandro Kirk",
+      "id": 543807,
+      "name": "George Springer",
       "team": "Toronto Blue Jays",
       "bats": "R",
       "opp": "Baltimore Orioles",
       "opp_pitcher": "Shane Baz",
       "venue": "Oriole Park at Camden Yards",
       "gamePk": 824787,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.142,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.159,
       "total": 32.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1237,9 +1278,9 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 8.5,
-        "hitter": 11.0,
+        "hitter": 6.0,
         "environment": 5.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -1248,11 +1289,53 @@
         "Pitcher: Suppresses HR (HR/9 0.78)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Deep LF wall suppresses RHB HR",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Pitcher park (92)",
-        "Lineup not confirmed"
+        "Pitcher park (92)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668952,
+      "name": "Ryan Kreidler",
+      "team": "Minnesota Twins",
+      "bats": "R",
+      "opp": "San Francisco Giants",
+      "opp_pitcher": "Blade Tidwell",
+      "venue": "Oracle Park",
+      "gamePk": 823169,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 8,
+      "iso": 0.167,
+      "total": 32.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 9.0,
+        "environment": 3.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blade Tidwell \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep RF triples alley suppresses LHB HR",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Strong pitcher park (89)",
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -1382,6 +1465,48 @@
       ]
     },
     {
+      "id": 807712,
+      "name": "Luke Keaschall",
+      "team": "Minnesota Twins",
+      "bats": "R",
+      "opp": "San Francisco Giants",
+      "opp_pitcher": "Blade Tidwell",
+      "venue": "Oracle Park",
+      "gamePk": 823169,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.109,
+      "total": 30.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 0.0,
+        "environment": 3.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blade Tidwell \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep RF triples alley suppresses LHB HR",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Strong pitcher park (89)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 701678,
       "name": "Hao-Yu Lee",
       "team": "Detroit Tigers",
@@ -1416,90 +1541,6 @@
       ],
       "warnings": [
         "Pitcher park (94)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 664770,
-      "name": "Nathan Lukes",
-      "team": "Toronto Blue Jays",
-      "bats": "L",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Shane Baz",
-      "venue": "Oriole Park at Camden Yards",
-      "gamePk": 824787,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.113,
-      "total": 28.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 4.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shane Baz \u2014 cause Pass (8.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.78)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Deep LF wall suppresses RHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 543807,
-      "name": "George Springer",
-      "team": "Toronto Blue Jays",
-      "bats": "R",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Shane Baz",
-      "venue": "Oriole Park at Camden Yards",
-      "gamePk": 824787,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.159,
-      "total": 27.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 6.0,
-        "environment": 5.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shane Baz \u2014 cause Pass (8.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.78)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep LF wall suppresses RHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (92)",
-        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -1597,11 +1638,11 @@
       "opp_pitcher": "Shane Baz",
       "venue": "Oriole Park at Camden Yards",
       "gamePk": 824787,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 9,
       "iso": 0.114,
-      "total": 24.5,
+      "total": 23.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -1611,7 +1652,7 @@
         "pitcher": 8.5,
         "hitter": 0.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -1624,49 +1665,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 807712,
-      "name": "Luke Keaschall",
-      "team": "Minnesota Twins",
-      "bats": "R",
-      "opp": "San Francisco Giants",
-      "opp_pitcher": "Blade Tidwell",
-      "venue": "Oracle Park",
-      "gamePk": 823169,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.109,
-      "total": 24.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 0.0,
-        "environment": 3.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blade Tidwell \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.19)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep RF triples alley suppresses LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Strong pitcher park (89)",
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -1713,48 +1712,6 @@
       ]
     },
     {
-      "id": 676391,
-      "name": "Ernie Clement",
-      "team": "Toronto Blue Jays",
-      "bats": "R",
-      "opp": "Baltimore Orioles",
-      "opp_pitcher": "Shane Baz",
-      "venue": "Oriole Park at Camden Yards",
-      "gamePk": 824787,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.107,
-      "total": 21.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 8.5,
-        "hitter": 0.0,
-        "environment": 5.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shane Baz \u2014 cause Pass (8.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.78)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Deep LF wall suppresses RHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Pitcher park (92)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 665489,
       "name": "Vladimir Guerrero Jr.",
       "team": "Toronto Blue Jays",
@@ -1791,6 +1748,48 @@
       "warnings": [
         "Pitcher park (92)",
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 676391,
+      "name": "Ernie Clement",
+      "team": "Toronto Blue Jays",
+      "bats": "R",
+      "opp": "Baltimore Orioles",
+      "opp_pitcher": "Shane Baz",
+      "venue": "Oriole Park at Camden Yards",
+      "gamePk": 824787,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.107,
+      "total": 20.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.5,
+        "hitter": 0.0,
+        "environment": 5.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Baz \u2014 cause Pass (8.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.78)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Deep LF wall suppresses RHB HR",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Pitcher park (92)",
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
