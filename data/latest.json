@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-01T19:40:12.675938+00:00",
+  "generated_utc": "2026-10-01T23:21:01.069956+00:00",
   "slate_date": "2026-10-01",
   "games": 1,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-11",
     "end": "2026-10-01",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -48,7 +48,7 @@
       "playable_bats": [
         {
           "name": "Matt Olson",
-          "total": 63.0,
+          "total": 68.0,
           "role": "Cause Satellite"
         }
       ]
@@ -64,7 +64,13 @@
       "cause_score": 10.2,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
-      "playable_bats": []
+      "playable_bats": [
+        {
+          "name": "Kyle Schwarber",
+          "total": 62.5,
+          "role": "Pass"
+        }
+      ]
     }
   ],
   "candidates": [
@@ -77,11 +83,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 41,
       "iso": 0.251,
-      "total": 63.0,
+      "total": 68.0,
       "tier": "Longshot",
       "role": "Cause Satellite",
       "shape_source": "proxy",
@@ -91,7 +97,7 @@
         "pitcher": 19.0,
         "hitter": 25.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -103,12 +109,11 @@
         "Proxy: elite ISO (0.251)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Heart of order (#3)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -120,12 +125,12 @@
       "opp_pitcher": "Ray Kerr",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 2,
+      "confirmed": true,
       "season_hr": 45,
       "iso": 0.271,
-      "total": 56.5,
-      "tier": "Pass",
+      "total": 62.5,
+      "tier": "Longshot",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
@@ -134,7 +139,7 @@
         "pitcher": 9.5,
         "hitter": 28.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -144,12 +149,11 @@
         "Proxy: elite ISO (0.271)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Top of order (#2)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -161,11 +165,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 26,
       "iso": 0.197,
-      "total": 54.0,
+      "total": 59.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -175,7 +179,7 @@
         "pitcher": 19.0,
         "hitter": 16.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -185,13 +189,12 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -205,11 +208,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 1,
+      "confirmed": true,
       "season_hr": 25,
       "iso": 0.175,
-      "total": 52.0,
+      "total": 58.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -219,7 +222,7 @@
         "pitcher": 19.0,
         "hitter": 14.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -229,13 +232,12 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -249,11 +251,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 2,
+      "confirmed": true,
       "season_hr": 20,
       "iso": 0.196,
-      "total": 52.0,
+      "total": 58.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -263,7 +265,7 @@
         "pitcher": 19.0,
         "hitter": 14.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -273,13 +275,52 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 547180,
+      "name": "Bryce Harper",
+      "team": "Philadelphia Phillies",
+      "bats": "L",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Ray Kerr",
+      "venue": "Truist Park",
+      "gamePk": 849844,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 29,
+      "iso": 0.216,
+      "total": 49.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 18.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Warm (76\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -316,7 +357,7 @@
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -335,11 +376,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 22,
       "iso": 0.155,
-      "total": 47.0,
+      "total": 46.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -349,7 +390,7 @@
         "pitcher": 19.0,
         "hitter": 9.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -359,97 +400,12 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 547180,
-      "name": "Bryce Harper",
-      "team": "Philadelphia Phillies",
-      "bats": "L",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Ray Kerr",
-      "venue": "Truist Park",
-      "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 29,
-      "iso": 0.216,
-      "total": 44.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 18.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Warm (78\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 663586,
-      "name": "Austin Riley",
-      "team": "Atlanta Braves",
-      "bats": "R",
-      "opp": "Philadelphia Phillies",
-      "opp_pitcher": "Aaron Nola",
-      "venue": "Truist Park",
-      "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 19,
-      "iso": 0.145,
-      "total": 44.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "A",
-      "breakdown": {
-        "pitcher": 19.0,
-        "hitter": 6.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 4.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Aaron Nola \u2014 cause A (19.0/25)",
-        "Pitcher: Elevated HR allowed (HR/9 1.90)",
-        "Pitcher: Hard contact allowed (.482 SLG)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Warm (78\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot",
-        "Model: one strong signal"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -464,11 +420,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.156,
-      "total": 44.0,
+      "total": 46.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -478,7 +434,7 @@
         "pitcher": 19.0,
         "hitter": 6.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -488,13 +444,12 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -532,12 +487,56 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
       "warnings": [
         "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663586,
+      "name": "Austin Riley",
+      "team": "Atlanta Braves",
+      "bats": "R",
+      "opp": "Philadelphia Phillies",
+      "opp_pitcher": "Aaron Nola",
+      "venue": "Truist Park",
+      "gamePk": 849844,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 19,
+      "iso": 0.145,
+      "total": 43.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "A",
+      "breakdown": {
+        "pitcher": 19.0,
+        "hitter": 6.0,
+        "environment": 9.0,
+        "lineup": 5.0,
+        "confidence": 4.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Aaron Nola \u2014 cause A (19.0/25)",
+        "Pitcher: Elevated HR allowed (HR/9 1.90)",
+        "Pitcher: Hard contact allowed (.482 SLG)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Warm (76\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot",
+        "Model: one strong signal"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -552,11 +551,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 9,
       "iso": 0.13,
-      "total": 44.0,
+      "total": 43.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -566,7 +565,7 @@
         "pitcher": 19.0,
         "hitter": 6.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -576,53 +575,12 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 624641,
-      "name": "Edmundo Sosa",
-      "team": "Philadelphia Phillies",
-      "bats": "R",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Ray Kerr",
-      "venue": "Truist Park",
-      "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.182,
-      "total": 40.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 14.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Warm (78\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -637,11 +595,11 @@
       "opp_pitcher": "Aaron Nola",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.123,
-      "total": 38.0,
+      "total": 40.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -651,7 +609,7 @@
         "pitcher": 19.0,
         "hitter": 0.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -661,12 +619,52 @@
         "Pitcher: Hard contact allowed (.482 SLG)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot",
         "Model: one strong signal"
       ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 624641,
+      "name": "Edmundo Sosa",
+      "team": "Philadelphia Phillies",
+      "bats": "R",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Ray Kerr",
+      "venue": "Truist Park",
+      "gamePk": 849844,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.182,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 14.0,
+        "environment": 9.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Warm (76\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -681,11 +679,11 @@
       "opp_pitcher": "Ray Kerr",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 1,
+      "confirmed": true,
       "season_hr": 19,
       "iso": 0.136,
-      "total": 32.5,
+      "total": 38.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -695,7 +693,7 @@
         "pitcher": 9.5,
         "hitter": 6.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -703,12 +701,51 @@
         "vs Ray Kerr \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 664761,
+      "name": "Alec Bohm",
+      "team": "Philadelphia Phillies",
+      "bats": "R",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Ray Kerr",
+      "venue": "Truist Park",
+      "gamePk": 849844,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.134,
+      "total": 37.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 6.0,
+        "environment": 9.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Warm (76\u00b0F)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -744,89 +781,7 @@
         "vs Ray Kerr \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 664761,
-      "name": "Alec Bohm",
-      "team": "Philadelphia Phillies",
-      "bats": "R",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Ray Kerr",
-      "venue": "Truist Park",
-      "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.134,
-      "total": 32.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 6.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Warm (78\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 592663,
-      "name": "J.T. Realmuto",
-      "team": "Philadelphia Phillies",
-      "bats": "R",
-      "opp": "Atlanta Braves",
-      "opp_pitcher": "Ray Kerr",
-      "venue": "Truist Park",
-      "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.126,
-      "total": 30.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 9.5,
-        "hitter": 4.0,
-        "environment": 9.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -845,11 +800,11 @@
       "opp_pitcher": "Ray Kerr",
       "venue": "Truist Park",
       "gamePk": 849844,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.145,
-      "total": 28.5,
+      "total": 30.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -859,7 +814,7 @@
         "pitcher": 9.5,
         "hitter": 2.0,
         "environment": 9.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -867,11 +822,51 @@
         "vs Ray Kerr \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (78\u00b0F)",
+        "Warm (76\u00b0F)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 592663,
+      "name": "J.T. Realmuto",
+      "team": "Philadelphia Phillies",
+      "bats": "R",
+      "opp": "Atlanta Braves",
+      "opp_pitcher": "Ray Kerr",
+      "venue": "Truist Park",
+      "gamePk": 849844,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.126,
+      "total": 29.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 4.0,
+        "environment": 9.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Ray Kerr \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Warm (76\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -916,7 +911,7 @@
         "team": "Atlanta Braves",
         "opp_pitcher": "Aaron Nola",
         "role": "Cause Satellite",
-        "total": 63.0,
+        "total": 68.0,
         "cause_grade": "A",
         "result_hr": null,
         "cause_fired": null,
