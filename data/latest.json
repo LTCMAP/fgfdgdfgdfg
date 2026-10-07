@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-07T20:03:22.572062+00:00",
+  "generated_utc": "2026-10-07T23:41:14.964033+00:00",
   "slate_date": "2026-10-07",
   "games": 4,
-  "confirmed_lineups": 5,
+  "confirmed_lineups": 8,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-17",
     "end": "2026-10-07",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -57,6 +57,19 @@
           "role": "Longshot"
         }
       ]
+    },
+    {
+      "team": "San Diego Padres",
+      "opp": "Milwaukee Brewers",
+      "pitcher": "Robert Gasser",
+      "venue": "Petco Park",
+      "grade": "B",
+      "pitcher_cause": 13.5,
+      "park_hr": 96,
+      "cause_score": 12.5,
+      "capture_method": "Team-HR placeholder (cause strong, bat capture thin)",
+      "public_heat": false,
+      "playable_bats": []
     },
     {
       "team": "Chicago White Sox",
@@ -426,7 +439,7 @@
         "Proxy: elite ISO (0.251)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Heart of order (#3)"
       ],
       "warnings": [],
@@ -464,7 +477,7 @@
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Heart of order (#4)"
       ],
       "warnings": [],
@@ -505,6 +518,46 @@
         "Elite HR park (113)",
         "Short RF porch boosts LHB HR",
         "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 664034,
+      "name": "Ty France",
+      "team": "San Diego Padres",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.207,
+      "total": 52.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 18.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
@@ -555,6 +608,85 @@
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "team": "San Diego Padres",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 25,
+      "iso": 0.181,
+      "total": 51.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 16.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 849838,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.238,
+      "total": 51.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 22.0,
+        "environment": 11.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Fried \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
     },
     {
       "id": 641355,
@@ -630,11 +762,130 @@
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Mid order (#6)"
       ],
       "warnings": [],
       "role_notes": []
+    },
+    {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 849838,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 42,
+      "iso": 0.248,
+      "total": 49.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 24.0,
+        "environment": 7.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Fried \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Short RF porch boosts LHB HR",
+        "Heart of order (#3)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 701538,
+      "name": "Jackson Merrill",
+      "team": "San Diego Padres",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.186,
+      "total": 49.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 14.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "San Diego Padres",
+      "opp_pitcher": "Walker Buehler",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 25,
+      "iso": 0.196,
+      "total": 48.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.5,
+        "hitter": 16.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Walker Buehler \u2014 cause C (10.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 687221,
@@ -668,7 +919,7 @@
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)"
+        "Warm (78\u00b0F)"
       ],
       "warnings": [
         "Lineup not confirmed"
@@ -762,44 +1013,84 @@
       ]
     },
     {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.238,
+      "id": 592518,
+      "name": "Manny Machado",
+      "team": "San Diego Padres",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 30,
+      "iso": 0.19,
       "total": 46.5,
       "tier": "Pass",
-      "role": "Pass",
+      "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "Pass",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 22.0,
-        "environment": 11.0,
-        "lineup": 6.0,
-        "confidence": 3.0
+        "pitcher": 13.5,
+        "hitter": 12.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Max Fried \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "Proxy: strong HR rate",
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR"
+        "Warm (79\u00b0F)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "San Diego Padres",
+      "opp_pitcher": "Walker Buehler",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.218,
+      "total": 46.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.5,
+        "hitter": 18.0,
+        "environment": 8.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Walker Buehler \u2014 cause C (10.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "role_notes": []
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 669224,
@@ -874,7 +1165,7 @@
         "vs Tyler Mahle \u2014 cause Pass (8.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -959,92 +1250,11 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 42,
-      "iso": 0.248,
-      "total": 44.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 24.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Short RF porch boosts LHB HR"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "San Diego Padres",
-      "opp_pitcher": "Walker Buehler",
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.218,
-      "total": 44.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.5,
-        "hitter": 18.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Walker Buehler \u2014 cause C (10.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1080,7 +1290,7 @@
         "vs Tyler Mahle \u2014 cause Pass (8.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -1122,7 +1332,7 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -1175,18 +1385,18 @@
       ]
     },
     {
-      "id": 694192,
-      "name": "Jackson Chourio",
+      "id": 668930,
+      "name": "Brice Turang",
       "team": "Milwaukee Brewers",
-      "bats": "R",
+      "bats": "L",
       "opp": "San Diego Padres",
       "opp_pitcher": "Walker Buehler",
       "venue": "Petco Park",
       "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 25,
-      "iso": 0.196,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.182,
       "total": 42.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1195,9 +1405,9 @@
       "pitcher_grade": "C",
       "breakdown": {
         "pitcher": 10.5,
-        "hitter": 16.0,
+        "hitter": 11.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -1206,11 +1416,10 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Warm (79\u00b0F)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1342,6 +1551,47 @@
       ]
     },
     {
+      "id": 657757,
+      "name": "Gavin Sheets",
+      "team": "San Diego Padres",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.185,
+      "total": 41.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 12.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 671976,
       "name": "Tristan Peters",
       "team": "Chicago White Sox",
@@ -1456,7 +1706,7 @@
         "vs Tyler Mahle \u2014 cause Pass (8.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -1467,18 +1717,18 @@
       ]
     },
     {
-      "id": 682657,
-      "name": "Angel Mart\u00ednez",
-      "team": "Cleveland Guardians",
-      "bats": "S",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Sean Newcomb",
-      "venue": "Rate Field",
-      "gamePk": 849833,
-      "slot": 6,
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 849838,
+      "slot": 2,
       "confirmed": true,
-      "season_hr": 18,
-      "iso": 0.211,
+      "season_hr": 22,
+      "iso": 0.16,
       "total": 40.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -1487,18 +1737,59 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 4.5,
-        "hitter": 18.0,
-        "environment": 8.0,
-        "lineup": 8.0,
+        "hitter": 11.0,
+        "environment": 11.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Sean Newcomb \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.40)",
+        "vs Max Fried \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Mid order (#6)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 661388,
+      "name": "William Contreras",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "San Diego Padres",
+      "opp_pitcher": "Walker Buehler",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 18,
+      "iso": 0.147,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.5,
+        "hitter": 8.0,
+        "environment": 8.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Walker Buehler \u2014 cause C (10.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
@@ -1537,7 +1828,7 @@
         "vs Tyler Mahle \u2014 cause Pass (8.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -1579,11 +1870,52 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 682657,
+      "name": "Angel Mart\u00ednez",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Sean Newcomb",
+      "venue": "Rate Field",
+      "gamePk": 849833,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 18,
+      "iso": 0.211,
+      "total": 38.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 18.0,
+        "environment": 8.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Sean Newcomb \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.40)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -1619,8 +1951,48 @@
         "vs Tyler Mahle \u2014 cause Pass (8.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "San Diego Padres",
+      "opp_pitcher": "Walker Buehler",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.143,
+      "total": 38.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.5,
+        "hitter": 6.0,
+        "environment": 8.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Walker Buehler \u2014 cause C (10.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
@@ -1710,47 +2082,6 @@
       ]
     },
     {
-      "id": 668930,
-      "name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "San Diego Padres",
-      "opp_pitcher": "Walker Buehler",
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.182,
-      "total": 37.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.5,
-        "hitter": 11.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Walker Buehler \u2014 cause C (10.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 645277,
       "name": "Ozzie Albies",
       "team": "Atlanta Braves",
@@ -1783,8 +2114,90 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 849838,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.153,
+      "total": 36.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Fried \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (103)",
+        "Short RF porch boosts LHB HR",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 849838,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 18,
+      "iso": 0.15,
+      "total": 36.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 11.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Max Fried \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
@@ -1916,170 +2329,6 @@
       ]
     },
     {
-      "id": 666018,
-      "name": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.16,
-      "total": 34.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 11.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 661388,
-      "name": "William Contreras",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "San Diego Padres",
-      "opp_pitcher": "Walker Buehler",
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.147,
-      "total": 34.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.5,
-        "hitter": 8.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Walker Buehler \u2014 cause C (10.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 689414,
-      "name": "Liam Hicks",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.15,
-      "total": 34.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 11.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 664034,
-      "name": "Ty France",
-      "team": "San Diego Padres",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": null,
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.207,
-      "total": 34.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 18.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 668723,
       "name": "Ryan Vilade",
       "team": "Tampa Bay Rays",
@@ -2088,11 +2337,11 @@
       "opp_pitcher": "Max Fried",
       "venue": "Yankee Stadium",
       "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 11,
       "iso": 0.184,
-      "total": 33.5,
+      "total": 35.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -2102,7 +2351,7 @@
         "pitcher": 4.5,
         "hitter": 14.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -2112,11 +2361,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
         "Short RF porch boosts LHB HR",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -2244,81 +2492,41 @@
       ]
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "San Diego Padres",
-      "opp_pitcher": "Walker Buehler",
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.143,
-      "total": 32.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.5,
-        "hitter": 6.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Walker Buehler \u2014 cause C (10.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
+      "id": 593428,
+      "name": "Xander Bogaerts",
       "team": "San Diego Padres",
       "bats": "R",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": null,
+      "opp_pitcher": "Robert Gasser",
       "venue": "Petco Park",
       "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 25,
-      "iso": 0.181,
-      "total": 32.0,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 13,
+      "iso": 0.113,
+      "total": 31.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "?",
+      "pitcher_grade": "B",
       "breakdown": {
-        "pitcher": 0,
-        "hitter": 16.0,
+        "pitcher": 13.5,
+        "hitter": 0.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Warm (79\u00b0F)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -2356,53 +2564,11 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 650490,
-      "name": "Yandy D\u00edaz",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.153,
-      "total": 30.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -2438,7 +2604,7 @@
         "vs Tyler Mahle \u2014 cause Pass (8.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -2449,19 +2615,19 @@
       ]
     },
     {
-      "id": 676356,
-      "name": "Jonny DeLuca",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "New York Yankees",
-      "opp_pitcher": "Max Fried",
-      "venue": "Yankee Stadium",
-      "gamePk": 849838,
+      "id": 683953,
+      "name": "Travis Bazzana",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Sean Newcomb",
+      "venue": "Rate Field",
+      "gamePk": 849833,
       "slot": null,
       "confirmed": false,
-      "season_hr": 11,
+      "season_hr": 15,
       "iso": 0.163,
-      "total": 30.5,
+      "total": 29.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -2469,98 +2635,17 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Max Fried \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (103)",
-        "Short RF porch boosts LHB HR",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "San Diego Padres",
-      "opp_pitcher": "Walker Buehler",
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.154,
-      "total": 30.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.5,
-        "hitter": 4.0,
+        "hitter": 9.0,
         "environment": 8.0,
         "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Walker Buehler \u2014 cause C (10.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "vs Sean Newcomb \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.40)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 701538,
-      "name": "Jackson Merrill",
-      "team": "San Diego Padres",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": null,
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.186,
-      "total": 30.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 14.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
+        "Slightly + park (101)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -2613,18 +2698,18 @@
       ]
     },
     {
-      "id": 680700,
-      "name": "Richie Palacios",
+      "id": 676356,
+      "name": "Jonny DeLuca",
       "team": "Tampa Bay Rays",
-      "bats": "L",
+      "bats": "R",
       "opp": "New York Yankees",
       "opp_pitcher": "Max Fried",
       "venue": "Yankee Stadium",
       "gamePk": 849838,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.139,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.163,
       "total": 29.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -2633,9 +2718,9 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 4.5,
-        "hitter": 6.0,
-        "environment": 11.0,
-        "lineup": 6.0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -2643,12 +2728,53 @@
         "vs Max Fried \u2014 cause Pass (4.5/25)",
         "Pitcher: Suppresses HR (HR/9 0.32)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Elite HR park (113)",
+        "Slightly + park (103)",
         "Short RF porch boosts LHB HR",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "San Diego Padres",
+      "opp_pitcher": "Walker Buehler",
+      "venue": "Petco Park",
+      "gamePk": 849827,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.154,
+      "total": 29.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.5,
+        "hitter": 4.0,
+        "environment": 8.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Walker Buehler \u2014 cause C (10.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Warm (79\u00b0F)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -2687,7 +2813,7 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -2730,7 +2856,7 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -2741,18 +2867,18 @@
       ]
     },
     {
-      "id": 683953,
-      "name": "Travis Bazzana",
-      "team": "Cleveland Guardians",
+      "id": 680700,
+      "name": "Richie Palacios",
+      "team": "Tampa Bay Rays",
       "bats": "L",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Sean Newcomb",
-      "venue": "Rate Field",
-      "gamePk": 849833,
-      "slot": 7,
+      "opp": "New York Yankees",
+      "opp_pitcher": "Max Fried",
+      "venue": "Yankee Stadium",
+      "gamePk": 849838,
+      "slot": 8,
       "confirmed": true,
-      "season_hr": 15,
-      "iso": 0.163,
+      "season_hr": 10,
+      "iso": 0.139,
       "total": 28.5,
       "tier": "Pass",
       "role": "Watchlist",
@@ -2761,101 +2887,22 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 4.5,
-        "hitter": 9.0,
-        "environment": 8.0,
+        "hitter": 6.0,
+        "environment": 11.0,
         "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Sean Newcomb \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.40)",
+        "vs Max Fried \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
+        "Elite HR park (113)",
+        "Short RF porch boosts LHB HR",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Bottom of order (#7)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 687401,
-      "name": "Joey Ortiz",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "San Diego Padres",
-      "opp_pitcher": "Walker Buehler",
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 9,
-      "iso": 0.132,
-      "total": 28.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.5,
-        "hitter": 2.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Walker Buehler \u2014 cause C (10.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 592518,
-      "name": "Manny Machado",
-      "team": "San Diego Padres",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": null,
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 30,
-      "iso": 0.19,
-      "total": 28.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 12.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -2894,7 +2941,7 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
@@ -2905,39 +2952,41 @@
       ]
     },
     {
-      "id": 657757,
-      "name": "Gavin Sheets",
-      "team": "San Diego Padres",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": null,
+      "id": 687401,
+      "name": "Joey Ortiz",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "San Diego Padres",
+      "opp_pitcher": "Walker Buehler",
       "venue": "Petco Park",
       "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.185,
-      "total": 28.0,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 9,
+      "iso": 0.132,
+      "total": 27.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "?",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 0,
-        "hitter": 12.0,
+        "pitcher": 10.5,
+        "hitter": 2.0,
         "environment": 8.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
+        "vs Walker Buehler \u2014 cause C (10.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.29)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Warm (79\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3058,50 +3107,11 @@
         "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (103)",
-        "Warm (77\u00b0F)",
+        "Warm (78\u00b0F)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Bottom of order (#7)"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 593428,
-      "name": "Xander Bogaerts",
-      "team": "San Diego Padres",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": null,
-      "venue": "Petco Park",
-      "gamePk": 849827,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 13,
-      "iso": 0.113,
-      "total": 16.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "?",
-      "breakdown": {
-        "pitcher": 0,
-        "hitter": 0.0,
-        "environment": 8.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Warm (79\u00b0F)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -3127,6 +3137,17 @@
         "Low K rate (15%)"
       ],
       "hr9": 1.1,
+      "barrel_allowed": null
+    },
+    {
+      "id": 688107,
+      "name": "Robert Gasser",
+      "score": 13.5,
+      "grade": "B",
+      "flags": [
+        "Avg+ HR allowed (HR/9 1.24)"
+      ],
+      "hr9": 1.24,
       "barrel_allowed": null
     },
     {
