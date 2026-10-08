@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-08T20:01:53.302691+00:00",
+  "generated_utc": "2026-10-08T23:51:18.384369+00:00",
   "slate_date": "2026-10-08",
   "games": 1,
-  "confirmed_lineups": 1,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-18",
     "end": "2026-10-08",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -231,11 +231,11 @@
       "opp_pitcher": "Hagen Smith",
       "venue": "Rate Field",
       "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.211,
-      "total": 36.0,
+      "total": 38.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -245,7 +245,7 @@
         "pitcher": 3.0,
         "hitter": 18.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -255,11 +255,51 @@
         "Pitcher: High K rate (37%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "team": "Cleveland Guardians",
+      "bats": "R",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 849832,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 23,
+      "iso": 0.161,
+      "total": 35.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 3.0,
+        "hitter": 12.0,
+        "environment": 7.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (3.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
+        "Pitcher: High K rate (37%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -354,11 +394,11 @@
       "opp_pitcher": "Hagen Smith",
       "venue": "Rate Field",
       "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 17,
       "iso": 0.192,
-      "total": 32.0,
+      "total": 34.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -368,7 +408,7 @@
         "pitcher": 3.0,
         "hitter": 14.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -378,11 +418,51 @@
         "Pitcher: High K rate (37%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Hagen Smith",
+      "venue": "Rate Field",
+      "gamePk": 849832,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.17,
+      "total": 34.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 3.0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Hagen Smith \u2014 cause Pass (3.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.32)",
+        "Pitcher: High K rate (37%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Slightly + park (101)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -417,48 +497,6 @@
       "reasons": [
         "vs Parker Messick \u2014 cause Pass (6.0/25)",
         "Pitcher: Suppresses HR (HR/9 0.82)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 666176,
-      "name": "Jo Adell",
-      "team": "Cleveland Guardians",
-      "bats": "R",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 23,
-      "iso": 0.161,
-      "total": 30.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 3.0,
-        "hitter": 12.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (3.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "Pitcher: High K rate (37%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -555,19 +593,19 @@
       ]
     },
     {
-      "id": 800050,
-      "name": "Chase DeLauter",
+      "id": 608070,
+      "name": "Jos\u00e9 Ram\u00edrez",
       "team": "Cleveland Guardians",
-      "bats": "L",
+      "bats": "S",
       "opp": "Chicago White Sox",
       "opp_pitcher": "Hagen Smith",
       "venue": "Rate Field",
       "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.17,
-      "total": 29.0,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.133,
+      "total": 30.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -575,9 +613,9 @@
       "pitcher_grade": "Pass",
       "breakdown": {
         "pitcher": 3.0,
-        "hitter": 11.0,
+        "hitter": 6.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -587,11 +625,10 @@
         "Pitcher: High K rate (37%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Slightly + park (101)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -605,11 +642,11 @@
       "opp_pitcher": "Hagen Smith",
       "venue": "Rate Field",
       "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 15,
       "iso": 0.163,
-      "total": 27.0,
+      "total": 26.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -619,7 +656,7 @@
         "pitcher": 3.0,
         "hitter": 9.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -632,7 +669,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -647,11 +684,11 @@
       "opp_pitcher": "Hagen Smith",
       "venue": "Rate Field",
       "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 15,
       "iso": 0.138,
-      "total": 24.0,
+      "total": 23.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -661,7 +698,7 @@
         "pitcher": 3.0,
         "hitter": 6.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -674,49 +711,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 608070,
-      "name": "Jos\u00e9 Ram\u00edrez",
-      "team": "Cleveland Guardians",
-      "bats": "S",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Hagen Smith",
-      "venue": "Rate Field",
-      "gamePk": 849832,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.133,
-      "total": 24.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 3.0,
-        "hitter": 6.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Hagen Smith \u2014 cause Pass (3.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.32)",
-        "Pitcher: High K rate (37%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Slightly + park (101)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
