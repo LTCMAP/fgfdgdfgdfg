@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-10T18:45:33.703803+00:00",
+  "generated_utc": "2026-10-10T22:50:00.166883+00:00",
   "slate_date": "2026-10-10",
   "games": 1,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-20",
     "end": "2026-10-10",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -71,11 +71,11 @@
       "opp_pitcher": "Gavin Williams",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 35,
       "iso": 0.271,
-      "total": 53.0,
+      "total": 58.0,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
@@ -85,7 +85,7 @@
         "pitcher": 8.0,
         "hitter": 28.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 4.0
       },
       "statcast": null,
@@ -96,11 +96,10 @@
         "Proxy: elite HR rate (1/16 PA)",
         "Proxy: elite ISO (0.271)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)",
         "Model: one strong signal"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -153,11 +152,11 @@
       "opp_pitcher": "Gavin Williams",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 33,
       "iso": 0.224,
-      "total": 46.0,
+      "total": 51.0,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
@@ -167,7 +166,7 @@
         "pitcher": 8.0,
         "hitter": 22.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 3.0
       },
       "statcast": null,
@@ -176,11 +175,10 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.37)",
         "Pitcher: High K rate (33%)",
         "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)"
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
     },
     {
@@ -223,43 +221,39 @@
       ]
     },
     {
-      "id": 695657,
-      "name": "Colson Montgomery",
-      "team": "Chicago White Sox",
-      "bats": "L",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Gavin Williams",
+      "id": 666176,
+      "name": "Jo Adell",
+      "team": "Cleveland Guardians",
+      "bats": "R",
+      "opp": "Chicago White Sox",
+      "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 31,
-      "iso": 0.206,
-      "total": 41.0,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 23,
+      "iso": 0.161,
+      "total": 42.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "Pass",
+      "pitcher_grade": "C",
       "breakdown": {
-        "pitcher": 8.0,
-        "hitter": 18.0,
+        "pitcher": 10.0,
+        "hitter": 12.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
-        "Pitcher: High K rate (33%)",
-        "Proxy: strong HR rate",
+        "vs Sean Burke \u2014 cause C (10.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -273,11 +267,11 @@
       "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 17,
       "iso": 0.192,
-      "total": 39.0,
+      "total": 41.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -287,36 +281,35 @@
         "pitcher": 10.0,
         "hitter": 14.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "vs Sean Burke \u2014 cause C (10.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 666176,
-      "name": "Jo Adell",
+      "id": 800050,
+      "name": "Chase DeLauter",
       "team": "Cleveland Guardians",
-      "bats": "R",
+      "bats": "L",
       "opp": "Chicago White Sox",
       "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 23,
-      "iso": 0.161,
-      "total": 37.0,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.17,
+      "total": 41.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -324,19 +317,60 @@
       "pitcher_grade": "C",
       "breakdown": {
         "pitcher": 10.0,
-        "hitter": 12.0,
+        "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "vs Sean Burke \u2014 cause C (10.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 695657,
+      "name": "Colson Montgomery",
+      "team": "Chicago White Sox",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849831,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 31,
+      "iso": 0.206,
+      "total": 40.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 18.0,
+        "environment": 7.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -351,11 +385,11 @@
       "opp_pitcher": "Gavin Williams",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 15,
       "iso": 0.173,
-      "total": 37.0,
+      "total": 39.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -365,7 +399,7 @@
         "pitcher": 8.0,
         "hitter": 14.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -374,11 +408,10 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.37)",
         "Pitcher: High K rate (33%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -462,19 +495,19 @@
       ]
     },
     {
-      "id": 800050,
-      "name": "Chase DeLauter",
+      "id": 608070,
+      "name": "Jos\u00e9 Ram\u00edrez",
       "team": "Cleveland Guardians",
-      "bats": "L",
+      "bats": "S",
       "opp": "Chicago White Sox",
       "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.17,
-      "total": 36.0,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.133,
+      "total": 37.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -482,20 +515,19 @@
       "pitcher_grade": "C",
       "breakdown": {
         "pitcher": 10.0,
-        "hitter": 11.0,
+        "hitter": 6.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "vs Sean Burke \u2014 cause C (10.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -509,11 +541,11 @@
       "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 15,
       "iso": 0.163,
-      "total": 34.0,
+      "total": 36.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -523,18 +555,17 @@
         "pitcher": 10.0,
         "hitter": 9.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "vs Sean Burke \u2014 cause C (10.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -548,11 +579,11 @@
       "opp_pitcher": "Gavin Williams",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.172,
-      "total": 34.0,
+      "total": 36.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -562,7 +593,7 @@
         "pitcher": 8.0,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -571,11 +602,10 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.37)",
         "Pitcher: High K rate (33%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -589,11 +619,11 @@
       "opp_pitcher": "Gavin Williams",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 16,
       "iso": 0.139,
-      "total": 31.0,
+      "total": 30.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -603,7 +633,7 @@
         "pitcher": 8.0,
         "hitter": 8.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -615,7 +645,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -630,11 +660,11 @@
       "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 15,
       "iso": 0.138,
-      "total": 31.0,
+      "total": 30.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -644,7 +674,7 @@
         "pitcher": 10.0,
         "hitter": 6.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -654,46 +684,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 608070,
-      "name": "Jos\u00e9 Ram\u00edrez",
-      "team": "Cleveland Guardians",
-      "bats": "S",
-      "opp": "Chicago White Sox",
-      "opp_pitcher": "Sean Burke",
-      "venue": "Progressive Field",
-      "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.133,
-      "total": 31.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.0,
-        "hitter": 6.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Sean Burke \u2014 cause C (10.0/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -708,11 +699,11 @@
       "opp_pitcher": "Sean Burke",
       "venue": "Progressive Field",
       "gamePk": 849831,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.129,
-      "total": 29.0,
+      "total": 28.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -722,7 +713,7 @@
         "pitcher": 10.0,
         "hitter": 4.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -732,7 +723,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
