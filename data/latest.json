@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-14T18:47:45.037902+00:00",
+  "generated_utc": "2026-10-14T22:30:24.256259+00:00",
   "slate_date": "2026-10-14",
   "games": 1,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-24",
     "end": "2026-10-14",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -71,11 +71,11 @@
       "opp_pitcher": "Robert Gasser",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 30,
       "iso": 0.237,
-      "total": 51.5,
+      "total": 53.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
@@ -85,7 +85,7 @@
         "pitcher": 13.5,
         "hitter": 22.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 3.0
       },
       "statcast": null,
@@ -93,12 +93,12 @@
         "vs Robert Gasser \u2014 cause B (13.5/25)",
         "Pitcher: Avg+ HR allowed (HR/9 1.24)",
         "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)"
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
+        "Weather unavailable"
       ],
       "role_notes": []
     },
@@ -183,6 +183,48 @@
       "role_notes": []
     },
     {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "team": "Los Angeles Dodgers",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849811,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 23,
+      "iso": 0.197,
+      "total": 48.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 14.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
       "id": 681624,
       "name": "Andy Pages",
       "team": "Los Angeles Dodgers",
@@ -191,11 +233,11 @@
       "opp_pitcher": "Robert Gasser",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 23,
       "iso": 0.194,
-      "total": 44.5,
+      "total": 46.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -205,7 +247,7 @@
         "pitcher": 13.5,
         "hitter": 16.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -213,96 +255,12 @@
         "vs Robert Gasser \u2014 cause B (13.5/25)",
         "Pitcher: Avg+ HR allowed (HR/9 1.24)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "team": "Los Angeles Dodgers",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 23,
-      "iso": 0.197,
-      "total": 42.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 14.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 669257,
-      "name": "Will Smith",
-      "team": "Los Angeles Dodgers",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.166,
-      "total": 42.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 14.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
+        "Weather unavailable"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -317,11 +275,11 @@
       "opp_pitcher": "Robert Gasser",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 16,
       "iso": 0.158,
-      "total": 39.5,
+      "total": 44.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -331,7 +289,7 @@
         "pitcher": 13.5,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -339,55 +297,12 @@
         "vs Robert Gasser \u2014 cause B (13.5/25)",
         "Pitcher: Avg+ HR allowed (HR/9 1.24)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.218,
-      "total": 37.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 18.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
+        "Weather unavailable"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -402,11 +317,11 @@
       "opp_pitcher": "Robert Gasser",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 2,
+      "confirmed": true,
       "season_hr": 16,
       "iso": 0.142,
-      "total": 36.5,
+      "total": 42.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -416,7 +331,7 @@
         "pitcher": 13.5,
         "hitter": 8.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -424,12 +339,12 @@
         "vs Robert Gasser \u2014 cause B (13.5/25)",
         "Pitcher: Avg+ HR allowed (HR/9 1.24)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
+        "Weather unavailable"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -444,11 +359,11 @@
       "opp_pitcher": "Blake Snell",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 1,
+      "confirmed": true,
       "season_hr": 25,
       "iso": 0.196,
-      "total": 35.5,
+      "total": 41.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -458,7 +373,7 @@
         "pitcher": 4.5,
         "hitter": 16.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -467,12 +382,182 @@
         "Pitcher: Suppresses HR (HR/9 0.00)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669257,
+      "name": "Will Smith",
+      "team": "Los Angeles Dodgers",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849811,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.166,
+      "total": 41.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 14.0,
+        "environment": 7.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
         "Weather unavailable",
-        "Lineup not confirmed"
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Blake Snell",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849811,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.218,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 18.0,
+        "environment": 7.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blake Snell \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "Pitcher: High K rate (32%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "team": "Los Angeles Dodgers",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Robert Gasser",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849811,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.152,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 13.5,
+        "hitter": 6.0,
+        "environment": 7.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Robert Gasser \u2014 cause B (13.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Blake Snell",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849811,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.182,
+      "total": 36.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Blake Snell \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.00)",
+        "Pitcher: High K rate (32%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -522,91 +607,6 @@
       ]
     },
     {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "team": "Los Angeles Dodgers",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.152,
-      "total": 34.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 6.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 668930,
-      "name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.182,
-      "total": 30.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 661388,
       "name": "William Contreras",
       "team": "Milwaukee Brewers",
@@ -615,11 +615,11 @@
       "opp_pitcher": "Blake Snell",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.147,
-      "total": 27.5,
+      "total": 32.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -629,7 +629,7 @@
         "pitcher": 4.5,
         "hitter": 8.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -638,12 +638,12 @@
         "Pitcher: Suppresses HR (HR/9 0.00)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
+        "Weather unavailable"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -701,11 +701,11 @@
       "opp_pitcher": "Blake Snell",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 11,
       "iso": 0.154,
-      "total": 23.5,
+      "total": 25.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -715,7 +715,7 @@
         "pitcher": 4.5,
         "hitter": 4.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -724,12 +724,12 @@
         "Pitcher: Suppresses HR (HR/9 0.00)",
         "Pitcher: High K rate (32%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable",
-        "Lineup not confirmed"
+        "Weather unavailable"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -744,11 +744,11 @@
       "opp_pitcher": "Blake Snell",
       "venue": "UNIQLO Field at Dodger Stadium",
       "gamePk": 849811,
-      "slot": null,
-      "confirmed": false,
+      "slot": 9,
+      "confirmed": true,
       "season_hr": 9,
       "iso": 0.132,
-      "total": 21.5,
+      "total": 20.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -758,7 +758,7 @@
         "pitcher": 4.5,
         "hitter": 2.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -772,7 +772,7 @@
       "warnings": [
         "Park factor unknown",
         "Weather unavailable",
-        "Lineup not confirmed"
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
