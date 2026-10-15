@@ -1,17 +1,17 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-14T22:30:24.256259+00:00",
-  "slate_date": "2026-10-14",
-  "games": 1,
+  "generated_utc": "2026-10-15T18:29:29.926954+00:00",
+  "slate_date": "2026-10-15",
+  "games": 2,
   "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
     "recent_days": 7,
-    "start": "2026-09-24",
-    "end": "2026-10-14",
+    "start": "2026-09-25",
+    "end": "2026-10-15",
     "days_fetched": 0,
-    "days_cached": 21,
+    "days_cached": 20,
     "batters": 0,
     "pitchers": 0
   },
@@ -37,25 +37,51 @@
     {
       "team": "Los Angeles Dodgers",
       "opp": "Milwaukee Brewers",
-      "pitcher": "Robert Gasser",
+      "pitcher": "Shane Drohan",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "grade": "B",
-      "pitcher_cause": 13.5,
+      "grade": "Pass",
+      "pitcher_cause": 9.5,
       "park_hr": 100,
-      "cause_score": 13.5,
-      "capture_method": "Team-HR placeholder (cause strong, bat capture thin)",
+      "cause_score": 9.5,
+      "capture_method": "Watchlist / pass (no clear cause)",
+      "public_heat": false,
+      "playable_bats": []
+    },
+    {
+      "team": "Cleveland Guardians",
+      "opp": "Tampa Bay Rays",
+      "pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "grade": "Pass",
+      "pitcher_cause": 9.5,
+      "park_hr": 98,
+      "cause_score": 9.0,
+      "capture_method": "Watchlist / pass (no clear cause)",
+      "public_heat": false,
+      "playable_bats": []
+    },
+    {
+      "team": "Tampa Bay Rays",
+      "opp": "Cleveland Guardians",
+      "pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "grade": "Pass",
+      "pitcher_cause": 8.0,
+      "park_hr": 98,
+      "cause_score": 7.5,
+      "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
       "playable_bats": []
     },
     {
       "team": "Milwaukee Brewers",
       "opp": "Los Angeles Dodgers",
-      "pitcher": "Blake Snell",
+      "pitcher": "Tyler Glasnow",
       "venue": "UNIQLO Field at Dodger Stadium",
       "grade": "Pass",
-      "pitcher_cause": 4.5,
+      "pitcher_cause": 6.0,
       "park_hr": 100,
-      "cause_score": 4.5,
+      "cause_score": 6.0,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
       "playable_bats": []
@@ -63,42 +89,117 @@
   ],
   "candidates": [
     {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 42,
+      "iso": 0.248,
+      "total": 52.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 24.0,
+        "environment": 6.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.238,
+      "total": 50.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 22.0,
+        "environment": 6.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
+    },
+    {
       "id": 660271,
       "name": "Shohei Ohtani",
       "team": "Los Angeles Dodgers",
       "bats": "L",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": "Shane Drohan",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 6,
-      "confirmed": true,
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 30,
       "iso": 0.237,
-      "total": 53.5,
+      "total": 47.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
+        "pitcher": 9.5,
         "hitter": 22.0,
         "environment": 7.0,
-        "lineup": 8.0,
+        "lineup": 6.0,
         "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
         "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Mid order (#6)"
+        "No Statcast shape \u2014 score capped (season-power proxy)"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable"
+        "Weather unavailable",
+        "Lineup not confirmed"
       ],
       "role_notes": []
     },
@@ -108,21 +209,21 @@
       "team": "Los Angeles Dodgers",
       "bats": "L",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": "Shane Drohan",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
+      "gamePk": 849810,
       "slot": null,
       "confirmed": false,
       "season_hr": 29,
       "iso": 0.238,
-      "total": 51.5,
+      "total": 47.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
+        "pitcher": 9.5,
         "hitter": 22.0,
         "environment": 7.0,
         "lineup": 6.0,
@@ -130,8 +231,7 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)"
       ],
@@ -148,21 +248,21 @@
       "team": "Los Angeles Dodgers",
       "bats": "L",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": "Shane Drohan",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
+      "gamePk": 849810,
       "slot": null,
       "confirmed": false,
       "season_hr": 12,
       "iso": 0.214,
-      "total": 51.5,
+      "total": 47.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
+        "pitcher": 9.5,
         "hitter": 22.0,
         "environment": 7.0,
         "lineup": 6.0,
@@ -170,8 +270,7 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)"
       ],
@@ -183,43 +282,80 @@
       "role_notes": []
     },
     {
-      "id": 605141,
-      "name": "Mookie Betts",
-      "team": "Los Angeles Dodgers",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 1,
-      "confirmed": true,
-      "season_hr": 23,
-      "iso": 0.197,
-      "total": 48.5,
+      "id": 682657,
+      "name": "Angel Mart\u00ednez",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 18,
+      "iso": 0.211,
+      "total": 41.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 14.0,
-        "environment": 7.0,
-        "lineup": 12.0,
+        "pitcher": 9.5,
+        "hitter": 18.0,
+        "environment": 6.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
+        "Lineup not confirmed"
       ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "team": "Cleveland Guardians",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 23,
+      "iso": 0.161,
+      "total": 40.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 12.0,
+        "environment": 6.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -230,164 +366,278 @@
       "team": "Los Angeles Dodgers",
       "bats": "R",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": "Shane Drohan",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 5,
-      "confirmed": true,
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 23,
       "iso": 0.194,
-      "total": 46.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 16.0,
-        "environment": 7.0,
-        "lineup": 8.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Mid order (#5)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 606192,
-      "name": "Teoscar Hern\u00e1ndez",
-      "team": "Los Angeles Dodgers",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 16,
-      "iso": 0.158,
-      "total": 44.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Heart of order (#3)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 518692,
-      "name": "Freddie Freeman",
-      "team": "Los Angeles Dodgers",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 2,
-      "confirmed": true,
-      "season_hr": 16,
-      "iso": 0.142,
-      "total": 42.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 8.0,
-        "environment": 7.0,
-        "lineup": 12.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Top of order (#2)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 694192,
-      "name": "Jackson Chourio",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 1,
-      "confirmed": true,
-      "season_hr": 25,
-      "iso": 0.196,
-      "total": 41.5,
+      "total": 40.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
+        "pitcher": 9.5,
         "hitter": 16.0,
         "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.192,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 14.0,
+        "environment": 6.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.17,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 11.0,
+        "environment": 6.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 26,
+      "iso": 0.218,
+      "total": 39.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 18.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.16,
+      "total": 39.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 11.0,
+        "environment": 6.0,
         "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.153,
+      "total": 39.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 11.0,
+        "environment": 6.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "team": "Los Angeles Dodgers",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Shane Drohan",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 23,
+      "iso": 0.197,
+      "total": 38.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 14.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable"
+        "Weather unavailable",
+        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -399,165 +649,79 @@
       "team": "Los Angeles Dodgers",
       "bats": "R",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": "Shane Drohan",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 7,
-      "confirmed": true,
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 10,
       "iso": 0.166,
-      "total": 41.5,
+      "total": 38.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
+        "pitcher": 9.5,
         "hitter": 14.0,
         "environment": 7.0,
-        "lineup": 5.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
         "Weather unavailable",
-        "Bottom of order (#7)"
+        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
+      "id": 694192,
+      "name": "Jackson Chourio",
       "team": "Milwaukee Brewers",
-      "bats": "L",
+      "bats": "R",
       "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
+      "opp_pitcher": "Tyler Glasnow",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 5,
-      "confirmed": true,
-      "season_hr": 26,
-      "iso": 0.218,
-      "total": 39.5,
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 25,
+      "iso": 0.196,
+      "total": 37.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 18.0,
+        "pitcher": 6.0,
+        "hitter": 16.0,
         "environment": 7.0,
-        "lineup": 8.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "team": "Los Angeles Dodgers",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 17,
-      "iso": 0.152,
-      "total": 39.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 6.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Heart of order (#4)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 668930,
-      "name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 2,
-      "confirmed": true,
-      "season_hr": 21,
-      "iso": 0.182,
-      "total": 36.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 12.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Top of order (#2)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
+        "Weather unavailable",
+        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -569,21 +733,21 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
+      "opp_pitcher": "Tyler Glasnow",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
+      "gamePk": 849810,
       "slot": null,
       "confirmed": false,
       "season_hr": 12,
       "iso": 0.213,
-      "total": 35.5,
+      "total": 37.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
+        "pitcher": 6.0,
         "hitter": 16.0,
         "environment": 7.0,
         "lineup": 6.0,
@@ -591,9 +755,455 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668723,
+      "name": "Ryan Vilade",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 11,
+      "iso": 0.184,
+      "total": 36.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 14.0,
+        "environment": 6.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 606192,
+      "name": "Teoscar Hern\u00e1ndez",
+      "team": "Los Angeles Dodgers",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Shane Drohan",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 16,
+      "iso": 0.158,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 656555,
+      "name": "Rhys Hoskins",
+      "team": "Cleveland Guardians",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 13,
+      "iso": 0.197,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 12.0,
+        "environment": 6.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 700932,
+      "name": "Kyle Manzardo",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 13,
+      "iso": 0.163,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 12.0,
+        "environment": 6.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 608070,
+      "name": "Jos\u00e9 Ram\u00edrez",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.133,
+      "total": 35.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 6.0,
+        "environment": 6.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 18,
+      "iso": 0.15,
+      "total": 35.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 11.0,
+        "environment": 6.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 683953,
+      "name": "Travis Bazzana",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.163,
+      "total": 34.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 9.0,
+        "environment": 6.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 518692,
+      "name": "Freddie Freeman",
+      "team": "Los Angeles Dodgers",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Shane Drohan",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 16,
+      "iso": 0.142,
+      "total": 32.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 8.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668930,
+      "name": "Brice Turang",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 21,
+      "iso": 0.182,
+      "total": 32.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 676356,
+      "name": "Jonny DeLuca",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.163,
+      "total": 32.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 11.0,
+        "environment": 6.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "team": "Los Angeles Dodgers",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Shane Drohan",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 17,
+      "iso": 0.152,
+      "total": 30.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 6.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shane Drohan \u2014 cause Pass (9.5/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -612,74 +1222,31 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
+      "opp_pitcher": "Tyler Glasnow",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 18,
-      "iso": 0.147,
-      "total": 32.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 8.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Heart of order (#3)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Park factor unknown",
-        "Weather unavailable"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
+      "gamePk": 849810,
       "slot": null,
       "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.143,
-      "total": 25.5,
+      "season_hr": 18,
+      "iso": 0.147,
+      "total": 29.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 6.0,
+        "pitcher": 6.0,
+        "hitter": 8.0,
         "environment": 7.0,
         "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
@@ -693,43 +1260,248 @@
       ]
     },
     {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 6,
+      "id": 677587,
+      "name": "Brayan Rocchio",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 9,
       "confirmed": true,
-      "season_hr": 11,
-      "iso": 0.154,
-      "total": 25.5,
+      "season_hr": 15,
+      "iso": 0.138,
+      "total": 28.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 4.0,
-        "environment": 7.0,
-        "lineup": 8.0,
+        "pitcher": 9.5,
+        "hitter": 6.0,
+        "environment": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Mid order (#6)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#9)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 656775,
+      "name": "Cedric Mullins",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 15,
+      "iso": 0.139,
+      "total": 28.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 6.0,
+        "environment": 6.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 12,
+      "iso": 0.143,
+      "total": 27.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 6.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
-        "Weather unavailable"
+        "Weather unavailable",
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 680700,
+      "name": "Richie Palacios",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Gavin Williams",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.139,
+      "total": 27.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 8.0,
+        "hitter": 6.0,
+        "environment": 6.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Gavin Williams \u2014 cause Pass (8.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.37)",
+        "Pitcher: High K rate (33%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#8)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 672275,
+      "name": "Patrick Bailey",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
+      "venue": "Progressive Field",
+      "gamePk": 849818,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 10,
+      "iso": 0.129,
+      "total": 26.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 9.5,
+        "hitter": 4.0,
+        "environment": 6.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 669003,
+      "name": "Garrett Mitchell",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Los Angeles Dodgers",
+      "opp_pitcher": "Tyler Glasnow",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 11,
+      "iso": 0.154,
+      "total": 25.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 4.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Park factor unknown",
+        "Weather unavailable",
+        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -741,38 +1513,38 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Los Angeles Dodgers",
-      "opp_pitcher": "Blake Snell",
+      "opp_pitcher": "Tyler Glasnow",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "gamePk": 849811,
-      "slot": 9,
-      "confirmed": true,
+      "gamePk": 849810,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 9,
       "iso": 0.132,
-      "total": 20.5,
+      "total": 23.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
+        "pitcher": 6.0,
         "hitter": 2.0,
         "environment": 7.0,
-        "lineup": 5.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Blake Snell \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.00)",
-        "Pitcher: High K rate (32%)",
+        "vs Tyler Glasnow \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.85)",
+        "Pitcher: High K rate (34%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
         "Park factor unknown",
         "Weather unavailable",
-        "Bottom of order (#9)"
+        "Lineup not confirmed"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -782,26 +1554,47 @@
   "structures": {},
   "pitcher_board": [
     {
-      "id": 688107,
-      "name": "Robert Gasser",
-      "score": 13.5,
-      "grade": "B",
+      "id": 643377,
+      "name": "Griffin Jax",
+      "score": 9.5,
+      "grade": "Pass",
       "flags": [
-        "Avg+ HR allowed (HR/9 1.24)"
+        "Avg+ HR allowed (HR/9 1.20)"
       ],
-      "hr9": 1.24,
+      "hr9": 1.2,
       "barrel_allowed": null
     },
     {
-      "id": 605483,
-      "name": "Blake Snell",
-      "score": 4.5,
+      "id": 675660,
+      "name": "Shane Drohan",
+      "score": 9.5,
+      "grade": "Pass",
+      "flags": [],
+      "hr9": 1.01,
+      "barrel_allowed": null
+    },
+    {
+      "id": 668909,
+      "name": "Gavin Williams",
+      "score": 8.0,
       "grade": "Pass",
       "flags": [
-        "Suppresses HR (HR/9 0.00)",
-        "High K rate (32%)"
+        "Avg+ HR allowed (HR/9 1.37)",
+        "High K rate (33%)"
       ],
-      "hr9": 0.0,
+      "hr9": 1.37,
+      "barrel_allowed": null
+    },
+    {
+      "id": 607192,
+      "name": "Tyler Glasnow",
+      "score": 6.0,
+      "grade": "Pass",
+      "flags": [
+        "Suppresses HR (HR/9 0.85)",
+        "High K rate (34%)"
+      ],
+      "hr9": 0.85,
       "barrel_allowed": null
     }
   ],
