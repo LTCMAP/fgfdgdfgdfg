@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-17T17:25:20.085647+00:00",
+  "generated_utc": "2026-10-17T21:37:23.911513+00:00",
   "slate_date": "2026-10-17",
   "games": 1,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-09-27",
     "end": "2026-10-17",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -71,11 +71,11 @@
       "opp_pitcher": "Shawn Armstrong",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 42,
       "iso": 0.248,
-      "total": 47.0,
+      "total": 52.0,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
@@ -85,18 +85,56 @@
         "pitcher": 10.0,
         "hitter": 24.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
         "vs Shawn Armstrong \u2014 cause C (10.0/25)",
         "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)"
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)"
+      ],
+      "role_notes": []
+    },
+    {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Shawn Armstrong",
+      "venue": "Progressive Field",
+      "gamePk": 849816,
+      "slot": 6,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.238,
+      "total": 47.0,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.0,
+        "hitter": 22.0,
+        "environment": 4.0,
+        "lineup": 8.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shawn Armstrong \u2014 cause C (10.0/25)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)"
+      ],
+      "warnings": [
+        "Cold (45\u00b0F)"
       ],
       "role_notes": []
     },
@@ -135,87 +173,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Shawn Armstrong",
-      "venue": "Progressive Field",
-      "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.238,
-      "total": 45.0,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.0,
-        "hitter": 22.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shawn Armstrong \u2014 cause C (10.0/25)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)"
-      ],
-      "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 663993,
-      "name": "Nathaniel Lowe",
-      "team": "Cleveland Guardians",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Progressive Field",
-      "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 17,
-      "iso": 0.192,
-      "total": 42.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 16.0,
-        "hitter": 14.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause B (16.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.10)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Cold (44\u00b0F)",
+        "Cold (45\u00b0F)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -231,11 +189,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 23,
       "iso": 0.161,
-      "total": 40.0,
+      "total": 45.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -245,7 +203,7 @@
         "pitcher": 16.0,
         "hitter": 12.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -254,11 +212,95 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.10)",
         "Pitcher: Low K rate (15%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Progressive Field",
+      "gamePk": 849816,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 17,
+      "iso": 0.192,
+      "total": 44.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.0,
+        "hitter": 14.0,
+        "environment": 4.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause B (16.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.10)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Cold (45\u00b0F)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 800050,
+      "name": "Chase DeLauter",
+      "team": "Cleveland Guardians",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Progressive Field",
+      "gamePk": 849816,
+      "slot": 3,
+      "confirmed": true,
+      "season_hr": 16,
+      "iso": 0.17,
+      "total": 44.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.0,
+        "hitter": 11.0,
+        "environment": 4.0,
+        "lineup": 11.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause B (16.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.10)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Heart of order (#3)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Cold (45\u00b0F)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -299,7 +341,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
+        "Cold (45\u00b0F)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -341,7 +383,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
+        "Cold (45\u00b0F)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -349,19 +391,19 @@
       ]
     },
     {
-      "id": 800050,
-      "name": "Chase DeLauter",
+      "id": 608070,
+      "name": "Jos\u00e9 Ram\u00edrez",
       "team": "Cleveland Guardians",
-      "bats": "L",
+      "bats": "S",
       "opp": "Tampa Bay Rays",
       "opp_pitcher": "Nick Martinez",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 16,
-      "iso": 0.17,
-      "total": 39.0,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 12,
+      "iso": 0.133,
+      "total": 40.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -369,9 +411,9 @@
       "pitcher_grade": "B",
       "breakdown": {
         "pitcher": 16.0,
-        "hitter": 11.0,
+        "hitter": 6.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -380,11 +422,91 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.10)",
         "Pitcher: Low K rate (15%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Shawn Armstrong",
+      "venue": "Progressive Field",
+      "gamePk": 849816,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.16,
+      "total": 39.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.0,
+        "hitter": 11.0,
+        "environment": 4.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shawn Armstrong \u2014 cause C (10.0/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Cold (45\u00b0F)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Cleveland Guardians",
+      "opp_pitcher": "Shawn Armstrong",
+      "venue": "Progressive Field",
+      "gamePk": 849816,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.153,
+      "total": 39.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "C",
+      "breakdown": {
+        "pitcher": 10.0,
+        "hitter": 11.0,
+        "environment": 4.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Shawn Armstrong \u2014 cause C (10.0/25)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Cold (45\u00b0F)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -399,11 +521,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 15,
       "iso": 0.163,
-      "total": 37.0,
+      "total": 39.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -413,7 +535,7 @@
         "pitcher": 16.0,
         "hitter": 9.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -422,11 +544,11 @@
         "Pitcher: Avg+ HR allowed (HR/9 1.10)",
         "Pitcher: Low K rate (15%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -465,171 +587,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 677587,
-      "name": "Brayan Rocchio",
-      "team": "Cleveland Guardians",
-      "bats": "S",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Progressive Field",
-      "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.138,
-      "total": 34.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 16.0,
-        "hitter": 6.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause B (16.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.10)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 608070,
-      "name": "Jos\u00e9 Ram\u00edrez",
-      "team": "Cleveland Guardians",
-      "bats": "S",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Nick Martinez",
-      "venue": "Progressive Field",
-      "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 12,
-      "iso": 0.133,
-      "total": 34.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 16.0,
-        "hitter": 6.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Nick Martinez \u2014 cause B (16.0/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.10)",
-        "Pitcher: Low K rate (15%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 666018,
-      "name": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Shawn Armstrong",
-      "venue": "Progressive Field",
-      "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.16,
-      "total": 33.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.0,
-        "hitter": 11.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shawn Armstrong \u2014 cause C (10.0/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 650490,
-      "name": "Yandy D\u00edaz",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Cleveland Guardians",
-      "opp_pitcher": "Shawn Armstrong",
-      "venue": "Progressive Field",
-      "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.153,
-      "total": 33.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 10.0,
-        "hitter": 11.0,
-        "environment": 4.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Shawn Armstrong \u2014 cause C (10.0/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Cold (44\u00b0F)",
+        "Cold (45\u00b0F)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -645,11 +603,11 @@
       "opp_pitcher": "Shawn Armstrong",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.15,
-      "total": 33.0,
+      "total": 35.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -659,18 +617,60 @@
         "pitcher": 10.0,
         "hitter": 11.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
         "vs Shawn Armstrong \u2014 cause C (10.0/25)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 677587,
+      "name": "Brayan Rocchio",
+      "team": "Cleveland Guardians",
+      "bats": "S",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Nick Martinez",
+      "venue": "Progressive Field",
+      "gamePk": 849816,
+      "slot": 9,
+      "confirmed": true,
+      "season_hr": 15,
+      "iso": 0.138,
+      "total": 33.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "B",
+      "breakdown": {
+        "pitcher": 16.0,
+        "hitter": 6.0,
+        "environment": 4.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Nick Martinez \u2014 cause B (16.0/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.10)",
+        "Pitcher: Low K rate (15%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Cold (45\u00b0F)",
+        "Bottom of order (#9)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -685,11 +685,11 @@
       "opp_pitcher": "Shawn Armstrong",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 11,
       "iso": 0.163,
-      "total": 33.0,
+      "total": 32.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -699,7 +699,7 @@
         "pitcher": 10.0,
         "hitter": 11.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -709,8 +709,8 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)",
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -725,11 +725,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 7,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.129,
-      "total": 32.0,
+      "total": 31.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -739,7 +739,7 @@
         "pitcher": 16.0,
         "hitter": 4.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -751,8 +751,8 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)",
+        "Bottom of order (#7)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -791,7 +791,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
+        "Cold (45\u00b0F)",
         "Lineup not confirmed"
       ],
       "role_notes": [
@@ -807,11 +807,11 @@
       "opp_pitcher": "Shawn Armstrong",
       "venue": "Progressive Field",
       "gamePk": 849816,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 10,
       "iso": 0.139,
-      "total": 28.0,
+      "total": 27.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -821,7 +821,7 @@
         "pitcher": 10.0,
         "hitter": 6.0,
         "environment": 4.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -831,8 +831,8 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Cold (44\u00b0F)",
-        "Lineup not confirmed"
+        "Cold (45\u00b0F)",
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
