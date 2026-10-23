@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-23T18:35:51.616434+00:00",
+  "generated_utc": "2026-10-23T22:30:30.327588+00:00",
   "slate_date": "2026-10-23",
   "games": 1,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-10-03",
     "end": "2026-10-23",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -71,11 +71,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 2,
+      "confirmed": true,
       "season_hr": 26,
       "iso": 0.218,
-      "total": 52.0,
+      "total": 58.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -85,7 +85,7 @@
         "pitcher": 16.0,
         "hitter": 18.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -96,11 +96,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (107)",
         "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -114,11 +113,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 1,
+      "confirmed": true,
       "season_hr": 25,
       "iso": 0.196,
-      "total": 50.0,
+      "total": 56.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -128,7 +127,7 @@
         "pitcher": 16.0,
         "hitter": 16.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -139,14 +138,53 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "American Family Field",
+      "gamePk": 849805,
+      "slot": 4,
+      "confirmed": true,
+      "season_hr": 42,
+      "iso": 0.248,
+      "total": 52.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 24.0,
+        "environment": 10.0,
+        "lineup": 11.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.72)",
+        "Pitcher: High K rate (38%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (105)",
+        "Retractable roof (weather neutralized)",
+        "Heart of order (#4)"
+      ],
+      "warnings": [],
+      "role_notes": []
     },
     {
       "id": 596142,
@@ -192,88 +230,6 @@
       ]
     },
     {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 42,
-      "iso": 0.248,
-      "total": 47.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 24.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.72)",
-        "Pitcher: High K rate (38%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (105)",
-        "Retractable roof (weather neutralized)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 14,
-      "iso": 0.238,
-      "total": 45.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 22.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.72)",
-        "Pitcher: High K rate (38%)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 668930,
       "name": "Brice Turang",
       "team": "Milwaukee Brewers",
@@ -282,11 +238,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 21,
       "iso": 0.182,
-      "total": 45.0,
+      "total": 47.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -296,7 +252,7 @@
         "pitcher": 16.0,
         "hitter": 11.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -307,11 +263,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (107)",
         "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -325,11 +280,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.147,
-      "total": 42.0,
+      "total": 47.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -339,7 +294,7 @@
         "pitcher": 16.0,
         "hitter": 8.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -350,11 +305,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -368,11 +322,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.143,
-      "total": 40.0,
+      "total": 45.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -382,7 +336,7 @@
         "pitcher": 16.0,
         "hitter": 6.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -393,14 +347,54 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (107)",
         "Retractable roof (weather neutralized)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
+    },
+    {
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "American Family Field",
+      "gamePk": 849805,
+      "slot": 7,
+      "confirmed": true,
+      "season_hr": 14,
+      "iso": 0.238,
+      "total": 44.5,
+      "tier": "Pass",
+      "role": "Pass",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 22.0,
+        "environment": 10.0,
+        "lineup": 5.0,
+        "confidence": 3.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.72)",
+        "Pitcher: High K rate (38%)",
+        "Proxy: strong HR rate",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)"
+      ],
+      "warnings": [
+        "Bottom of order (#7)"
+      ],
+      "role_notes": []
     },
     {
       "id": 669003,
@@ -411,11 +405,11 @@
       "opp_pitcher": "Nick Martinez",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 11,
       "iso": 0.154,
-      "total": 38.0,
+      "total": 40.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -425,7 +419,7 @@
         "pitcher": 16.0,
         "hitter": 4.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -436,11 +430,94 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (107)",
         "Retractable roof (weather neutralized)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "American Family Field",
+      "gamePk": 849805,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.16,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.72)",
+        "Pitcher: High K rate (38%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (107)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
       ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "American Family Field",
+      "gamePk": 849805,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 22,
+      "iso": 0.153,
+      "total": 39.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 10.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.72)",
+        "Pitcher: High K rate (38%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Hitter-friendly park (105)",
+        "Retractable roof (weather neutralized)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -532,92 +609,6 @@
       ]
     },
     {
-      "id": 666018,
-      "name": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.16,
-      "total": 33.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.72)",
-        "Pitcher: High K rate (38%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (107)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 650490,
-      "name": "Yandy D\u00edaz",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "American Family Field",
-      "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.153,
-      "total": 33.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 11.0,
-        "environment": 10.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.72)",
-        "Pitcher: High K rate (38%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Hitter-friendly park (105)",
-        "Retractable roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 689414,
       "name": "Liam Hicks",
       "team": "Tampa Bay Rays",
@@ -626,11 +617,11 @@
       "opp_pitcher": "Jacob Misiorowski",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 5,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.15,
-      "total": 33.5,
+      "total": 35.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -640,7 +631,7 @@
         "pitcher": 4.5,
         "hitter": 11.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -651,11 +642,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (107)",
         "Retractable roof (weather neutralized)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -669,11 +659,11 @@
       "opp_pitcher": "Jacob Misiorowski",
       "venue": "American Family Field",
       "gamePk": 849805,
-      "slot": null,
-      "confirmed": false,
+      "slot": 6,
+      "confirmed": true,
       "season_hr": 11,
       "iso": 0.163,
-      "total": 33.5,
+      "total": 35.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -683,7 +673,7 @@
         "pitcher": 4.5,
         "hitter": 11.0,
         "environment": 10.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -694,11 +684,10 @@
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Hitter-friendly park (105)",
         "Retractable roof (weather neutralized)",
+        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
