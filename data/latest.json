@@ -1,17 +1,17 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-26T23:15:14.407170+00:00",
-  "slate_date": "2026-10-26",
+  "generated_utc": "2026-10-27T19:32:24.292218+00:00",
+  "slate_date": "2026-10-27",
   "games": 1,
-  "confirmed_lineups": 2,
+  "confirmed_lineups": 0,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
     "recent_days": 7,
-    "start": "2026-10-06",
-    "end": "2026-10-26",
+    "start": "2026-10-07",
+    "end": "2026-10-27",
     "days_fetched": 0,
-    "days_cached": 21,
+    "days_cached": 20,
     "batters": 0,
     "pitchers": 0
   },
@@ -35,27 +35,14 @@
   ],
   "causes": [
     {
-      "team": "Tampa Bay Rays",
-      "opp": "Milwaukee Brewers",
-      "pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "grade": "B",
-      "pitcher_cause": 13.5,
-      "park_hr": 97,
-      "cause_score": 12.8,
-      "capture_method": "Team-HR placeholder (cause strong, bat capture thin)",
-      "public_heat": false,
-      "playable_bats": []
-    },
-    {
       "team": "Milwaukee Brewers",
       "opp": "Tampa Bay Rays",
-      "pitcher": "Freddy Peralta",
+      "pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "grade": "C",
-      "pitcher_cause": 11.0,
+      "grade": "Pass",
+      "pitcher_cause": 9.5,
       "park_hr": 97,
-      "cause_score": 10.2,
+      "cause_score": 8.8,
       "capture_method": "Watchlist / pass (no clear cause)",
       "public_heat": false,
       "playable_bats": []
@@ -63,157 +50,42 @@
   ],
   "candidates": [
     {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 42,
-      "iso": 0.248,
-      "total": 58.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 24.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Heart of order (#4)"
-      ],
-      "warnings": [],
-      "role_notes": []
-    },
-    {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 7,
-      "confirmed": true,
-      "season_hr": 14,
-      "iso": 0.238,
-      "total": 50.5,
-      "tier": "Pass",
-      "role": "Pass",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 22.0,
-        "environment": 7.0,
-        "lineup": 5.0,
-        "confidence": 3.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "Proxy: strong HR rate",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)"
-      ],
-      "warnings": [
-        "Bottom of order (#7)"
-      ],
-      "role_notes": []
-    },
-    {
       "id": 641343,
       "name": "Jake Bauers",
       "team": "Milwaukee Brewers",
       "bats": "L",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 2,
-      "confirmed": true,
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 26,
       "iso": 0.218,
-      "total": 50.0,
+      "total": 42.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 11.0,
+        "pitcher": 9.5,
         "hitter": 18.0,
         "environment": 7.0,
-        "lineup": 12.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
-        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 668723,
-      "name": "Ryan Vilade",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 2,
-      "confirmed": true,
-      "season_hr": 11,
-      "iso": 0.184,
-      "total": 48.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 14.0,
-        "environment": 7.0,
-        "lineup": 12.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Top of order (#2)",
-        "Hitter shape <22 \u2192 capped at Longshot"
+      "warnings": [
+        "Lineup not confirmed"
       ],
-      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -224,75 +96,37 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 1,
-      "confirmed": true,
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 25,
       "iso": 0.196,
-      "total": 48.0,
+      "total": 40.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 11.0,
+        "pitcher": 9.5,
         "hitter": 16.0,
         "environment": 7.0,
-        "lineup": 12.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
-        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 650490,
-      "name": "Yandy D\u00edaz",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 1,
-      "confirmed": true,
-      "season_hr": 22,
-      "iso": 0.153,
-      "total": 45.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 12.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Top of order (#1)",
-        "Hitter shape <22 \u2192 capped at Longshot"
+      "warnings": [
+        "Lineup not confirmed"
       ],
-      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -303,21 +137,21 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
+      "gamePk": 849803,
       "slot": null,
       "confirmed": false,
       "season_hr": 12,
       "iso": 0.213,
-      "total": 42.0,
+      "total": 40.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 11.0,
+        "pitcher": 9.5,
         "hitter": 16.0,
         "environment": 7.0,
         "lineup": 6.0,
@@ -325,7 +159,8 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -338,126 +173,78 @@
       ]
     },
     {
-      "id": 676356,
-      "name": "Jonny DeLuca",
+      "id": 691406,
+      "name": "Junior Caminero",
       "team": "Tampa Bay Rays",
       "bats": "R",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": null,
       "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 6,
-      "confirmed": true,
-      "season_hr": 11,
-      "iso": 0.163,
-      "total": 41.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "B",
-      "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 8.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Mid order (#6)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 666018,
-      "name": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
+      "gamePk": 849803,
       "slot": null,
       "confirmed": false,
-      "season_hr": 22,
-      "iso": 0.16,
-      "total": 39.5,
+      "season_hr": 42,
+      "iso": 0.248,
+      "total": 40.0,
       "tier": "Pass",
-      "role": "Watchlist",
+      "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "?",
       "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 11.0,
+        "pitcher": 0,
+        "hitter": 24.0,
         "environment": 7.0,
         "lineup": 6.0,
-        "confidence": 2.0
+        "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
+        "Dome roof (weather neutralized)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
+      "role_notes": []
     },
     {
-      "id": 689414,
-      "name": "Liam Hicks",
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
       "team": "Tampa Bay Rays",
       "bats": "L",
       "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp_pitcher": null,
       "venue": "Tropicana Field",
-      "gamePk": 849804,
+      "gamePk": 849803,
       "slot": null,
       "confirmed": false,
-      "season_hr": 18,
-      "iso": 0.15,
-      "total": 39.5,
+      "season_hr": 14,
+      "iso": 0.238,
+      "total": 38.0,
       "tier": "Pass",
-      "role": "Watchlist",
+      "role": "Pass",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "?",
       "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 11.0,
+        "pitcher": 0,
+        "hitter": 22.0,
         "environment": 7.0,
         "lineup": 6.0,
-        "confidence": 2.0
+        "confidence": 3.0
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
+        "Dome roof (weather neutralized)"
       ],
       "warnings": [
         "Lineup not confirmed"
       ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
+      "role_notes": []
     },
     {
       "id": 668930,
@@ -465,35 +252,37 @@
       "team": "Milwaukee Brewers",
       "bats": "L",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 5,
-      "confirmed": true,
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 21,
       "iso": 0.182,
-      "total": 39.0,
+      "total": 35.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 11.0,
+        "pitcher": 9.5,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 8.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
-        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -504,108 +293,30 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 4,
-      "confirmed": true,
-      "season_hr": 18,
-      "iso": 0.147,
-      "total": 39.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 8.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Heart of order (#4)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 3,
-      "confirmed": true,
-      "season_hr": 12,
-      "iso": 0.143,
-      "total": 37.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "C",
-      "breakdown": {
-        "pitcher": 11.0,
-        "hitter": 6.0,
-        "environment": 7.0,
-        "lineup": 11.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Heart of order (#3)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 656775,
-      "name": "Cedric Mullins",
-      "team": "Tampa Bay Rays",
-      "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
-      "venue": "Tropicana Field",
-      "gamePk": 849804,
+      "gamePk": 849803,
       "slot": null,
       "confirmed": false,
-      "season_hr": 15,
-      "iso": 0.139,
-      "total": 34.5,
+      "season_hr": 18,
+      "iso": 0.147,
+      "total": 32.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
-        "hitter": 6.0,
+        "pitcher": 9.5,
+        "hitter": 8.0,
         "environment": 7.0,
         "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -618,26 +329,26 @@
       ]
     },
     {
-      "id": 680700,
-      "name": "Richie Palacios",
-      "team": "Tampa Bay Rays",
+      "id": 592885,
+      "name": "Christian Yelich",
+      "team": "Milwaukee Brewers",
       "bats": "L",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Robert Gasser",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
+      "gamePk": 849803,
       "slot": null,
       "confirmed": false,
-      "season_hr": 10,
-      "iso": 0.139,
-      "total": 34.5,
+      "season_hr": 12,
+      "iso": 0.143,
+      "total": 30.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "B",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 13.5,
+        "pitcher": 9.5,
         "hitter": 6.0,
         "environment": 7.0,
         "lineup": 6.0,
@@ -645,8 +356,47 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Robert Gasser \u2014 cause B (13.5/25)",
-        "Pitcher: Avg+ HR allowed (HR/9 1.24)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668723,
+      "name": "Ryan Vilade",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 11,
+      "iso": 0.184,
+      "total": 29.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 14.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -664,35 +414,37 @@
       "team": "Milwaukee Brewers",
       "bats": "L",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
-      "slot": 6,
-      "confirmed": true,
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
       "season_hr": 11,
       "iso": 0.154,
-      "total": 32.0,
+      "total": 28.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 11.0,
+        "pitcher": 9.5,
         "hitter": 4.0,
         "environment": 7.0,
-        "lineup": 8.0,
+        "lineup": 6.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
-        "Mid order (#6)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -703,21 +455,21 @@
       "team": "Milwaukee Brewers",
       "bats": "R",
       "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Freddy Peralta",
+      "opp_pitcher": "Griffin Jax",
       "venue": "Tropicana Field",
-      "gamePk": 849804,
+      "gamePk": 849803,
       "slot": null,
       "confirmed": false,
       "season_hr": 9,
       "iso": 0.132,
-      "total": 28.0,
+      "total": 26.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
-      "pitcher_grade": "C",
+      "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 11.0,
+        "pitcher": 9.5,
         "hitter": 2.0,
         "environment": 7.0,
         "lineup": 6.0,
@@ -725,7 +477,242 @@
       },
       "statcast": null,
       "reasons": [
-        "vs Freddy Peralta \u2014 cause C (11.0/25)",
+        "vs Griffin Jax \u2014 cause Pass (9.5/25)",
+        "Pitcher: Avg+ HR allowed (HR/9 1.20)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 22,
+      "iso": 0.16,
+      "total": 26.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 650490,
+      "name": "Yandy D\u00edaz",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 22,
+      "iso": 0.153,
+      "total": 26.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 18,
+      "iso": 0.15,
+      "total": 26.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 676356,
+      "name": "Jonny DeLuca",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 11,
+      "iso": 0.163,
+      "total": 26.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 656775,
+      "name": "Cedric Mullins",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 15,
+      "iso": 0.139,
+      "total": 21.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 6.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [
+        "Lineup not confirmed"
+      ],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 680700,
+      "name": "Richie Palacios",
+      "team": "Tampa Bay Rays",
+      "bats": "L",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": null,
+      "venue": "Tropicana Field",
+      "gamePk": 849803,
+      "slot": null,
+      "confirmed": false,
+      "season_hr": 10,
+      "iso": 0.139,
+      "total": 21.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "?",
+      "breakdown": {
+        "pitcher": 0,
+        "hitter": 6.0,
+        "environment": 7.0,
+        "lineup": 6.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -741,23 +728,14 @@
   "structures": {},
   "pitcher_board": [
     {
-      "id": 688107,
-      "name": "Robert Gasser",
-      "score": 13.5,
-      "grade": "B",
+      "id": 643377,
+      "name": "Griffin Jax",
+      "score": 9.5,
+      "grade": "Pass",
       "flags": [
-        "Avg+ HR allowed (HR/9 1.24)"
+        "Avg+ HR allowed (HR/9 1.20)"
       ],
-      "hr9": 1.24,
-      "barrel_allowed": null
-    },
-    {
-      "id": 642547,
-      "name": "Freddy Peralta",
-      "score": 11.0,
-      "grade": "C",
-      "flags": [],
-      "hr9": 0.98,
+      "hr9": 1.2,
       "barrel_allowed": null
     }
   ],
