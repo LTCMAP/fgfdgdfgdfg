@@ -1,9 +1,9 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-10-28T19:44:14.297711+00:00",
+  "generated_utc": "2026-10-28T23:24:39.897296+00:00",
   "slate_date": "2026-10-28",
   "games": 1,
-  "confirmed_lineups": 0,
+  "confirmed_lineups": 2,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
@@ -11,7 +11,7 @@
     "start": "2026-10-08",
     "end": "2026-10-28",
     "days_fetched": 0,
-    "days_cached": 20,
+    "days_cached": 21,
     "batters": 0,
     "pitchers": 0
   },
@@ -71,11 +71,11 @@
       "opp_pitcher": "Jacob Misiorowski",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 42,
       "iso": 0.248,
-      "total": 44.5,
+      "total": 49.5,
       "tier": "Pass",
       "role": "Pass",
       "shape_source": "proxy",
@@ -85,7 +85,7 @@
         "pitcher": 4.5,
         "hitter": 24.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 3.0
       },
       "statcast": null,
@@ -95,12 +95,91 @@
         "Pitcher: High K rate (38%)",
         "Proxy: strong HR rate",
         "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)"
+        "Dome roof (weather neutralized)",
+        "Heart of order (#3)"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": []
+    },
+    {
+      "id": 641343,
+      "name": "Jake Bauers",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Drew Rasmussen",
+      "venue": "Tropicana Field",
+      "gamePk": 849799,
+      "slot": 2,
+      "confirmed": true,
+      "season_hr": 26,
+      "iso": 0.218,
+      "total": 45.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 18.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Drew Rasmussen \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.73)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Top of order (#2)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "team": "Milwaukee Brewers",
+      "bats": "R",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Drew Rasmussen",
+      "venue": "Tropicana Field",
+      "gamePk": 849799,
+      "slot": 1,
+      "confirmed": true,
+      "season_hr": 25,
+      "iso": 0.196,
+      "total": 43.0,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 6.0,
+        "hitter": 16.0,
+        "environment": 7.0,
+        "lineup": 12.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Drew Rasmussen \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.73)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Top of order (#1)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
     },
     {
       "id": 683748,
@@ -141,88 +220,6 @@
         "Lineup not confirmed"
       ],
       "role_notes": []
-    },
-    {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Drew Rasmussen",
-      "venue": "Tropicana Field",
-      "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 26,
-      "iso": 0.218,
-      "total": 39.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 18.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Drew Rasmussen \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.73)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 694192,
-      "name": "Jackson Chourio",
-      "team": "Milwaukee Brewers",
-      "bats": "R",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Drew Rasmussen",
-      "venue": "Tropicana Field",
-      "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 25,
-      "iso": 0.196,
-      "total": 37.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 16.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Drew Rasmussen \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.73)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
     },
     {
       "id": 596142,
@@ -266,89 +263,6 @@
       ]
     },
     {
-      "id": 668723,
-      "name": "Ryan Vilade",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
-      "venue": "Tropicana Field",
-      "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.184,
-      "total": 33.5,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 4.5,
-        "hitter": 14.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.72)",
-        "Pitcher: High K rate (38%)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
-      "id": 668930,
-      "name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "bats": "L",
-      "opp": "Tampa Bay Rays",
-      "opp_pitcher": "Drew Rasmussen",
-      "venue": "Tropicana Field",
-      "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 21,
-      "iso": 0.182,
-      "total": 32.0,
-      "tier": "Pass",
-      "role": "Watchlist",
-      "shape_source": "proxy",
-      "pull_fit": false,
-      "pitcher_grade": "Pass",
-      "breakdown": {
-        "pitcher": 6.0,
-        "hitter": 11.0,
-        "environment": 7.0,
-        "lineup": 6.0,
-        "confidence": 2.0
-      },
-      "statcast": null,
-      "reasons": [
-        "vs Drew Rasmussen \u2014 cause Pass (6.0/25)",
-        "Pitcher: Suppresses HR (HR/9 0.73)",
-        "No Statcast shape \u2014 score capped (season-power proxy)",
-        "Dome roof (weather neutralized)",
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
-      "role_notes": [
-        "Hitter shape <22 \u2192 capped at Longshot"
-      ]
-    },
-    {
       "id": 666018,
       "name": "Jonathan Aranda",
       "team": "Tampa Bay Rays",
@@ -357,11 +271,11 @@
       "opp_pitcher": "Jacob Misiorowski",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 2,
+      "confirmed": true,
       "season_hr": 22,
       "iso": 0.16,
-      "total": 30.5,
+      "total": 36.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -371,7 +285,7 @@
         "pitcher": 4.5,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -381,11 +295,10 @@
         "Pitcher: High K rate (38%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
+        "Top of order (#2)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -399,11 +312,11 @@
       "opp_pitcher": "Jacob Misiorowski",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 1,
+      "confirmed": true,
       "season_hr": 22,
       "iso": 0.153,
-      "total": 30.5,
+      "total": 36.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -413,7 +326,7 @@
         "pitcher": 4.5,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 12.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -423,11 +336,10 @@
         "Pitcher: High K rate (38%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
+        "Top of order (#1)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -441,11 +353,11 @@
       "opp_pitcher": "Jacob Misiorowski",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.15,
-      "total": 30.5,
+      "total": 35.5,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -455,7 +367,7 @@
         "pitcher": 4.5,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -465,53 +377,50 @@
         "Pitcher: High K rate (38%)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
+        "Heart of order (#4)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
     },
     {
-      "id": 676356,
-      "name": "Jonny DeLuca",
-      "team": "Tampa Bay Rays",
-      "bats": "R",
-      "opp": "Milwaukee Brewers",
-      "opp_pitcher": "Jacob Misiorowski",
+      "id": 668930,
+      "name": "Brice Turang",
+      "team": "Milwaukee Brewers",
+      "bats": "L",
+      "opp": "Tampa Bay Rays",
+      "opp_pitcher": "Drew Rasmussen",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
-      "season_hr": 11,
-      "iso": 0.163,
-      "total": 30.5,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 21,
+      "iso": 0.182,
+      "total": 34.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
       "pull_fit": false,
       "pitcher_grade": "Pass",
       "breakdown": {
-        "pitcher": 4.5,
+        "pitcher": 6.0,
         "hitter": 11.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 8.0,
         "confidence": 2.0
       },
       "statcast": null,
       "reasons": [
-        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
-        "Pitcher: Suppresses HR (HR/9 0.72)",
-        "Pitcher: High K rate (38%)",
+        "vs Drew Rasmussen \u2014 cause Pass (6.0/25)",
+        "Pitcher: Suppresses HR (HR/9 0.73)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
+        "Mid order (#5)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -525,11 +434,11 @@
       "opp_pitcher": "Drew Rasmussen",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 4,
+      "confirmed": true,
       "season_hr": 18,
       "iso": 0.147,
-      "total": 29.0,
+      "total": 34.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -539,7 +448,7 @@
         "pitcher": 6.0,
         "hitter": 8.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -548,10 +457,92 @@
         "Pitcher: Suppresses HR (HR/9 0.73)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
+        "Heart of order (#4)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 676356,
+      "name": "Jonny DeLuca",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "Tropicana Field",
+      "gamePk": 849799,
+      "slot": 5,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.163,
+      "total": 32.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 11.0,
+        "environment": 7.0,
+        "lineup": 8.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.72)",
+        "Pitcher: High K rate (38%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
+        "Mid order (#5)",
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ],
+      "warnings": [],
+      "role_notes": [
+        "Hitter shape <22 \u2192 capped at Longshot"
+      ]
+    },
+    {
+      "id": 668723,
+      "name": "Ryan Vilade",
+      "team": "Tampa Bay Rays",
+      "bats": "R",
+      "opp": "Milwaukee Brewers",
+      "opp_pitcher": "Jacob Misiorowski",
+      "venue": "Tropicana Field",
+      "gamePk": 849799,
+      "slot": 8,
+      "confirmed": true,
+      "season_hr": 11,
+      "iso": 0.184,
+      "total": 32.5,
+      "tier": "Pass",
+      "role": "Watchlist",
+      "shape_source": "proxy",
+      "pull_fit": false,
+      "pitcher_grade": "Pass",
+      "breakdown": {
+        "pitcher": 4.5,
+        "hitter": 14.0,
+        "environment": 7.0,
+        "lineup": 5.0,
+        "confidence": 2.0
+      },
+      "statcast": null,
+      "reasons": [
+        "vs Jacob Misiorowski \u2014 cause Pass (4.5/25)",
+        "Pitcher: Suppresses HR (HR/9 0.72)",
+        "Pitcher: High K rate (38%)",
+        "No Statcast shape \u2014 score capped (season-power proxy)",
+        "Dome roof (weather neutralized)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
@@ -566,11 +557,11 @@
       "opp_pitcher": "Drew Rasmussen",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 3,
+      "confirmed": true,
       "season_hr": 12,
       "iso": 0.143,
-      "total": 27.0,
+      "total": 32.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -580,7 +571,7 @@
         "pitcher": 6.0,
         "hitter": 6.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 11.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -589,11 +580,10 @@
         "Pitcher: Suppresses HR (HR/9 0.73)",
         "No Statcast shape \u2014 score capped (season-power proxy)",
         "Dome roof (weather neutralized)",
+        "Heart of order (#3)",
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
-      "warnings": [
-        "Lineup not confirmed"
-      ],
+      "warnings": [],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
       ]
@@ -691,11 +681,11 @@
       "opp_pitcher": "Drew Rasmussen",
       "venue": "Tropicana Field",
       "gamePk": 849799,
-      "slot": null,
-      "confirmed": false,
+      "slot": 8,
+      "confirmed": true,
       "season_hr": 11,
       "iso": 0.154,
-      "total": 25.0,
+      "total": 24.0,
       "tier": "Pass",
       "role": "Watchlist",
       "shape_source": "proxy",
@@ -705,7 +695,7 @@
         "pitcher": 6.0,
         "hitter": 4.0,
         "environment": 7.0,
-        "lineup": 6.0,
+        "lineup": 5.0,
         "confidence": 2.0
       },
       "statcast": null,
@@ -717,7 +707,7 @@
         "Hitter shape <22 \u2192 capped at Longshot"
       ],
       "warnings": [
-        "Lineup not confirmed"
+        "Bottom of order (#8)"
       ],
       "role_notes": [
         "Hitter shape <22 \u2192 capped at Longshot"
