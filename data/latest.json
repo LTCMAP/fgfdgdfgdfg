@@ -1,17 +1,17 @@
 {
   "version": "2.3",
-  "generated_utc": "2026-11-04T20:52:56.650045+00:00",
-  "slate_date": "2026-11-04",
+  "generated_utc": "2026-11-05T00:28:37.714857+00:00",
+  "slate_date": "2026-11-05",
   "games": 0,
   "confirmed_lineups": 0,
   "statcast": false,
   "statcast_meta": {
     "window_days": 21,
     "recent_days": 7,
-    "start": "2026-10-15",
-    "end": "2026-11-04",
+    "start": "2026-10-16",
+    "end": "2026-11-05",
     "days_fetched": 0,
-    "days_cached": 21,
+    "days_cached": 20,
     "batters": 0,
     "pitchers": 0
   },
